@@ -1,0 +1,9 @@
+function:-Built-in function
+	 -User-Defined function 
+
+date / time
+
+*time ()
+*date ()
+*mktime ()
+*strtotime ()

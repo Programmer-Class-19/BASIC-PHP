@@ -1,0 +1,6 @@
+<?php
+// Control flow / Struktur kendali
+// -pengulangan : for,while, do..while,foreach
+// 
+// -pengkondisian : if..elsw,if.. else, if.. else,ternary,switch
+?>
