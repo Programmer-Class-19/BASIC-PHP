@@ -1,0 +1,81 @@
+Jum'at 02 Agustus 2024
+
+INTRO VIDIO 1 
+Pembahasan awal PHP ( Pemberi Harapan Palsu )
+
+web bljr PHP : http://php.net/manual/en/
+
+pelajan dasar php yang perlu dipahami  :
+1. client - side vs. server-side scripting 
+2. static vs. dynamic website
+3. persiapan lingkungan pengembangan 
+4. sintaks php ( gimana cara nulis php )
+5. array
+6. request method
+7. studi website sederhana 
+8. database = > cdud ( create , read , update , delete )
+              > login & registrasi
+              > session & cookie 
+              > ajax
+              > upload file 
+              > reporting 
+              > web hosting 
+
+
+
+
+
+
+VIDIO 2 
+php dibuat oleh Rasmus Lerdorf
+singkatan PHP ( Personal Home Page ) & ( PHP:Hypertext Preprocessorn )
+
+
+
+karakteristik bhs php
+1. ekstensi file.php
+2. ditulis didalam tag php = tag php adalah = > delimiter
+                                              > diawali dengan <?php
+                                              > diakhiri dengan ?>
+                                              > bisa digunakan bersamaan dengan HTML 
+                                              > mengikuti bahasa C
+
+
+
+VIDIO 3
+
+PEMBAHASAN CLIENT - SIDE VS. SERVER - SIDE SCRIPTING 
+pemahasaman MAS'UD =
+* client-side scripting adalah gabungan html css javascript dlm membuat website
+* server - side scripting adalah arsiptektur yang complex 
+
+
+XAMMPP = ( Apache + MariaDB + PHP + Perl )
+dalam folder utama xammp terdapat folder yang namanya htdocs 
+folder htdocs adalah folder utama untuk menyimpan file php kita
+
+
+
+VIDIO 4
+SINTAKS DASAR PHP 
+Mengenal tag php = <?php  ?>
+
+sintak komentar php ada dua cara 
+// untuk satu baris
+/*
+untuk banyak baris
+*/ 
+bisa juga cntr + slash 
+
+standar output adalah 
+sebuah sintak php untuk menampilkan sesuatu dilayar 
+sintaknya sebagai berikut = 
+> echo
+> print digunakan untuk mencetak tulisan , isi variabel 
+> print_r khusus untuk mencetak isi array 
+> var_dump digunakan untuk melihat isi dari variabel 
+
+saat memprogram sintak echo dan print harus disertai "isi teks apa saja ";
+kalau saata sintak print_r setelahnya harus disertai ("isi teks"); 
+
+
