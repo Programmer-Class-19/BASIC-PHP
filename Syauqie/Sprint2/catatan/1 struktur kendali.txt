@@ -1,0 +1,15 @@
+STRUKTUR KENDALI
+    •	PENGULANGAN
+    1.	For
+        	Inisialisai untuk menentukan variable awal untuk pengulangannya
+        	Terminasi untuk memberhentikan pengulangannya
+        	Inkremen / dekremen agar pengulangannya bisa maju atau juga mundur 
+    2.	While 
+    3.	Do .. while 
+    4.	Foreach (di bahas saat array)
+
+    •	PENGKONDISIAN
+        1.	If .. else
+        2.	If .. else if .. else
+        3.	Ternary (operator untuk menggantikan kedua sintax di atas)
+        4.	Switch

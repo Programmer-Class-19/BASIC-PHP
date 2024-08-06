@@ -1,0 +1,31 @@
+                            SEJARAH PHP
+PHP memiliki sejarah yang menarik sejak diciptakan pada pertengahan 1990-an. Berikut adalah garis waktu perkembangan PHP:
+
+1. **1994**: Rasmus Lerdorf, seorang programmer asal Denmark-Kanada, membuat serangkaian skrip CGI (Common Gateway Interface) dalam bahasa pemrograman C untuk melacak pengunjung ke halaman resume online-nya. Skrip-skrip ini disebut "Personal Home Page Tools" (PHP Tools).
+
+2. **1995**: Lerdorf merilis PHP/FI (Personal Home Page / Forms Interpreter) ke publik. Versi ini memungkinkan pengguna untuk menggabungkan kode PHP ke dalam dokumen HTML, membuat halaman web dinamis pertama.
+
+3. **1997**: Dua programmer, Zeev Suraski dan Andi Gutmans, menulis ulang dasar dari parser PHP dan membangun PHP 3.0. Versi ini dirilis ke publik dan mengalami popularitas yang pesat. Nama PHP berubah menjadi "PHP: Hypertext Preprocessor," mencerminkan perluasan fungsionalitasnya.
+
+4. **1998**: PHP 3.0 resmi dirilis. PHP mulai mendapatkan popularitas karena kemudahan penggunaannya dan kemampuannya untuk berinteraksi dengan database.
+
+5. **1999**: Suraski dan Gutmans mendesain ulang inti PHP sekali lagi, menghasilkan mesin skrip baru yang disebut "Zend Engine." PHP 4.0, yang didasarkan pada Zend Engine 1.0, dirilis pada pertengahan 2000.
+
+6. **2004**: PHP 5.0 dirilis dengan peningkatan besar dalam dukungan untuk pemrograman berorientasi objek (OOP) dan perbaikan dalam performa serta keamanan. Zend Engine 2 diperkenalkan pada versi ini.
+
+7. **2015**: PHP 7.0 dirilis, menawarkan peningkatan signifikan dalam kinerja, penggunaan memori yang lebih efisien, dan fitur-fitur baru seperti operator null coalesce dan deklarasi tipe return. PHP 7 didasarkan pada Zend Engine 3.0.
+
+8. **2019**: PHP 7.4 dirilis dengan fitur-fitur baru seperti arrow functions, typed properties, dan preloading.
+
+9. **2020**: PHP 8.0 dirilis dengan peningkatan lebih lanjut dalam performa dan fitur-fitur baru seperti JIT (Just-In-Time) compilation, union types, dan banyak lagi.
+
+PHP terus berkembang dengan versi terbaru yang menambahkan fitur baru, meningkatkan performa, dan memperbaiki masalah keamanan. Bahasa ini tetap menjadi salah satu bahasa pemrograman paling populer untuk pengembangan web, digunakan oleh jutaan situs web di seluruh dunia.
+
+                            KARAKTERISTIK PHP
+1.	ekstensi file.php
+2.	ditulis didalam tag php
+    o	Delimeter
+    o	Diawali dengan <?php 
+    o	Dan diakhiri ?>
+3.	bisa digunakan bersamaan dengan html
+4.	mengikuti bahasa C
