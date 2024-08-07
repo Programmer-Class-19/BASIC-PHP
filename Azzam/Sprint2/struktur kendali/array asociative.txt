@@ -1,0 +1,3 @@
+array associative =
+    definisinya sama seperti array numerik kecuali
+    key nya adalah string yang kita buat sendiri
