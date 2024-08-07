@@ -1,0 +1,41 @@
+-->> Membahas STRUKTUR KENDALI/CONTROL FLOW yang ada pada php (bagimana alur dari program kita dibaca oleh php dan yang dipelajar ada 2 yaitu Pengulangan dan Pengkondisian. <<--
+
+>> Pengulangan << 
+>Sintagnya berupa : 
+    - for 
+    - while 
+    - do.. while 
+    - foreach 
+>Pengkondisian 
+    - if.. else 
+    - if.. else if.. else 
+    - ternary 
+    - switch 
+
+ > Dalam pengulangan “for” di dalamnya ada 3 bagian : 
+    - Inisialisasi : menentukan variabel awal untuk pengulangannya 
+    - kondisi terminasi : menghentikan pengulangan 
+    - inkermen/dekermen : supaya pengulangannya bisa maju atau mundur 
+
+> Dalam pengulangan while dan do.. while itu efeknya hampir sama. Tapi, kalau while itu di cek dulu jadi ketika terjadi false maka tidak akan ditampilkan. Tapi kalau do while itu bila false maka tetap dikerjakan (ditampilkan) sekali saja. 
+
+//  -->> Rabu, 07/08/24 <<--  //
+
+>>  Contoh membuat  Tabel <<
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <?php 
+        for( $i = 1; $i <= 3; $i++) {
+            echo "<tr>";
+            for( $j = 1; $j <= 5; $j++ ) {
+                echo "<td>$i,$j</td>";
+            }
+            echo "</tr>";
+        }
+    ?>
+</table>
+
+- Intinya kita harus memisahkan apa yang akan kita tampilkan dengan PHP ya ditampilkan di tag PHP dan kalau mau nampilkan HTML: ya kita tampilkan dengan tag HTML. Jadi kalau mau tampilin php ya di tag php jangan dicampur-campur.
+
+- <?php echo ( bisa disingkat dengan <?= "";?> ) ""; ?>
+> Tips biar gak bingun, contoh tag dalam tag Tabel 

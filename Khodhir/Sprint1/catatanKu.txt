@@ -1,0 +1,58 @@
+-- >> Manfaat belajar PHP <<--
+
+1. Relatif mudah dipahami oleh pemula 
+2. Untuk mmahami php cukup memahami HTML dan CSS 
+3. Php itu gratis dan open source 
+4. Banyak komunitas untuk shering, ada mesin serching buat programmer “stackoverflow” (googlenya para programmer. Di Indonesia ada komunitas namanya PHP Indonesia. Jadi, apabila ada kesulitan in syaa allah banyak yang bantu. 
+5. Dokumentasinya lengkap 
+6. PHP adalah bahasa pemograman yang khusus untuk membuat WEB. 
+7. Bahkan kebanyakan website banyak menggunakan php. Berari bahasa PHP itu sangat populer 
+8. Banyak Website besar juga menggunakan PHP 
+9. Ada juga CMS yang menggunakan PHP; WordPress, Joomla!, Drupal,  noodle. 
+10. Banyak Framwork PHP yang bagus bagus untuk mempermudah untuk membuat website; codeigniter, cakePHP, yiiFramework, laravel, Symfony. 
+
+-->> Apa yang akan kita pelajari dalam PHP <<--
+
+>> Terminologi PHP << 
+1. Clent-side vs. server-side scripting 
+2. Static vs. dynamic website 
+3. persiapan lingkungan pengembangan
+4. Sintaks PHP 
+5. Array 
+6. Request method 
+7. Studi kasus website sederhana 
+8. Database 
+9. Crud (create, read, update, delete) 
+10. Login & registrasi 
+11. Session & cookie 
+12. Ajax 
+13. Upload file 
+14. Reporting 
+15. Web hosting 
+
+-->> Apa yang Harus disiapkan <<-- 
+
+1. Code Editor 
+2. Web Server 
+3. Web Browser 
+4. Database Server 
+
+-->> Sejarah PHP <<-- 
+
+    - PHP dibuat oleh Rasmus Lerdorf pada tahun 1994 
+    - Singkat cerita, ada dua orang yang membantu beliau mengembangkan bahasa PHP ini, yaitu Zeev Suraski & Andi Gutmans dan mereka membuat perusahaan yang bernama Zend technologies. Setelah dikembangin mereka, maka singkatan PHP menjadi Hypertext Preprocessor. 
+    - PHP yang sekarang berkembanag adalah PHP 5.4 dan PHP 7 
+
+>> Karakteristik PHP << 
+
+    - ekstensi file.php 
+    - ditulis didalam tag php 
+    - delimiter 
+    - diawali dengan <?php 
+    - diakhiri dengan ?> 
+    - bisa digunakan bersamaan dengan HTML 
+    - mengikuti bahasa C 
+    
+>> Persiapan Lingkungan Pengembangan <<
+    - Client Side Scripting karena pemrosesannya terjadi pada sisi klayen (komputer yang dipakai) 
+    - Server Side Scripting itu lebih kompleks. 
