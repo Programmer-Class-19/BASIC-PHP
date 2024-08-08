@@ -39,3 +39,78 @@
 
 - <?php echo ( bisa disingkat dengan <?= "";?> ) ""; ?>
 > Tips biar gak bingun, contoh tag dalam tag Tabel 
+
+                            << Rabu, 07-08-2024 >>
+-->> Memahami Pengkondisian/Percabangan
+
+    - if else -
+<?php
+if( $x < 20 ) {
+    echo "benar";
+    // maksudnya dari fungsi "if", jika yang dalam if itu true/benar maka lakukanlah apa yng ada di echonya!
+} else {
+    echo "salah";
+    // ini ditambahkan untuk menambahkan ketrangan bahwa kalau tidak dengan true maka tampilkan yg ini
+}
+?>
+
+                            << Kamis, 08-08-2024 >>
+ 
+
+-- >>  Video 6 (function) 
+
+>> Function (fungsi yang dimiliki oleh PGP) adalah potongan program atau baris-baris code yang memudahkan kita untuk pemogramana, contoh, kita bisa beri nama dan memanggilnya berulang ulang. 
+>> Ada 2 Jenis function 
+    1. Built–in Function 
+    2. User-Defined Function 
+>> Function yang sering dipakai 
+    > Date/Time - dipakai ketika aplikasinya berhubungan dengan waktu 
+
+    - time() 
+    - Date() 
+    - Mktime() 
+    - Strtotime() 
+
+    > Date 
+    Saat panggil function date harus memberikan paramater/argument walau sati saja. 
+    Dengan ketik – echo date (“l”) itu memanggil sebuah function untuk mengelol tanggal 
+
+    - Paramater (“l”) itu cmn tampilkan hari aja, kalau tanggal dengan (“d”), dan (“m”) untuk bulan. 
+    - Kita juga bisa membuat format (“l, d-m-y") 
+    - Sebenarnya banyak bangett formatnya, kalau ingin info lebih bisa kujungi https://www.php.net/manual/en/datetime.format.php 
+    > time 
+    kalau cuman ketik di atas aja maka akan memunculkan UNIX Timestamp / EPOCH time - asal waktu di dunia IT (detik yang sudah berlalu sejak 1 januari 1970) karena ilmuan ingin menetapkan waktu pertama kali untuk komputer. ex: 1723112124 (1, sekian miliar detik) 
+
+    Fungsi ini sangat bermanfaat, sampai bisa mebgetahui umur seseorang dari tanggal lahirnnya, atau bisa tau 100 hari kedepan hari apa itu busa tau. 
+
+    Dengan cara – echo date(“l”, time()) - // kita harus cari tahu brp detik berlalu dari hari ini ke 2 hari kedepan, ex 1 menit itu 60 detik dan seterusnya samapi 1 hari berapa detik 
+
+    60 detik * 60 detik (1 mnt) * 24 jam (1 hari)* 2 (hari) = 172.800 detik 
+
+    Kalau pingin tahu hari sebelumnya tinggal + diganti dengan - 
+
+    Cara kita mengetahui hari apa kita lahir, pakai function  – echo mktime - 
+
+    > mktime 
+    Membuat detik sendiri 
+    echo mktime (0,0,0,0,0,0) = jam, menit, detik, bulan, tanggal, tahun 
+
+>> String 
+    - Strlen() - untukmenghitung panjang line dr sebuah string 
+    - Strcmp/stringcompare() - untuk menggabungkan 2 buah string 
+    - Explode() - memecah sebuah string menjadi array 
+    - Htmlspecialchars() - untuk menjaga dari orang yng iseng masuk website kita 
+
+>> Utility 
+    > Var_dump() - untuk mencetak isi dari sebuah variable, object dll 
+    > Isset() - apakah sebuah variable udah dibikin atau belum 
+    > Emty() - buat cek variabelnya ada isi atau ndak 
+    > Die() - untuk menghentikan program kita 
+    > Sleep() - untuk mmberhentikan sementara	 
+    > User-Defined Function 
+    > Dalam function ini, kita harus mendefinisikannya terlebih dahulu 
+    > Sebuah function biasanya ia mengembalikan nilai, harus ada “return” 
+
+>> User-Defined Function 
+    - Dalam function ini, kita harus mendefinisikannya terlebih dahulu 
+    - Sebuah function biasanya ia mengembalikan nilai, harus ada “return” 
