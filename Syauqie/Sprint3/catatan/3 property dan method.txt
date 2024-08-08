@@ -1,0 +1,19 @@
+PROPERTY DAN METHOD
+(SPRINT 3 : 3)
+Property
+1.	Merepresentasikan data / keadaan dari sebuah object
+2.	Variable yang ada di dalam object (member vriable) 
+3.	Sama seperti variable di dalam PHP, ditambah dengan visibility di depannya
+a.	Public
+b.	Private
+c.	protected
+Method
+Adalah Function yang berada didalam class
+1.	Merepresentasikan perilaku dari sebuah object
+2.	Function yang ada di dalam object (method)
+3.	Sama seperti variable di dalam PHP, ditambah dengan visibility di depannya, kalau tidak ditambahkan visibility akan diasumsikan sibilitynya atau akses modifier nya sebagai public
+RANGKUMAN
+1.	$this-> berfungsi untuk mengambil isi dari property yang bersangkutan untuk membuat yang instan
+2.	Property adalah variable dan method adalah function
+3.	Fungsi visibility public agar kita tidak mudah memasukkan property baru 
+ 

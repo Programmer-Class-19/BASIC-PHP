@@ -16,10 +16,10 @@ PHP adalah singkatan dari "PHP: Hypertext Preprocessor." Atau PHP: “PERSONAL H
 
             ISTILAH ISTILAH YANG AKAN DIPELAJARI :
 1.	Client-side vs. Server-side scripting 
-2.	Static vs. Dynamic website
+2.	Static vs. Dynamic website 
 3.	Persiapan lingkungan pengembangan
 4.	Sintaks php
-5.	Array
+5.	Array (Array adalah struktur data yang digunakan untuk menyimpan kumpulan nilai atau elemen-elemen dengan tipe data yang sama.)
 6.	Request method : metode pengiriman data
 7.	Studi kasus website sederhana
 8.	Database

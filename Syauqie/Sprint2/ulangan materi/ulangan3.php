@@ -200,8 +200,8 @@ var_dump($i);
         "umur" => "12",
     ] ?>
 
-    <?php foreach ($siswa as $s) { ?>
-        <li><?php echo $s ?></li>    
+    <?php foreach ($siswa as $s => $isi) { ?>
+        <li><?php echo  "$s $isi"; ?></li>    
     <?php } ?>
 </body>
 </html>
