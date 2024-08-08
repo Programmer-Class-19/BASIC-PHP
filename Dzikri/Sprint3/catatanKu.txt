@@ -1,0 +1,71 @@
+Object Oriented PHP (OOP)
+iplementasi pemograman berbasis object
+bisa di sebut juga dengan PHP Berorientasi Object
+
+Object Oriented programmming
+merupakan gaya pemogramman atau bisa di sebut dengan pemograman style atau bisa di sebut juga paradigma  pemograman
+
+sebelum nya juga kita harus memahami paradigma yang lain
+yaitu :
+=>Procedural programmming : pemograman secara prosedur
+-intruksi dilakukan langkah demi langkah 
+-Memecah program menjadi bagian - bagian kecil
+-Di sebut prosedur,subroutine atau function
+-linear / top-to-bottom
+-fortan,ALGOL,COBOL,Pascal,C,PHP,Javascript
+
+=>kelebihan procedural programmming
+-to the point
+-simplicity & kemudahan implementasi (untuk complier & interpreter)
+-mudah di telusuri
+-membutuhkan lebih sedikit memory (dibandingkan dengan OOP)
+
+=>object Oriented programmming
+-menyusun semua code program dan struktur data sebagai objek
+-objek adalah unit dasar dari program
+-objek menyimpan data dan perilaku
+-objek bisa saling berinteraksi
+-java,ruby,pyton,c++,Javascript,PHP5
+
+=>kelebihan object Oriented programmming
+-representasi dunia nyyata
+-enkapsulasi & abstraksi data
+-reusability
+-skalabilitas & ekstensibilitas
+-kemudahan pengolahan 
+-kolaboorasi
+-di gunakan oleh framework organisasi
+
+=>konsep OOP pada PHP ? 
+*basic
+-class & object
+-properti & method
+-constructor
+-object type
+-inheritance
+-visibility /access modifier
+-setter & getter
+-static method
+
+*advance
+-abstract & interface
+-interceptor
+- object clonning
+-callbacks & closures
+-namespaces & auto loading
+-...
+
+____vidio 3_____
+
+property & method
+
+=>property
+-merepresentasikan data / keadaan dari sebuah objek
+-variabel yang ada di dalam object (member variabel)
+-sama seperti variable di dalam php, di tambah dengan visibility di depanya.
+
+=>method
+-mempresentasikan perilaku dari sebuah object
+-function yang ada di dalam object
+-sama seperti function di dalam php, di tambah dengan visibility di depanya
+
