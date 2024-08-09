@@ -4,9 +4,9 @@
 
     } 
 
-    $a = new  Coba(); //class
-    $b = new  Coba(); //class
-    $c = new  Coba(); //class
+    $a = new  Coba(); //object
+    $b = new  Coba(); //object
+    $c = new  Coba(); //object
 
     var_dump($a); //instans
     var_dump($b); //instans
