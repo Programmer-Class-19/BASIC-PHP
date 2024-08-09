@@ -1,14 +1,20 @@
 <?php
 /*
-komentar
+komentar satu
+komentar dua
 */
 // komentar
 // ini juga
 // satu lagi
 
+$nama = "Haqqi";
+echo "Hello my name is $nama";
+echo "<br>";
+
 echo "elhaqq";
+
 $nama1 = "Elhaqq";
-$nama2 = "djenggot";
+$nama2 = "Haqqi";
 
 ?>
 <!DOCTYPE html>
@@ -19,13 +25,22 @@ $nama2 = "djenggot";
     <title>belajar php</title>
 </head>
 <body>
-    <h1>hello, welcome to our destination <?php echo $nama1 ?></h1>
-    <p>hello, welcome back <?php echo $nama2 ?></p>
+    <h1>Hello, welcome to our destination <?php echo $nama1 ?></h1>
+    <p>Hello, welcome back <?php echo $nama2 ?></p>
     
 </body>
 </html>
+
 <?php
 echo 1 + 1;
+?>
+<br>
+<?php
+echo 10 %3;
+?>
+<br>
+<?php
+echo 10 /5;
 ?>
 <br>
 <?php
@@ -55,10 +70,12 @@ echo $nama;
 <br>
 <?php
 var_dump(5 =="5");
+echo "<br>";
 var_dump(2 =="2");
 ?><br>
 <?php
 var_dump(5 === "5");
+echo "<br>";
 var_dump(5 !=="4");
 ?><br>
 <?php

@@ -1,5 +1,16 @@
 PHP
-syntaxnya : 
+penemu = Rasmus Lerdorf 1994
+PHP = Personal Home Page
+      Hypertext Preprocessor
+
+kelebihanya :
+  relatif lebih mudah karena to the point
+  gratis & open source
+  dokumentasi yg lengkap
+  PHP di buat khusus untuk web
+  kebanyakan web skrng di buat pakai PHP
+
+syntaxnya :
 <? php
 ?>
 
@@ -12,11 +23,17 @@ komentar
 syntax php :
 standar output  -> menampilkan sesuatu ke layar 
 echo, print     -> mencetak tulisan atau isi variabel
-print_r         -> mencetak isi ray
+print_r         -> mencetak isi ray atau string tp pakai ();
 var_dump        -> melihat isi atau info dr variabel
 
 contoh : 
 echo "my name";
+echo 123;
+echo true;
+echo false;
+print "my name";
+print_r("my name");
+var_dump("my name");
 
 penulisan sintaks PHP :
 1. php di dalam html
@@ -34,13 +51,13 @@ $nama_belakang = "haqqi"
 echo $nama_depan . " " . $nama_belakang;
 
 assignment
-=, +=, -=, *=, /=, %=, .=, !=
+=, +=, -=, *=, /=, %=, .=,
 
-perbandingan
-<, >, <=, >=, ==,
+perbandingan = [mengecek sebuah nilai tp tdk mengecek type datanya]
+<, >, <=, >=, ==, !=
 var_dump(1 =="1");
 
-identitas
+identitas = [mengecek sebuah nilai dgn mengecek type datanya]
 ===, !==
 var_dump(1 ==="1");
 
