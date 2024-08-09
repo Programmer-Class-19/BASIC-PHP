@@ -56,3 +56,13 @@ karakteristik bahasa php
  -diakhiri dengan ?>
 -bisa mengguanakan bersamaan dengan HTML
 -mengikuti bahasa C
+
+client side scripting
+
+Client-side scripting adalah proses menjalankan kode pada sisi pengguna (client) daripada di server. 
+Skrip ini dieksekusi langsung di browser pengguna setelah halaman web dimuat. 
+Bahasa yang umum digunakan untuk client-side scripting adalah JavaScript. 
+Fungsinya termasuk memanipulasi konten halaman, mengelola interaksi pengguna, serta 
+memperbarui tampilan tanpa perlu memuat ulang halaman. 
+Dengan kata lain, client-side scripting memungkinkan pengalaman web yang lebih interaktif dan responsif.
+
