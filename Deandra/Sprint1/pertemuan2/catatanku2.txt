@@ -1,0 +1,150 @@
+sintaks phpPHP, atau Hypertext Preprocessor, adalah bahasa pemrograman skrip yang sangat populer yang digunakan terutama untuk pengembangan web. PHP awalnya diciptakan oleh Rasmus Lerdorf pada tahun 1994. Berikut adalah beberapa poin penting tentang PHP:
+
+Pengertian PHP
+PHP adalah bahasa pemrograman yang dijalankan di server (server-side) yang digunakan untuk membuat halaman web dinamis. Artinya, PHP digunakan untuk mengelola konten dinamis, database, sesi pengguna, dan banyak tugas lainnya yang memungkinkan halaman web untuk berinteraksi dengan pengguna dengan cara yang lebih canggih.
+
+Fitur Utama PHP
+1. Open Source: PHP adalah perangkat lunak sumber terbuka (open source), yang berarti dapat digunakan dan dimodifikasi oleh siapa saja secara gratis.
+2. Server-Side Scripting: PHP dieksekusi di server dan hasilnya dikirim ke browser pengguna sebagai HTML. Ini memungkinkan untuk pembuatan halaman web yang dinamis dan interaktif.
+3. Mudah Dipelajari: Sintaks PHP relatif mudah dipahami, terutama bagi mereka yang sudah familiar dengan bahasa pemrograman seperti C, C++, atau Java.
+4. Kompatibilitas Database: PHP mendukung berbagai macam database, termasuk MySQL, PostgreSQL, Oracle, dan SQLite.
+5. Integrasi dengan HTML: PHP dapat dengan mudah diintegrasikan ke dalam HTML, membuatnya sangat fleksibel untuk pengembangan web.
+6. Ekstensi dan Perpustakaan: PHP memiliki banyak ekstensi dan perpustakaan yang memudahkan pengembang untuk menambahkan fungsionalitas tambahan ke aplikasi mereka.
+Contoh Kode PHP Sederhana
+php
+Salin kode
+<?php
+echo "Hello, World!";
+?>
+Kode di atas adalah contoh sederhana dari skrip PHP yang mencetak "Hello, World!" ke halaman web.
+
+Penggunaan PHP
+1. Pengembangan Web: PHP banyak digunakan untuk membangun situs web dinamis dan aplikasi web. Banyak platform populer seperti WordPress, Drupal, dan Joomla dibangun menggunakan PHP.
+2. Manajemen Konten: CMS (Content Management Systems) seperti WordPress memungkinkan pengguna untuk mengelola konten situs web mereka tanpa memerlukan keterampilan pemrograman yang mendalam.
+3. E-commerce: Banyak situs e-commerce menggunakan PHP untuk menangani transaksi, manajemen produk, dan integrasi dengan gateway pembayaran.
+4. Aplikasi Web: PHP juga digunakan untuk membangun aplikasi web yang kompleks yang memerlukan integrasi dengan database dan API eksternal.
+
+Dengan kemampuannya yang fleksibel dan mudah dipelajari, PHP tetap menjadi pilihan populer bagi pengembang web di seluruh dunia.
+
+kenapa harus belajar php?
+- relative mudah untuk pemula
+- pre-requisite (html + css)
+- gratis & open source
+- dukungan komunitas
+- dokumentasi yang lengkap
+- php dibuat khusus untuk web
+- kebanyakan website yang ada saat ini di buat dengan php
+- banyak website besar di buat dengan php
+- content menegement system yang mengguanakan php
+- framework php
+
+yang akan di pelajari dalam php
+- client-side vs. server-side scripting
+- static vs. dynamic website
+- persiapan lingkungan pengembangan
+- sintaks php
+- array (konsep paling penting)
+- request method
+- studi kasus website sederhana
+- database
+- CRUD (create, read, update, delete)
+- login & regitrasi
+- session & cookie
+- ajax
+- upload file
+- reporting
+- web hosting
+
+apa yang harus di siapkan
+- code editor
+- web server
+- web browser
+- database server
+
+
+// pertemuan 2 - php dasar
+// sintaks php
+
+Sintaks PHP adalah seperangkat aturan dan pedoman yang menentukan bagaimana kode PHP harus ditulis dan diinterpretasikan oleh mesin PHP.
+ Sintaks ini mencakup aturan tentang bagaimana fungsi, variabel, struktur kontrol (seperti if, else, switch, for, while), 
+ dan elemen-elemen lainnya harus ditulis agar kode tersebut dapat dieksekusi dengan benar.
+
+Berikut beberapa konsep dasar sintaks PHP:
+
+1. Tag Pembuka dan Penutup:
+PHP dimulai dengan <?php dan diakhiri dengan ?>. Semua kode PHP harus ditulis di antara tag ini.
+
+2. Komentar:
+Komentar digunakan untuk menulis catatan dalam kode yang tidak akan dieksekusi oleh PHP.
+
+Komentar satu baris: // atau #
+Komentar beberapa baris: /* ... */
+
+3. Variabel:
+Variabel dalam PHP dimulai dengan tanda $ diikuti oleh nama variabel.
+
+4. Pernyataan (Statement):
+Setiap pernyataan diakhiri dengan titik koma (;).
+
+5. Struktur Kontrol:
+PHP mendukung berbagai struktur kontrol seperti if, else, while, for, dan switch.
+
+6. Fungsi:
+Fungsi adalah blok kode yang dapat digunakan kembali untuk menjalankan tugas tertentu.
+
+7. Penggunaan String:
+String dalam PHP dapat ditulis dengan tanda kutip ganda (") atau tunggal (').
+
+
+// standar output
+// echo, print
+// print_r
+// var_dump
+
+echo "deandra putra wiguna"
+
+// penulisan sintaks php
+// 1.php di dalam html
+// 2.html di dalam php
+
+// variabel dan tipe data
+// variabel
+// tidak boleh diawali dengan angka,tapi boleh mengandung angka
+// $nama = "deandra putra wiguna"
+// echo "halo, nama saya $nama"
+
+// macam-macam operator
+// aritmatika
+// + - * / %
+// $x = 10;
+// $y = 20;
+// echo $x * $y;
+
+// penggabung string / concatenation / concat
+// 
+// $nama_depan = "sandika";
+// $nama_belakang = "galih";
+// echo $nama_depan ." ". $nama_belakang;
+
+// assignment
+// =, +=, -=, *=, /=, %=, .=
+// $x = 1;
+// $x += 5;
+// echo $x;
+// $nama = "deandra";
+// $nama = " ";
+// $nama = "putra";
+// echo $nama;
+
+// perbandingan
+// <,>, <=, >=, == !=
+// var_dump(1 < "5")
+
+// identitas
+// ===, !==
+// var_dump(1 === "1")
+
+// logika
+// &&, ||, !
+// $x = 30;
+// var_dump($x < 20 && $x % 2 == 0);

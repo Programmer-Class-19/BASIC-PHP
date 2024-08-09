@@ -1,0 +1,22 @@
+ARRAY
+
+secara umum susunan sistematis dari objek-objek yang serupa
+
+secara Bahasa programming adalah tipe yang digunakan untuk mendreskripsikan kumpulan elemen (nilai atau variable), yang tiap-tiap elemennya memiliki index.
+
+secara sandikagalih adalah variable yang lebih sakti (karena menampung lebih dari satu nilai)
+
+KENAPA array ?
+- mempermudah pengelolaan nilai / value / data
+ - penelusuran dan pencarian
+- menejemen memori
+
+definisi array
+- variable jamak, yang mempunyai banyak elemen dan diacu dengan nama yang sama
+- kumpulan pasangan key dan nilai/ key and value pair
+- key adalah index pada array dengan tipe integer yang di mulai dari 0
+- array pada javascript bertipe object 
+- array pada javascript memiliki fungsi / method leght untuk menghitung jumlah elemen di dalamnya
+- elemen pada array boleh memiliki tipe data yang berbeda
+
+
