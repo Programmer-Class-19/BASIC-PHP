@@ -8,7 +8,7 @@
 // var_dump :adalah fungsi yang digunakan untuk menampilkan informasi tentang variabel, termasuk tipe datanya dan nilainya. Ini sangat berguna untuk debugging karena memberikan detail lengkap tentang isi dari suatu variabel.
 
 // "lebih sakti dari pada '
-// penulasan sintaks PHP
+// penulisan sintaks PHP
 // 1.PHP di dalam HTML
 // 2.Html di dalam php
 

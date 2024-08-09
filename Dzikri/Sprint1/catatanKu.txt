@@ -1,0 +1,58 @@
+PHP
+
+Kenapa kita mengguanakan PHP:
+-relatif mudah untuk pemula
+-pre-requisite :HTML + CSS
+-gratis  & open source
+- dukungan komunitas besar
+-dukumentasi yang lengkap
+-PHP di buat khusus untuk membuat web
+-kebanyakan website yang ada saat ini memngguanakan PHP
+-banyak website besar yang menggunakan PHP
+
+apa yang akan kita pelajari 
+-client-side vs. server-side scripting
+-static vs. dinamic website
+-persiapan lingkungan pengembangan 
+-sintaks PHP
+-array
+-request method
+-studi kasus website sederhana 
+-data base
+-crud (Create,Read,Update,Delete)
+-login & registrasi
+-session & cookie
+-ajax
+-upload file
+-reporting
+-web hosting
+
+sejarah PHP
+
+diciptakan oleh Ramus Lerdorf
+   "       pada tahun 1924
+PHP (personal home page)
+
+PHP v3 , 1998 
+-dikembangkan kembali oleh zeev suraski & andi gutmans
+-zend tecnologi
+-PHP : hypertext PreProcessor
+
+PHP v5,2004
+-zend engine 2
+-object oriented programming (OOP)
+-PHP data object (PDO)
+
+php v7,2014
+-zend engine 3
+
+elePHPant :vincent 
+
+karakteristik bahasa php 
+-ektensi file nya harus .php
+-di tulis didalam tag php
+ -delimter
+ -di awali dengan <?php
+ -diakhiri dengan ?>
+-bisa mengguanakan bersamaan dengan HTML
+-mengikuti bahasa C
