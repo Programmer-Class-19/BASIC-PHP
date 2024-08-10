@@ -1,6 +1,8 @@
 <?php
 //  Pertemuan 2 - PHP Dasar
 // sintaks PHP
+// Sintaks dalam PHP adalah aturan penulisan kode yang harus diikuti agar program berjalan dengan benar. 
+
 // echo,:Fungsi echo adalah salah satu cara paling sederhana dan cepat untuk menghasilkan output di PHP.
 //  print
 // standar Output

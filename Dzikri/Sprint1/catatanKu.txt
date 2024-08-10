@@ -1,10 +1,11 @@
-PHP
+PHP:
+adalah bahasa pemrograman yang digunakan terutama untuk pengembangan web
 
 Kenapa kita mengguanakan PHP:
 -relatif mudah untuk pemula
 -pre-requisite :HTML + CSS
 -gratis  & open source
-- dukungan komunitas besar
+-dukungan komunitas besar
 -dukumentasi yang lengkap
 -PHP di buat khusus untuk membuat web
 -kebanyakan website yang ada saat ini memngguanakan PHP
@@ -27,42 +28,100 @@ apa yang akan kita pelajari
 -reporting
 -web hosting
 
-sejarah PHP
-
-diciptakan oleh Ramus Lerdorf
-   "       pada tahun 1924
-PHP (personal home page)
-
-PHP v3 , 1998 
--dikembangkan kembali oleh zeev suraski & andi gutmans
--zend tecnologi
--PHP : hypertext PreProcessor
-
-PHP v5,2004
--zend engine 2
--object oriented programming (OOP)
--PHP data object (PDO)
-
-php v7,2014
--zend engine 3
-
-elePHPant :vincent 
-
 karakteristik bahasa php 
 -ektensi file nya harus .php
 -di tulis didalam tag php
- -delimter
- -di awali dengan <?php
- -diakhiri dengan ?>
+-delimter
+-di awali dengan <?php
+-diakhiri dengan ?>
 -bisa mengguanakan bersamaan dengan HTML
 -mengikuti bahasa C
 
 client side scripting
 
-Client-side scripting adalah proses menjalankan kode pada sisi pengguna (client) daripada di server. 
-Skrip ini dieksekusi langsung di browser pengguna setelah halaman web dimuat. 
-Bahasa yang umum digunakan untuk client-side scripting adalah JavaScript. 
-Fungsinya termasuk memanipulasi konten halaman, mengelola interaksi pengguna, serta 
-memperbarui tampilan tanpa perlu memuat ulang halaman. 
-Dengan kata lain, client-side scripting memungkinkan pengalaman web yang lebih interaktif dan responsif.
+Client Side
+    Dalam Konteks Php, "Client-Side" Merujuk Pada Operasi Atau Eksekusi Kode Yang Terjadi
+    Di Sisi Klien (Browser Pengguna), Bukan Di Sisi Server. 
+    Php Sendiri Adalah Bahasa Pemrograman Server-Side, Yang Berarti Bahwa Kode Php Dieksekusi Di 
+    Server Dan Hasilnya Dikirim Ke Browser Klien Dalam Bentuk Html, Css, Dan Javascript.
 
+    Php Ngga Bisa Di Inspect Berbeda Dengan Html Dan Css
+Server-side 
+    Server-side merujuk pada proses yang terjadi di sisi server dalam arsitektur client-server. 
+Ini berarti bahwa ketika sebuah permintaan (request) dibuat oleh pengguna melalui browser (client), 
+server yang bertanggung jawab untuk memproses permintaan tersebut, menjalankan logika aplikasi, 
+mengakses database jika diperlukan, dan kemudian mengirimkan respons (response) kembali ke client.
+
+sintaks PHP
+ Sintaks dalam PHP adalah aturan dan struktur penulisan dalam kode yang harus diikuti agar program dapat 
+ berjalan dengan benar di web . 
+
+ echo,print : Fungsi echo adalah salah satu cara paling sederhana dan cepat untuk menghasilkan output di PHP.
+ print_r : adalah fungsi di PHP yang digunakan untuk mencetak atau menampilkan informasi tentang sebuah 
+ variabel dengan cara yang mudah dibaca. Fungsi ini sangat berguna untuk debugging, terutama ketika bekerja 
+ dengan array atau objek, karena print_r menampilkan struktur lengkap dari variabel tersebut.
+ var_dump : adalah fungsi yang digunakan untuk menampilkan informasi tentang variabel, 
+ termasuk tipe datanya dan nilainya. Ini sangat berguna untuk debugging karena memberikan 
+ detail lengkap tentang isi dari suatu variabel.
+
+ " lebih sakti dari pada '
+
+ penulisan sintaks PHP
+ 1.PHP di dalam HTML
+ 2.Html di dalam php
+
+ variabel dan tipe data 
+ variabel
+
+ Variabel adalah sebuah nama yang diberikan untuk menyimpan nilai 
+ atau data yang dapat digunakan dan dimanipulasi dalam program
+ 
+ variabel tidak boleh di awali dengan angka, tapi boleh mengandung angka
+ $nama1 = "dzikri";
+ 
+
+ $nama = "adzri rabbani";
+ echo "halo nama saya $nama";
+
+ operator
+ aritmatika
+ + - * / %
+ $x = 10;
+ $y = 20;
+ echo $x * $y;
+
+ penggabung string / concatenation /concat
+ .
+$nama_depan = "dzikri";
+$nama_belakang = "rabbani";
+echo $nama_depan ." ". $nama_belakang;
+
+assignment (operator penugasan)
+=,+=,-=,*=,/=,%=,.=
+
+$x = 1;
+$x %= 5;
+echo $x;
+
+$nama = "Adzri";
+$nama .= " ";
+$nama .= "rabbani";
+echo $nama ;
+
+operator perbandingan 
+<,>,<=,>=,==,!=
+var_dump(5 == "5")
+
+operator identitas
+===, !==
+var_dump(5 === "5")
+
+operator logika
+&&, ||, !
+
+$x = 10;
+var_dump($x < 20 || $x % 2 == 0); 
+
+
+ $nama = "adzri";
+ echo "nama saya $nama";
