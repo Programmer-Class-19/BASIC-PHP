@@ -1,0 +1,96 @@
+PHP
+ 
+ Kenapa Kita Perlu Belajar PHP? Why Does It Have To be PHP
+Alasanya
+
+Relatif Mudah Untuk Pemula
+Untuk Memahami PHP Memerlukan HTML & CSS Saja
+Gratis & Open Source
+Dukungan Komunitas/Community
+Dokumentasi Yang Lengkap
+PHP Dibuat Khusus Untuk Web
+Kebanyakan Website Yang Ada Saat Ini Dibuat Dengan PHP
+Banyak Website Besar Dibuat Dengan PHP
+Content Management System Yang Menggunakan PHP
+Framework PHP
+
+Dukungan Komunitas/Community
+
+ Kamu Bisa Mencari Stack Overflow Atau
+Website Pencarian Untuk Para Programmer
+
+Stack Overflow = Website Pencarian Untuk Para Programmer
+
+PHP Indonesia = Grub Fb(Facebook) Komunitas PHP Indonesia
+
+Dokumentasi Yang Lengkap
+
+ Salah Satu Contoh Website Yang Dokumentasi Lengkap
+Adalah https://PHP,net/Manual/en/
+
+Kebanyakan Website Yang Ada Saat Ini Dibuat Dengan PHP
+
+ Karena Menurut Survey dari https://w3techs.com Yang
+Paling Banyak Dicari dikolam Pencarian Yah PHP
+
+1. PHP                82,6 %
+2. ASP.NET            15,1 %
+3. Java               2,6 %
+4. Static File        1,5 %
+5. Coldfusian         0,6 %
+
+Banyak Website Besar Yang Dibuat Dengan PHP
+
+ Contoh
+Facebook          Wikipedia
+Yahoo             Flickr
+
+Ini Semua Adalah Contoh Website Digunakan Dengan PHP
+
+Content Management System Yang Dibuat Dengan PHP
+
+Wordpress            Moodle
+Jomla                Drupal
+
+Ini Semua Adalah Contoh CMS Yang Dibuat Dengan PHP
+CMS = Content Management System
+
+Untuk Mempermudah User/develover dalam Membuat Website
+
+Framework PHP
+
+ Banyak Sekali Framework PHP Yang Mempermudah Kita Untuk
+Membuat Website Contoh
+
+Codeignete           Yii Framework
+CakePHP              Laravel
+Sympony
+
+Ini Semua Adalah Framework/Kerangka Kerja Yang Dibuat Menggunakan
+PHP Jadi Dengan Kalian Bisa Memahami Bahasa Pemograman PHP Kalian
+Bisa Mudah Memahami Framework Diatas 
+
+Apa Yang Akan Kita Pelajari di PHP
+- Client-Side VS Server-Side Scripting
+- Static Vs dynamyc Website
+- Persiapan Lingkungan Pengembangan
+- Sintaks PHP
+- Array
+- Request Method
+
+Studi Kasu Website Sedernah Yang Akan dikirimkan Ke Data Base
+
+- Database
+- Login & Registrasi
+- CRUD(Create,Read,Update,Delete)
+- Session & Cookie
+- Ajax
+- Upload File
+- Reporting
+- Web Hosting
+
+Yang Disiapkan Adalah
+- Code Editor
+- Web Server
+- Web Browser
+- Database Server

@@ -1,0 +1,43 @@
+Sintaks PHP
+
+Sintaks Dasar-Dasar Pada PHP
+Sintaks Dasar Pada PHP Atau Penulisan Dasar PHP
+
+Tag PHP
+
+<?PHP....?> = Untuk Penulisan Awal PHP
+
+// Netizen Berkomentar = Untuk Komentar Satu Baris
+
+/* Komentar Berbaris = Untuk Komentar Berbaris
+
+Standars Output
+   Standars Output adalah Perintah PHP Untuk Menampilkan
+ Segala Sesuatu Ke Layar Salah Satu Contoh Sintaksnya 
+ Adalah echo atau print,print_r,var_dump
+
+Penulisan Sintaks
+print_r = ("Pak Tua Thanos")
+var_dump = ("Pak Tua Thanos")
+
+bulean
+False = Menghasilkan Kosong
+True =  Menghasilkan Angka 1
+
+Mencetak String
+echo ''=
+echo ""= digunakan saat ada Kalimat Yg memiliki Kutip
+
+Dilarang Keras Mencetak String Dng Echo " ...' karena
+Akan Menyebabkan Eror
+
+Penulisan PHP
+- PHP Di dalam HTML
+- HTML Di dalam PHP
+
+Variabel & Tipe Data
+$= Variabel Dalam PHP
+
+Aturan
+Variabel Namanya Tidak Boleh Diawali dengan Angka Tapi
+Boleh Mengandung Angka

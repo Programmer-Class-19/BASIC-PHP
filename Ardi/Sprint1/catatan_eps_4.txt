@@ -1,0 +1,52 @@
+Operator
+
+Di PHP, operator adalah simbol yang digunakan untuk melakukan operasi pada variabel dan nilai.
+Ada beberapa jenis operator dalam PHP, masing-masing memiliki kegunaan dan tujuan tertentu.
+
+- Aritmatika
+   Digunakan untuk melakukan operasi matematika
+   Berisi 
+   (+) Tambah
+   (-) Kurang
+   (*) Kali
+   (/) Bagi
+   (%) Modulu
+
+- Penggabung String
+     Penggabung String/Concantenation/Concat
+     Berisi titik (.)
+
+- Assignmet
+   Assignmet adalah Operator Penugasan
+   Berisi:
+   (=)= Sama dengan
+   (+=) = Sama dengan Tambah
+   (-=) = Sama dengan Kurang
+   (*=) = Sama dengan Kali
+   (/=) = Sama dengan Bagi
+   (%=) = Sama dengan Modulu
+   (==) = Sama dengan Sama dengan
+
+- Perbandingan
+   Perbandingan Biasa Di pakai untuk Pengkondisian
+   Berisi
+   (<)= Lebih Kecil Dari
+   (>)= Lebih Besar Dari
+   (<=) = Lebih Kecil dari Sama dengan
+   (>=) = Lebih Besar dari Sama dengan
+   (==) = Sama dengan Sama dengan
+
+- Identitas
+   Digunakan Untuk mengecek Tipe Pada Sebuah Data yang
+   Berisi
+   (===) = Sama Dengan Sama Dengan Sama Dengan
+   (!==) = Tidak Sama Dengan Sama Dengan
+
+   yang diatas Bukan Cuma mengecek Nilainya saja Tapi
+   Juga mengecek datanya
+
+- Logika
+   Digunakan Saat Pengkondisian Berisi 
+   && = Double Dan
+   [] = Double Ore 
+   !  = Note

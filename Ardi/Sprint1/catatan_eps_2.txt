@@ -1,0 +1,130 @@
+Sejarah & Karakteristik PHP
+
+Sejarah PHP
+
+   PHP Pertama Kali Dibuat Oleh Rasmus Landorf Pada Tahun 1994
+  Personal Home page Atau disingkat Biasa PHP lalu halaman web
+  yang dia buat didalamnya beliau bikin form yang terhubung 
+  dengan database 
+
+   kenapa disebut PHP karena PHP itu awalnya memang Personal
+  Home Page
+
+   Aplikasi yang Dibuat
+ - PHP/FI,1994
+   Personal Home Page/form Interpreter
+
+ - PHP Tools V1,1995
+
+ - PHP Tools V2,1997
+
+ - PHP 3,1998
+ * Zeev Suraski & Andi Gutmans
+ * Zend Technologies
+
+Dua Orang Tadi Berjasa dalam membuat parcers didalam PHP
+
+Parcers adalah program Untuk Membaca PHP setelah itu
+Namanya Ganti menjadi PHP Hypertext Preprocessor
+
+ - PHP 4 2000
+  Zend Engine adalah Mesin Untuk Mengelola PHP Diciptakan Oleh Zend Engine
+
+ - PHP 5 2004
+ * Zend Engine 2
+ * Object Oriented Programming(OOP)
+ * PHP Data Object(PDO)
+ 
+Updatetan Ini adalah Updatetan Terbaik Pada PHP Karena Berisi
+Object Oriented Programming(OOP) atau Pemograman Orientasi 
+Object
+
+PDO
+  PDO adalah Mesin didalam PHP Untuk Mengelola database
+ -2008 PHP 4 Berhenti Dikembangkan
+  kenapa Berhenti Dikembangkan Karena Banyak yang Masih
+ Menggunakan PHP4 Makanya Ada Gerakan yang Disebut Gerakan
+ GOPHP5
+
+ - PHP 6
+ * Ditunda dan Akhirnya diabaikan
+ * Masalah Unicode
+ * PHP 5,4 2010
+
+ - PHP 7
+ * Zend Engine 3
+
+ Icon PHP adalah elePHPant/Gajah
+
+ elePHPant Diciptakan Oleh Vincent Pointer
+
+ - Karakteristik PHP
+ * Eksistensi File.PHP
+ * Ditulis Didalam Tag PHP
+   - Delimiter/Pembatas/Genkai
+   - Diawali Dengan <?PHP
+   - Diakhiri Dengan ?>
+ * Bisa digunakan bersamaan dengan HTML
+ * Mengikuti Bahasa C
+
+Persiapan Lingkungan Pengembangan
+
+  Kenapa Kita Harus Siapkan Dulu Lingkungan Pengembangan Ya?
+ Karena Untuk Membuat Website Dengan Bahasa PHP Tidak Semudah
+ Seperti Membuat Website HTML & CSS Karena Untuk Membuat File
+ HTMLnya Dimana Saja Menyimpan Filenya Dimana Saja & Menjalankanya
+ Dengan Mudah Kalau Untuk Menggunakan PHP Tidak Semudah Itu Karena
+ Membutuhkan Web Server
+
+Yang Kita Pelajari Untuk Sekarang
+
+Client-Side VS Server-Side Scripting
+
+Client-Side Scripting
+HTML,CSS,JavaScript
+
+Web Browser 
+Client-Side Scripting
+HTML,CSS,JavaScript
+
+Web Server
+Apace,IIS,nginx,tomcat,Lightpath DLL
+
+Bahasa Pemograman
+PHP
+ASP
+Ruby
+Python
+
+database
+MySQL
+SQL Server
+Oracle 
+PostgreSQL
+DLL
+
+  Jadi Ketika Halaman Web Yang dibuka didalamnya ada Salah Satu
+ Bahasa PHP,ASP,RUBY,Python Sedangkan didalamnya Tidak Bahasa
+ PHP Sama Sekali Jadi Web Browser Akan Meminta Request Ke Web
+ Server Di Server Dia Akan Membaca Ada Bahasa PHP Atau Tidak 
+ Kalau Tidak Web Servernya akan Meresponya Kembali Permintaan
+ Web Browser
+
+Persiapan Lingkungan Pengembangan
+
+Apache
+http://httpd.Apache,org/Downlod,cgi
+
+PHP
+http://www,PHP,net/Downloads,PHP
+
+MySQL
+http;//dev,Mysql.com/Downloads/
+
+All-In-One-Packages
+WAMP,MAMP,LAMP,XAMPP
+
+WAMP = Windows,Apache,MySQL,PHP
+LAMP = Linux,Apache,MySQL,PHP
+MAMP = Macos,Apache,MySQL,PHP
+XAMPP = Xcross Platform,Form,Apache,MySQL,PHP
