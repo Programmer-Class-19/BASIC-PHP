@@ -32,7 +32,10 @@ $nama2 = "Haqqi";
 </html>
 
 <?php
+// aritmatika
 echo 1 + 1;
+echo "<br>";
+print 1 + 3;
 ?>
 <br>
 <?php
@@ -50,12 +53,14 @@ echo $x * $y;
 ?>
 <br>
 <?php
+// penggabung
 $nama_depan = "azzam";
 $nama_belakang = "haqqi";
 echo $nama_depan . " " . $nama_belakang;
 ?>
 <br>
 <?php
+// assignment
 $x = 2;
 $x +=5;
 echo $x;
@@ -69,11 +74,13 @@ echo $nama;
 ?>
 <br>
 <?php
+// perbandingan
 var_dump(5 =="5");
 echo "<br>";
 var_dump(2 =="2");
 ?><br>
 <?php
+// identitas
 var_dump(5 === "5");
 echo "<br>";
 var_dump(5 !=="4");
@@ -83,6 +90,7 @@ $x = 20;
 var_dump($x > 10);
 ?>
 <?php
+// logika
 $x = 30;
 var_dump($x < 50 && $x % 2 == 0);
 ?>

@@ -1,7 +1,20 @@
 PHP
 penemu = Rasmus Lerdorf 1994
+awalnya membuat sebuah pemrograman dlm bhs C untuk mengelola hal web pribadi
+thn 1995 open source
+thn 1997 v.2
+thn 1998 zeev suraski & andi gutmans -> zend tech -> Hypertext Preprocessor
+thn 2000 v.4 -> zend engine = mesin untuk mengelola php
+thn 2004 v.5 -> zend engine 2 dh bsa oop pemrograman berorientasi object & pdo yg bisa mengeelola data object
+thn 2008 v.4 berhenti
+thn 2010 v.5,4
+thn 2014 v.7 -> zend engine 3
+
+icon php = gajah / elePHPant -> vincent pontier
+
 PHP = Personal Home Page
       Hypertext Preprocessor
+PHP = Sebuah pemrograman yg di gunakan untuk mengembangkan web agar lbh dinamis
 
 kelebihanya :
   relatif lebih mudah karena to the point
@@ -10,8 +23,8 @@ kelebihanya :
   PHP di buat khusus untuk web
   kebanyakan web skrng di buat pakai PHP
 
-syntaxnya :
-<? php
+syntaxnya / tag / delimiter :
+<?php
 ?>
 
 komentar
@@ -20,11 +33,29 @@ komentar
   tidak untuk satu baris
 */
 
-syntax php :
+syntax = struktur / aturan yg d gunakan untuk menuliskan sebuah kode
+
+Server-side Scripting = PHP
+PHP dijalankan di server dan hasilnya dikirim ke browser sebagai HTML 
+sehingga tidak perlu mengungkapkan kode sumber kepada pengguna.
+
+client-side = Html, CSS
+merujuk pada bagian dari aplikasi web atau perangkat lunak yang dijalankan di sisi pengguna atau klien,
+
+XAMPP = paket perangkat lunak yang memungkinkan Anda untuk menjalankan server web lokal di komputer Anda
+        X: Cross-platform (berfungsi di berbagai sistem operasi seperti Windows, macOS, dan Linux)
+        A: Apache (server web)
+        M: MySQL (sistem manajemen basis data) – sekarang sering digantikan oleh MariaDB dalam versi terbaru
+        P: PHP (bahasa pemrograman server-side)
+        P: Perl (bahasa pemrograman tambahan, meski tidak selalu digunakan)
+
+php :
 standar output  -> menampilkan sesuatu ke layar 
-echo, print     -> mencetak tulisan atau isi variabel
-print_r         -> mencetak isi ray atau string tp pakai ();
-var_dump        -> melihat isi atau info dr variabel
+  echo, print     -> mencetak tulisan atau isi variabel
+  print_r         -> mencetak isi ray atau string tp pakai ();
+  var_dump        -> melihat isi atau info dr variabel
+
+web nya = http://php.net/manual/en/
 
 contoh : 
 echo "my name";
@@ -42,26 +73,26 @@ penulisan sintaks PHP :
 
 operator
 1. aritmatika
- // + - */ %
+ // + - * / %
  // $x * $y;
 
-penggabung string
+2. penggabung string
 $nama_depan = "azzam"
 $nama_belakang = "haqqi"
 echo $nama_depan . " " . $nama_belakang;
 
-assignment
+3. assignment
 =, +=, -=, *=, /=, %=, .=,
 
-perbandingan = [mengecek sebuah nilai tp tdk mengecek type datanya]
+4. perbandingan = [mengecek sebuah nilai tp tdk mengecek type datanya]
 <, >, <=, >=, ==, !=
 var_dump(1 =="1");
 
-identitas = [mengecek sebuah nilai dgn mengecek type datanya]
+5. identitas = [mengecek sebuah nilai dgn mengecek type datanya]
 ===, !==
 var_dump(1 ==="1");
 
-logika
+6. logika
 &&, ||, !
 && -> dan dua2nya hrs bener
 || -> or satu aja yg benar
@@ -69,4 +100,10 @@ logika
 $x = 20;
 var_dump($x > 10);
 var_dump($x > 10 && $x % 2 == 0);
+var_dump($x > 30 || $x % 2 == 0);
 
+Variabel = 
+suatu konsep dasar dlm pemrograman & yang merujuk pada tempat untuk menyimpan nilai
+
+Assignment = 
+penugasan yg digunakan untuk mengaitkan nilai dengan variabel.
