@@ -1,3 +1,5 @@
 <?php
-    echo "ASSALAMU'ALAIKUM";
+
+echo "Assalamu'alaikum Saya Mas'ud";
+
 ?>

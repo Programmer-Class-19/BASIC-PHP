@@ -1,0 +1,204 @@
+PHP adalah bahasa pemograman bukan ( pemberi harapan palsu ) ^_^
+
+PHP adalah bahasa pemograman yang digunakan untuk membuat website dinamis dan interaktif.
+Dinamis artinya, website tersebut bisa berubah-ubah tampilan dan kontennya sesuai dengan kondisi tertentu.
+Interaktif aratinya,PHP dapat memberi feedback bagi user.
+
+Vidio 1
+
+Intro 
+
+Alasan programmer belajar PHP :
+1. Relatif mudah untuk pemula 
+2. Pre-requisite  HTML dan CSS 
+3. Gratis & Open source 
+4. Dukungan komunitas
+5. Dokumentasi yang lengkap 
+6. PHP di buat khusus untuk membuat web 
+7. Kebanyakan wibsite yang ada saat ini dibuat dengan PHP 
+8.Banyak wibsite besar dibuat dengan PHP 
+9. Contetnt management system yang menggunakan PHP
+10. Frameang 
+
+
+
+Yang perlu di pelajari :
+1. client-side   vs.   server-side scripting
+2. static   vs.   dynamic wibsite 
+3. persiapan lingkungan pengembangan 
+4. sintaks PHP
+5. array
+6. request method 
+6. studi kasus wibesite sederhana 
+7. database
+8. CRUD ( Create, Read, Update, Delete )
+9. login & registrasi
+10. session dan cookie 
+11. ajax
+12. upload file
+13. reporting 
+14. web hosting 
+
+
+Yang perlu disiapkan :
+1. code editor 
+2. web server
+3. web browser 
+4.database server 
+
+
+
+
+
+
+
+
+
+Vidio 2 
+
+Sejarh dan Karakteristik PHP
+
+Sejarah PHP
+PHP di buat oleh : ( Rasmus Lerdorf )pada tahun 1994  
+pada tahun 1994 PHP singkatan dari Personal Home Page 
+beliau awalnya membuat sebuah program dalam bahasa c untuk mengelola halaman web pribadinya atau Personal Home Page
+pada awal dibuat Rasmus Lerdorf menamakan aplikasi yang ia ciptakan ini adalah 
+> PHP/FI,1994 Personal Home Page / Form Interpreter
+
+dan dari sini program yang ia ciptakan ini banyak diminati oleh rekan rekannya dan orang lain sehingga,
+ia buat untuk orang lain dalam bentuk open source yang namanya 
+> PHP Tools v.1 1995
+> PHP Tools v.2 1997
+
+sampai pada tahun 1998 PHP versi 3 dikembangkan oleh 2 orang yang membantu mengembangkan PHP namanya Zeev Suraski & Andi Gutsmans dan membuat perusahaan bernama Zend Technologies 
+2 orang ini  yang berjasa membuat parser dalam PHP, 
+Parser adalah sebuah program untuk membaca sintaks dalam php agar php bisa mengetahui codingan yang kita tulis sehingga nama PHP tergati 
+yang awalnya PHP ( Personal Home Page ) menjadi PHP:Hypertext Preprocessor
+
+lalu pada tahun 2000 dikembangkan lagi menjadi PHP versi 4 yang didalam nya terdapat 
+Zend Engine 
+Zend Engine adalah mesin mengelola PHP nya jadi Interpreter adalah Zend Engiene yang diciptakan oleh perusahaan Zen Technologies
+
+lalu pada tahun 2004 di kembangkan PHP menjadi versi 5 
+versi 5 adalah update PHP yang paling besar  yang didalamnya disimpan banyak  fitur-fitur dan fungsionalitas  di dalam librarynya  dan dikembangkan juga Zend Engiene nya menjadi Zend Engiene versi 2
+dan dalam PHP versi 5 terdapat :
+> OOP = Object Oriented Programming 
+> PDO = PHP Data Object
+
+lalu pada tahun 2008 perkembangan PHP versi 4 di berhentikan dan pada saat itu terdapat 
+> Gerakan Go PHP 5
+pergerakan ini disanrankan bagi semuanya untuk berpindah atau imigrasi dari PHP versi 4 ke PHP versi 5 
+dan pada tahun 2008 PHP versi 6 tertunda dan akhirnya diabaikan karna dalam PHP versi 6 ingin memperbaiki masalah di Unicode 
+Unicode ini adalah bagaimana PHP dapat menangani penulisan berbagai macam bahasa yaitu diinginkan PHP tidak cuma dapat menggunakan bahasa Latin 
+tetapi di ingin juga dapat menggunakan huruf Jepang, arab dll sehingga fokus di di PHP versi 5 sampai pada 2010 PHP versi 5 menjadi PHP versi 5.4 
+
+pada tahun 2014 dikembangkan PHP versi 7 dan pada PHP versi 7 Zend Engiene juga dikembangkan menjadi Zend Engiene versi 3
+
+dan pada tahun 2020 PHP versi 8 dikembangkan pada versi 8 kali ini PHP  memperkenalkan JIT (Just-In-Time) compiler, yang secara signifikan meningkatkan kinerja eksekusi kode.
+dan PHP 8 juga menambahkan union types, named arguments, dan berbagai perbaikan lainnya untuk membuat pengembangan lebih efisien.
+
+dan PHP mempunyai icon dan iconnya dinamakan elePHPant ( bahasa inggris gajah yang di tengahnya terdapat kata PHP ) icon ini di ciptakan oleh Vincent Pontier
+
+
+
+
+
+
+Karakteristik PHP 
+1. ekstensi file .php
+    setelah nama filenya harus menggunakan .php
+
+2. ditulis didalam tag php 
+    setiap sintaks php nya harus di tulis dalam tag php atau dalam : 
+    a. delimiter 
+    delimiter adalah pembatas yang di awali dengan <?php dan diakhiri dengan ?> 
+    alhasil <?php  ?>
+
+3. bisa digunakan bersamaan dengan HTML 
+    kita dapat menulis PHP didalam HTML atau sebaliknya HTML di dalam PHP 
+
+4. mengikuti bahasa C 
+    Bahasa C adalah bahasa pemrograman yang dirancang untuk menulis sistem operasi, 
+    dan bahasa ini menjadi fondasi bagi banyak bahasa pemrograman modern lainnya seperti C++, C#, Java, dan JavaScript & PHP.
+
+
+
+
+
+
+
+
+Vidio 3 
+
+Pembahasaannya : lingkungan  pengembangan 
+
+bagi pemula dalam mempelajari PHP perlu persiapan dalam lingkungan pengembangannnya karna dalam membuat wibsite dengan PHP tidak semudah 
+ketika kita membuata wibsite  menggunakan HTML dan CSS karna dengan menggunakan PHP kita butuh sesuatu yang dinamakan dengan web Server.
+persiapan yaang perlu di dipahami adalah :
+
+1. Memahami Client-Side & Server-Side Scripting  
+Client Side Scripting adalah 
+Sesuai dengan namanya, yaitu sebuah program yang pengolahannya pada sisi Client, yang berjalan di web browser. 
+Maksud nya Pengolahan disini berarti “Menerjemahkan” yang bertugas menerjemahkan script ini untuk client yaitu web browser. 
+Nah didalam web browser, terdapat Library yang mampu menerjemahkan semua perintah dihalaman web yang menggunakan client side scripting. 
+Library ini juga disebut web engine yang dimiliki setiap web browser.  
+Bahasa Pemrograman yang dapat digunakan untuk membuat Client-side yaitu HTML, CSS, Java Script, dan JQuer
+
+Server Side Scripting adalah  
+Suatu program yang berjalan diserver dimana script di terjemahkan diserver yang memungkinkan untuk menghasilkan halaman web yang dinamis.
+Kode-kode server-side tidak bisa kita lihat karena sifatnya  yang rahasia untuk Client. 
+Server-side Scripting sangat berguna dalam pengembangan website. 
+Program ini dapat membantu maningkatkan pengalaman pengguna dengan cara mengirimkan konten yang sangat sesuai dengan apa yang diinginkan atau diminta oleh user. 
+Contoh Server-side Scripting adalah  ASP (Active Server Page) , PHP, JSP (Java Server Pages).
+
+
+2. Menginstal Web Server
+kita dapat menginstalnya dengan software :
+1. WAMP = Windos Apache MySQL PHP  khusus untuk Windows
+WAMP adalah singkatan dari:
+- **W**indows: Sistem operasi yang digunakan.
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (atau MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP (atau **P**erl/**P**ython): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+WAMP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal di komputer Windows. Seperti MAMP untuk Mac, 
+WAMP memungkinkan pengembang untuk mengembangkan, 
+menguji, dan menjalankan aplikasi web secara lokal sebelum 
+mengunggahnya ke server produksi.
+
+2. MAMP = MacOS Apache  MySQL PHP  khusus untuk komputer Mac
+MAMP adalah singkatan dari:
+MacOS (atau Mac): Sistem operasi yang digunakan.
+Apache: Server web yang digunakan untuk menyajikan situs web.
+MySQL: Sistem manajemen basis data yang digunakan untuk menyimpan data.
+PHP (atau Perl/Python): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+MAMP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal untuk komputer Mac. Ini memungkinkan 
+pengembang web untuk mengatur dan menguji situs web mereka 
+secara lokal sebelum mempublikasikannya ke server produksi.
+
+3. LAMP = Linux  Apache  MySQL PHP khusus untuk komputer Linux
+LAMP adalah singkatan dari:
+- **L**inux: Sistem operasi yang digunakan.
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (atau MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP (atau **P**erl/**P**ython): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+LAMP adalah tumpukan perangkat lunak (software stack) yang 
+digunakan untuk mengembangkan dan menyajikan aplikasi web. 
+Ini adalah salah satu tumpukan teknologi yang paling umum digunakan 
+untuk hosting dan mengembangkan situs web dinamis di server berbasis Linux.
+
+4. XAMPP = X:Cross- Platfrom Apache MySQL PHP  Prel 
+XAMPP adalah singkatan dari:
+- **X**: Cross-platform (berarti dapat berjalan di berbagai sistem operasi seperti Windows, Linux, dan macOS).
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (sekarang sering menggunakan MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP: Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+- **P**erl: Bahasa pemrograman yang juga didukung oleh paket ini.
+XAMPP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal yang lengkap dan mudah diatur. Ini digunakan oleh 
+pengembang web untuk membuat, menguji, dan menjalankan 
+aplikasi web secara lokal di komputer sebelum memindahkannya ke server produksi.
+
+
+
