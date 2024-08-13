@@ -68,3 +68,14 @@ kelebihan procedural programming
   - intrance yang didefinikan oleh class
   - banyak object dapat dibuat menggunakan satu class
   - object dibuat dengan menggukan keyword new 
+
+- property & method
+ = property
+  - mempersentasikan data / keadan dari sebuah object
+  - variable yang ada di dalam object (member variabel)
+  - sama seperti variable di dalam php , ditambah dengan visibility di depannya
+
+ = method
+  - mempresentasikan perilaku dari sebuah object
+  - function yang ada di dalam object
+  - sama seperti function di dalam php, di tambah dengan visibility di depannya

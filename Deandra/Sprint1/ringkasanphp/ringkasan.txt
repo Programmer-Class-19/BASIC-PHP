@@ -1,0 +1,165 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Type data PHP
+
+
+Mengapa Tipe Data Penting?
+1. Validasi Data: Memastikan bahwa data yang diolah sesuai dengan harapan. Misalnya, jika variabel seharusnya menyimpan angka, tapi Anda memasukkan teks, program bisa menghasilkan kesalahan.
+
+2. Efisiensi Memori: Berbeda tipe data memiliki kebutuhan memori yang berbeda. Misalnya, menyimpan angka dalam tipe data integer lebih efisien daripada dalam tipe data string.
+
+3. Operasi yang Tepat: Tipe data memastikan bahwa operasi yang dilakukan pada data adalah operasi yang benar dan sesuai, seperti penjumlahan untuk angka atau penggabungan untuk teks.
+
+1. INTEGER
+Tipe data untuk angka bulat, baik positif maupun negatif.
+
+<?php
+$integer = 42; // Bilangan bulat positif
+$negativeInteger = -15; // Bilangan bulat negatif
+?>
+
+2. Float (Double)
+Tipe data untuk angka desimal.
+
+<?php
+$float = 3.14; // Angka desimal
+$negativeFloat = -2.718; // Angka desimal negatif
+?>
+
+3. String
+Tipe data untuk menyimpan teks. String dapat menggunakan tanda kutip ganda atau tunggal.
+
+<?php
+$string1 = "Hello, World!"; // Teks dengan tanda kutip ganda
+$string2 = 'Hello, PHP!'; // Teks dengan tanda kutip tunggal
+?>
+
+4. Boolean
+Tipe data untuk nilai benar (true) atau salah (false).
+
+<?php
+$isTrue = true; // Nilai benar
+$isFalse = false; // Nilai salah
+?>
+
+5. Array
+Tipe data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Array bisa berupa indexed (berbasis angka) atau associative (berbasis kunci-nilai).
+
+<?php
+// Indexed Array
+$colors = array("red", "green", "blue");
+
+// Associative Array
+$person = array("first_name" => "John", "last_name" => "Doe");
+?>
+
+6. Object
+Tipe data yang digunakan untuk menyimpan instansi dari kelas. PHP mendukung pemrograman berorientasi objek.
+
+<?php
+class Person {
+    public $name;
+    public $age;
+
+    function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+
+    function greet() {
+        return "Hello, my name is " . $this->name;
+    }
+}
+
+$person = new Person("Alice", 30);
+echo $person->greet(); // Output: Hello, my name is Alice
+?>
+
+7. NULL
+Tipe data yang digunakan untuk menyimpan nilai yang tidak ada. NULL adalah sebuah nilai spesial yang menggambarkan variabel tanpa nilai.
+
+<?php
+$var = NULL; // Nilai NULL
+?>
+
+8. Resource
+Tipe data khusus yang digunakan untuk menyimpan referensi ke sumber daya eksternal, seperti file atau koneksi database.
+
+<?php
+$file = fopen("example.txt", "r"); // Membuka file dan menyimpan resource
+if ($file) {
+    // Operasi pada file
+    fclose($file); // Menutup file
+}
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<?php
+$integer = 10; // Tipe data integer
+$float = 3.14; // Tipe data float
+$string = "Hello"; // Tipe data string
+$boolean = true; // Tipe data boolean
+$array = array(1, 2, 3); // Tipe data array
+$object = new stdClass; // Tipe data object
+$nullValue = NULL;  // Tipe data NULL
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Operator Logika
+Operator logika adalah operator yang digunakan untuk melakukan operasi pada nilai-nilai logika (boolean).
+
+1. AND ( && atau and )
+🔘 Menghasilkan true jika kedua operan bernilai true.
+🔘 Jika salah satu atau kedua operan bernilai false, hasilnya false.
+
+2. OR ( || atau or )
+🔘 Menghasilkan true jika salah satu dari operan bernilai true.
+🔘 Hanya akan menghasilkan false,  jika  kedua operan bernilai false.
+
+3. NOT (!)
+🔘 Operator ini digunakan untuk membalik nilai logika.
+🔘 Jika operan bernilai true,  hasilnya akan false , dan sebaliknya. 
+
+4. XOR ( xor )
+🔘 Menghasilkan true jika hanya salah satu dari operan bernilai true.
+🔘 Akan menghasilkan false jika kedua operan bernilai true atau kedua operan bernilai false.
+
+Prioritas Operator Logika
+Di PHP, operator logika memiliki prioritas atau urutan eksekusi yang berbeda:
+
+1. NOT ( ! ) memiliki prioritas tertinggi.
+
+2. AND ( && atau and ) lebih diutamakan daripada OR ( || atau or ).
+
+3. XOR ( xor ) memiliki prioritas yang lebih rendah dibandingkan dengan and dan ! .
+
+Namun, untuk memastikan kejelasan dalam kode, sering kali operator logika dikelompokkan menggunakan tanda kurung ()
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Contoh Penggunaan Operator Assignment
+
+// Penugasan dasar
+$x = 10; // $x = 10
+
+// Penambahan dan Penugasan
+$x += 5; // $x = 15 (10 + 5)
+
+// Pengurangan dan Penugasan
+$x -= 3; // $x = 12 (15 - 3)
+
+// Perkalian dan Penugasan
+$x *= 2; // $x = 24 (12 * 2)
+
+// Pembagian dan Penugasan
+$x /= 4; // $x = 6 (24 / 4)
+
+// Modulus dan Penugasan
+$x %= 5; // $x = 1 (6 % 5)
+
+// Konkatenasi dan Penugasan
+$str = "Hello";
+$str .= " World!"; // $str = "Hello World!"

@@ -16,6 +16,7 @@ $nama = "deandra putra"
 </html>
 
 <?php
+// aritmatika
 $x = 10;
  $y = 20;
  echo $x * $y;
@@ -33,6 +34,7 @@ echo $nama_depan ." ". $nama_belakang;
 <br>
 
 <?php
+// assignment
 $x = 5;
 $x += 5;
 echo $x;
@@ -48,14 +50,17 @@ echo $x;
 <br>
 
 <?php
+// perbandingan
 var_dump(1 < "5")
 ?>
 <br>
 <?php
-var_dump(1 === "1")
+// identitas
+var_dump(1 === "1");
 ?>
 <br>
 <?php
+// logika
 $x = 30;
 var_dump($x < 50 && $x % 2 == 0);
 ?>

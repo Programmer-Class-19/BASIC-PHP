@@ -39,7 +39,7 @@ String dalam PHP dapat ditulis dengan tanda kutip ganda (") atau tunggal (').
 // print_r
 // var_dump
 
-echo "deandra putra wiguna"
+echo "deandra putra wiguna";
 
 // penulisan sintaks php
 // 1.php di dalam html
@@ -47,8 +47,10 @@ echo "deandra putra wiguna"
 
 // variabel dan tipe data
 // variabel
+// Variabel dalam PHP adalah penyimpanan sementara 
+   untuk nilai data yang digunakan dalam skrip
 // tidak boleh diawali dengan angka,tapi boleh mengandung angka
-// $nama = "deandra putra wiguna"
+// a$nma = "deandra putra wiguna"
 // echo "halo, nama saya $nama"
 
 // macam-macam operator
@@ -60,11 +62,16 @@ echo "deandra putra wiguna"
 
 // penggabung string / concatenation / concat
 // 
+// String dalam pemrograman adalah tipe data yang digunakan untuk merepresentasikan teks. 
+   Secara sederhana, string adalah urutan karakter, yang bisa berupa huruf, angka, simbol, atau spasi.
 // $nama_depan = "sandika";
 // $nama_belakang = "galih";
 // echo $nama_depan ." ". $nama_belakang;
 
 // assignment
+// Dalam pemrograman, assignment adalah proses pemberian atau pengisian nilai 
+   ke dalam suatu variabel. Assignment dilakukan dengan menggunakan operator assignment, 
+   yang paling umum adalah tanda sama dengan (=).
 // =, +=, -=, *=, /=, %=, .=
 // $x = 1;
 // $x += 5;
@@ -79,6 +86,8 @@ echo "deandra putra wiguna"
 // var_dump(1 < "5")
 
 // identitas
+// === Membandingkan dua nilai apakah sama, termasuk tipe datanya.
+// !== Membandingkan dua nilai apakah tidak sama, atau tipe datanya berbeda.
 // ===, !==
 // var_dump(1 === "1")
 
@@ -86,3 +95,12 @@ echo "deandra putra wiguna"
 // &&, ||, !
 // $x = 30;
 // var_dump($x < 20 && $x % 2 == 0);
+
+Operator Logika && (AND)
+Pengertian: Operator && (AND) digunakan untuk menggabungkan dua atau lebih kondisi.
+ Hasil dari operator AND adalah true hanya jika semua kondisi yang dibandingkan bernilai true.
+  Jika ada satu kondisi yang bernilai false, maka hasil keseluruhan akan false.
+
+Operator Logika || (OR)
+Pengertian: Operator || (OR) digunakan untuk menggabungkan dua atau lebih kondisi. Hasil dari operator OR adalah true jika setidaknya 
+satu dari kondisi yang dibandingkan bernilai true. Hasilnya hanya false jika semua kondisi bernilai false.  

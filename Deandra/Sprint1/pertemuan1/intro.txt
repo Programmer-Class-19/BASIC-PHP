@@ -28,7 +28,7 @@ Dengan kemampuannya yang fleksibel dan mudah dipelajari, PHP tetap menjadi pilih
 
 kenapa harus belajar php?
 - relative mudah untuk pemula
-- pre-requisite (html + css)
+- pre-requisite (html + css) 
 - gratis & open source
 - dukungan komunitas
 - dokumentasi yang lengkap
