@@ -1,0 +1,11 @@
+Date / Time
+.Strlen() = untuk menghiutung panjang sebuah string
+.strcmp() = untuk membandingan sebuah 2 string
+.explode() = untuk memecah sebuah string menjadi array
+.htmlspecialchars() = fungsion khusus untuk menjaga kita dari hacker atau orang iseng yang mau masuk ke web kita
+Utility
+.var_dumb() = sebuah fungsi untuk mencetak variabel, array, objeck
+.isset() = untuk mengece sebuah Variabel udah pernah di bikin atau belum / menghasilkan hasil bulean true or false
+.empty() = untuk mengecek variabel yang ada itu ada isinya atau tidak
+.die() = untuk memberhentikan program
+.sleep() = untuk memberhentikan program sementara
