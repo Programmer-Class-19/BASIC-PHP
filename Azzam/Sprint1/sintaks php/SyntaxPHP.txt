@@ -1,11 +1,11 @@
-PHP
+PHP :
 penemu = Rasmus Lerdorf 1994
 awalnya membuat sebuah pemrograman dlm bhs C untuk mengelola hal web pribadi
 thn 1995 open source
 thn 1997 v.2
 thn 1998 zeev suraski & andi gutmans -> zend tech -> Hypertext Preprocessor
 thn 2000 v.4 -> zend engine = mesin untuk mengelola php
-thn 2004 v.5 -> zend engine 2 dh bsa oop pemrograman berorientasi object & pdo yg bisa mengeelola data object
+thn 2004 v.5 -> zend engine 2 dh bsa oop pemrograman berorientasi object & pdo yg bisa mengelola data object
 thn 2008 v.4 berhenti
 thn 2010 v.5,4
 thn 2014 v.7 -> zend engine 3
@@ -74,19 +74,19 @@ penulisan sintaks PHP :
 operator
 1. aritmatika
  // + - * / %
- // $x * $y;
+ // $x * $y; 
 
 2. penggabung string
 $nama_depan = "azzam"
 $nama_belakang = "haqqi"
 echo $nama_depan . " " . $nama_belakang;
 
-3. assignment
+3. assignment (penugasan)
 =, +=, -=, *=, /=, %=, .=,
 
 4. perbandingan = [mengecek sebuah nilai tp tdk mengecek type datanya]
 <, >, <=, >=, ==, !=
-var_dump(1 =="1");
+var_dump(1 == 1);
 
 5. identitas = [mengecek sebuah nilai dgn mengecek type datanya]
 ===, !==
@@ -94,7 +94,7 @@ var_dump(1 ==="1");
 
 6. logika
 &&, ||, !
-&& -> dan dua2nya hrs bener
+&& -> dan dua2nya hrs benar
 || -> or satu aja yg benar
 
 $x = 20;
@@ -104,6 +104,18 @@ var_dump($x > 30 || $x % 2 == 0);
 
 Variabel = 
 suatu konsep dasar dlm pemrograman & yang merujuk pada tempat untuk menyimpan nilai
+
+Tipe Data = 
+jenis nilai yang akan di simpan
+  ada 2 = 
+    tipe data dasar (primitive) :
+      int (integer) : bilangan bulat positif atau negatif -> 10, 200, -1
+      float : bilangan pecahan -> 1.6, 7.8,
+      char : character -> a, b, c, (satu huruf saja)
+      string : kumpulan dari karakter -> "belajar php"
+      boolean : true atau false
+    tipe data bentukan (majemuk) :
+      array : sebuah tipe data yg menyimpan banyak isi atau nilai variabel
 
 Assignment = 
 penugasan yg digunakan untuk mengaitkan nilai dengan variabel.

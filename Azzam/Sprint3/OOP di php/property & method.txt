@@ -6,3 +6,8 @@ method =
     merepresentasikan perilaku dr sebuah object
     function yg ada di dlm object
     sm seperti functiondi dlm PHP, ditambah dgn visibility di dpnnya
+
+
+constructor =
+    sebuah method spesial di dalam class karena otomatis di jalankan ketika sebuah class kita intansiasi / buat objectnya
+    

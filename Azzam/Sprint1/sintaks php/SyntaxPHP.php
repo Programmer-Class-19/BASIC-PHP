@@ -25,8 +25,8 @@ $nama2 = "Haqqi";
     <title>belajar php</title>
 </head>
 <body>
-    <h1>Hello, welcome to our destination <?php echo $nama1 ?></h1>
-    <p>Hello, welcome back <?php echo $nama2 ?></p>
+    <h1>Hello, welcome to our destination <?= $nama1 ?></h1>
+    <p>Hello, welcome back <?= $nama2 ?></p>
     
 </body>
 </html>
@@ -75,7 +75,7 @@ echo $nama;
 <br>
 <?php
 // perbandingan
-var_dump(5 =="5");
+var_dump(5 == 5);
 echo "<br>";
 var_dump(2 =="2");
 ?><br>

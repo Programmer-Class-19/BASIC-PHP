@@ -1,22 +1,25 @@
 OOP = Object Orientasi Php / Berorintasi Object
 Object Oriented Programming =
     Gaya pemograman atau paradigma pemograman
+
 Procedural Programming = 
-    instruksi dilakukan lankah demi langkah
+    instruksi dilakukan langkah demi langkah
     memecah menjadi bagian kecil
     disebut juga prosedur, subroutine, function
     liner / top-to-bottom
     fortran, ALGOL, COBOL Pascal, C, PHP, Javascript
-kelebihannya = 
+kelebihannya =
     to-the-point
     simplicity dan kemudahan implementasi
     mudah di telusuri
     membutuhkan lebih dikit memory drpd OOP
-OOP =
+
+OOP = 
+karakteristik =
     menyusun semua kode program dan struktur data sebagai objek
     Objek adalah unit dasar dari program
     Objek menyimpan data dan pelaku
-    Objekbisa saling berinteraksi
+    Objek bisa saling berinteraksi
     Java, Ruby, Python, C++, Javascript, PHP5.
 Kelebihannya = 
     representasi dunia nyata
@@ -30,6 +33,7 @@ Kelebihannya =
     kemudahan pengelolaan
     kolaborasi
     digunakan oleh framework
+
 Konsep OOP pd PHP = 
     Basic =
         class & Object
@@ -40,7 +44,7 @@ Konsep OOP pd PHP =
         visibility / acces modifier
         setter & getter
         static method
-    Advance = 
+    Advanced = 
         abstract & interface
         interceptor
         object cloning
