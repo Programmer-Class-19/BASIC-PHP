@@ -1,0 +1,70 @@
+function 
+
+=>mengenai function ini yang bahas adlah bagaimana jika function di gunakan dalam PHP
+
+function singkat nya adalah potongan program / garis garis code yang kita buat agar mempermudah kita untuk meprogram
+
+di dalam php ada 2 jenis function :
+-built-in function 
+-user-defined function
+
+-built-in function
+
+funsi yang pertama berhubungan date / time
+
+date untuk menampilkan tanggal dengan format tertentu
+contoh:   echo date("l, d-m-y");
+
+time
+unix timestamp /epoch time 
+detik yang sudah berlalu dari 1 januari 1970
+  echo time();
+echo date ( "d M Y", time ()-60*60*24*100);
+
+mktime
+membuat sendiri detik
+mktime(0.0.0.0.0.0.)
+jam, menit, detik, bulan, tanggal, tahun
+echo date("l",mktime(0,0,0,5,27,2003));
+
+strtotime
+echo date("l",strtotime("27 mei 2003"));
+
+string 
+-strlen() : untuk menghitung panjang dari sring  
+
+strcmp : untuk menggabungkan 2 buah string
+explode : untuk mempecah sebuah string agar menjadi array
+htmlspecialchars : untuk  enjaga kita dari orang yang iseng masuk ke website kita
+
+UTILITY
+-var_dump()
+-ISSET : untuk mengecaek sebuah variabel 
+empty : untuk mengecek variabel yang masih kosong
+die : untuk menghentikan program kit
+sleep : untuk berhentikan sementara 
+
+User-defined function
+
+USER-DEFINED FUNCTION fungsi yang akan dibuat sendiri oleh kita.
+<?php 
+-harus mendefinisikan functionnya dan dipanggil
+-harus ada returnnya agar tidak mengulang
+-ketika ada parameter yang tidak di panggil akan di tapilkan variable default dengan cara $nama = "datang"
+
+    function salam ( $waktu, $nama ) {
+        return "selamat $waktu, $nama!";
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan function</title>
+</head>
+<body>
+    <h1><?php echo salam ("pagi", "syauqie!!"); ?></h1>
+</body>
+</html>

@@ -1,6 +1,28 @@
-<?php
-// Control flow / Struktur kendali
-// -pengulangan : for,while, do..while,foreach
-// 
-// -pengkondisian : if..elsw,if.. else, if.. else,ternary,switch
-?>
+=>control flow / struktur kendali
+
+- dengan control flow kita bisa bisa mengatur alur pembacaan pogramnya 
+
+yang akan di pelajari dari control flow  adh :
+
+-Pengulangan
+-pengkondisian 
+
+dan 2 kondisi ini ada di setiap pemograman 
+
+=>Pengulangan
+-pengulangan ini adalah ketika kita ingin mengerjakan sebuah blok program 
+ tanpa kita menulis ulang
+    ~for : inisialisasi,kondisiterminasi,inkrement / decrement
+    ~while
+    ~do..while
+    ~foreach : pengulangan khusus array
+
+=>pengkondisian
+-Pengkondisian dalam PHP digunakan untuk membuat 
+ keputusan dalam kode berdasarkan kondisi tertentu.
+    ~if..else
+    ~if.. else if ..else
+    ~ternary
+    ~switch
+
+    
