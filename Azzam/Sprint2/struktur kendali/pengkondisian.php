@@ -29,6 +29,17 @@
         echo "salah";
     }
     ?>
+<br>
+    <?php
+    $x = 30;
+    if( $x > 20 ) {
+            echo "correct";
+    }   else if($x == 35) {
+            echo "yes";
+    }   else {
+            echo "wrong";
+    }
+    ?>
 
 </body>
 </html>
