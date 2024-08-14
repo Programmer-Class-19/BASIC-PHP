@@ -66,9 +66,12 @@
     var_dump(1 === "1");
     
     //operator logika
-    //&&, ||, ! - Biasa dipakai untuk pengkondisian
+    //&&-+-, ||, ! - Biasa dipakai untuk pengkondisian
     
-    
-    
-    
-    ?>
+?>
+
+                                                <!--PRAKTERK DARI MATERI MAS EL  -->
+
+<?php
+
+?>
