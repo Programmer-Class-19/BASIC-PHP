@@ -1,5 +1,22 @@
 control flow / struktur kendali
 
+normal flow
+apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi ari atas ke Bawah atau dari kiri ke kanan
+
+-pengulangan loop / iteration
+ - sintaks pada pengulangan
+  - for
+  - while
+  - do while
+
+-pengkondisian / percabangan
+ - sintaks pada pengkondisian
+  - if
+  - if.. else
+  - if.. else if.. else
+  - switch
+
+
 konsep-konsep
 *pengulangan (Ketika ingin mgerjakan blok program tanpa harus mengetik scriptnya)
 sintaks
