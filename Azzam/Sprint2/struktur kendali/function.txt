@@ -1,5 +1,5 @@
 function = potongan program yg kita buat untuk mempermudah kita
-built-in Function
+  built-in Function =
     link nya = https://www.php.net/manual/en/funcref
     date / time =
         time :
@@ -16,13 +16,13 @@ built-in Function
     String = 
             strlen  -> untuk menghitung panjang
             strcmp  -> untuk membandingkan 2 buah string
-            explode -> untuk memecah sebuah stringf jadi array
+            explode -> untuk memecah sebuah string jadi array
             htmlspecialchars -> untuk menjaga kita dari org iseng
     utility = 
             var_dump  -> mencetak isi dari sebuah variabel 
-            isset     -> mengecek sebuah variabel pernah di bikin atau blm
+            isset     -> mengecek sebuah variabel pernah di buat atau blm
             empty     -> mengecek variabel kosong atau tidak        
             die       -> memberhentikan program
             sleep     -> memberhentikan sementara
 
-user-defined Function
+  user-defined Function

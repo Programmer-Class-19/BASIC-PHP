@@ -6,11 +6,11 @@
     <title>latihan asociative array</title>
     <style>
         .kotak {
-            height: 30px;
-            width: 30px;
+            height: 40px;
+            width: 40px;
             background-color: green;
             float: left;
-            line-height: 30px;
+            line-height: 40px;
             text-align: center;
             margin: 3px;
             transition: 1s;
@@ -25,18 +25,19 @@
     </style>
 </head>
 <body>
+
     <?php
-    $angka = [1,2,3,4,5,6,7,8,9];
+    $angka = [1,2,3,4,5,6,7,8,9,10];
     ?>
 
     <?php foreach( $angka as $a ) : ?>
     <div class="kotak"><?= $a; ?></div>
     <?php endforeach; ?>
 
-    <br><br><hr>
+    <br><br><br><br>
 
     <?php
-    $angka = [
+    $angka = [       
         [1,2,3],
         [4,5,6],
         [7,8,9]
@@ -48,7 +49,23 @@
         <?php endforeach; ?>
     <div class=clear></div>
     <?php endforeach; ?>
-    
+    <br><br>
+    <?php
+    $angka = [
+        ["AC","%","^",":"],
+        [7,8,9,"*"],
+        [4,5,6,"-"],
+        [1,2,3,"+"],
+        [00,0,".","="]
+    ];
+    ?>
+    <?php foreach( $angka as $a ) : ?>
+        <?php foreach( $a as $b ) : ?>
+    <div class="kotak"><?= $b ?></div>
+        <?php endforeach; ?>
+    <div class=clear></div>
+    <?php endforeach; ?>
+
 
 </body>
 </html>

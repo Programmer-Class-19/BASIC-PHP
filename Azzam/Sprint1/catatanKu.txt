@@ -1,0 +1,55 @@
+PHP
+syntaxnya : 
+<? php
+?>
+
+komentar
+// ini komentar untuk satu baris
+/*ini juga komentar untuk banyak baris
+  tidak untuk satu baris
+*/
+
+syntax php :
+standar output  -> menampilkan sesuatu ke layar 
+echo, print     -> mencetak tulisan atau isi variabel
+print_r         -> mencetak isi ray
+var_dump        -> melihat isi atau info dr variabel
+
+contoh : 
+echo "my name";
+
+penulisan sintaks PHP :
+1. php di dalam html
+2. html di dalam php
+3. tdk boleh di awali dengan angka tp boleh mengandung angka = nama1,nama2,
+
+operator
+1. aritmatika
+ // + - */ %
+ // $x * $y;
+
+penggabung string
+$nama_depan = "azzam"
+$nama_belakang = "haqqi"
+echo $nama_depan . " " . $nama_belakang;
+
+assignment
+=, +=, -=, *=, /=, %=, .=, !=
+
+perbandingan
+<, >, <=, >=, ==,
+var_dump(1 =="1");
+
+identitas
+===, !==
+var_dump(1 ==="1");
+
+logika
+&&, ||, !
+&& -> dan dua2nya hrs bener
+|| -> or satu aja yg benar
+
+$x = 20;
+var_dump($x > 10);
+var_dump($x > 10 && $x % 2 == 0);
+
