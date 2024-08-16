@@ -1,5 +1,8 @@
 <?php 
 
+
+// array akakn kita banyak gunakan ketika nanti masuk ke 
+// database
 //  ARRAY definisi
 // variable yang bisa menampung lebih dari satu nilai
 // variable yang dapat memiliki banyak nilai
@@ -8,18 +11,19 @@
 // key nya adalah index, yang dimulai dari 0
 
 
-// cCARA MEMBUAT ARRAY ADA 2, CARA LAMA DAN CARA BARU:
+// CARA MEMBUAT ARRAY ADA 2, CARA LAMA DAN CARA BARU:
 //     cara lama:
 $hari = array("senin", "selasa", "rabu", "...");
-//     cara baru:
+//     cara baru:         /// nilai didalam array kita sebut element
 $bulan = ['januari', 'ferbruari', 'maret', '...'];
 //  contoh tipe data yang berbeda:
 $arr = [123, "jieqibill", true];
 
 
+// tiap" didalam array pasti mempunyai index
 // CARA MENAMPILKAN ARRAY ADA 2:
-// var_dump();
-// print_r();
+// var_dump(); mengecek isi dari sebuah variable
+// print_r(); menampilkan array lebih ringkas tanpa tipe datanya
 // var_dump($hari);
 // echo"<br>";
 // print_r($bulan);
@@ -31,7 +35,7 @@ $arr = [123, "jieqibill", true];
 // echo $bulan[2];
 
 
-//  MENAMBAHKAN 1 ELEMENT PADA ARRAY
+//  MENAMBAHKAN ELEMENT BARU PADA ARRAY
 var_dump($hari);
 $hari[] = "kamis";
 $hari[] = "jum'at";

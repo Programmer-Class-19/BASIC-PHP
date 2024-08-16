@@ -83,11 +83,13 @@ echo date ("l", strtotime("06 october 2004"));
 // - sleep() = untuk memberhentikan sementara (berhenti 2 detik terus lanjut dijalankan)
 
 
-// USER-DEFINED FUNCTION
+/* USER-DEFINED FUNCTION 
+1. fungsinya harus kalian definisikan dahulu baru bisa dipanggil
 
+*/
 
-
-
+// function biasanya mengembalikan nilai jadi saran sandhika harus ada return
+// di php ketika kita buat 2 argument kita harus buat 2 argument juga gabole 1
 function salam($waktu = "sore", $nama = "qibiell") {
     return "selamat $waktu, $nama!";
 }
