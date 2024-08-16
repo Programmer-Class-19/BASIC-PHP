@@ -1,4 +1,7 @@
 // function
+// "potongan program/baris" kode yang kita buat untuk mempermudah 
+// kita saat program (kode program tadi bisa kita kasih nama 
+// bisa kita panggil berulang ulang)
 // "function adalah kunci utama dalam javascript,
 // yang membuat javascript sangat powerfull"
 // -douglas crockford
