@@ -166,7 +166,7 @@
 
      ?>   
 
-    <h1><?php var_dump($_SESSION['barang']);?></h1>
+    <h1>Toko SRC Bantul</h1>
 
     <div class="container">
         <!-- Form untuk Menambahkan Barang -->

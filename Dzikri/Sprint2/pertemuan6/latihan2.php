@@ -12,7 +12,7 @@ $mahasiswa = [
     "nrp" => "05600454023", 
     "jurusan" => "teknik industri", 
     "email" => "hamazu83@gmail.com",
-    "gambar" => "hinata.jpg"
+    "gambar" => "hamazu.jpg"
     ]
 ];
 
@@ -37,7 +37,7 @@ $mahasiswa = [
         <li>
             <img src="img/<?= $mhs["gambar"]; ?>" class="img">
         </li>
-        <li>Nama : <?= $mhs["nama"] ;?></li>
+        <li>Nama : <?= $mhs[1][0] ;?></li>
         <li>NRP : <?= $mhs["nrp"] ;?></li>
         <li>Jurusan : <?= $mhs["jurusan"] ;?></li>
         <li>Gmail : <?= $mhs["email"] ;?></li>

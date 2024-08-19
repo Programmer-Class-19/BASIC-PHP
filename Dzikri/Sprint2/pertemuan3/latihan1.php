@@ -1,26 +1,26 @@
-<!--
+<?php
 // pengulangan
 // for
 // while
 // do.. while
 // foreach :pengulangan khusus array
 
-// for( $i = 0; $i < 5; $i++) {
-//     echo "hello world <br>";
-// }
-dalam for ada inisialisasi , kondisi terminasi , increment atau decrement
-// $i = 0;
-// while( $i <5 ){
-//     echo "Hello World <br>";
-// $i++;
-// }
+for( $i = 0; $i < 5; $i++) {
+    echo "hello world <br> <hr>";
+}
+// dalam for ada inisialisasi , kondisi terminasi , increment atau decrement
+$i = 0;
+while( $i <5 ){
+    echo "world hello <br> <hr>";
+$i++;
+}
 
-// $i = 0;
-// do {
-//     echo "hello world <br>";
-// $i++;
-// } while( $i < 10 );
--->
+$i = 0;
+do {
+    echo "hello world <hr>";
+$i++;
+} while( $i < 10 );
+?>
 <?php
     // for( $i = 0; $i < 7; $i++ ) {
     //     echo "Hello, Dzikri <br>";
