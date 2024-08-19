@@ -34,6 +34,9 @@ $hari[] = "jum'at";
 echo "<br>";
 var_dump($hari);
 
+$film[] = "upin & ipin";
+$film[] = "kak ros"
+
 
 
 ?>

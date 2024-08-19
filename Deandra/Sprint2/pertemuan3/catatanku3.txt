@@ -21,6 +21,11 @@ konsep-konsep
 *pengulangan (Ketika ingin mgerjakan blok program tanpa harus mengetik scriptnya)
 sintaks
 - for
+- ada tiga bagian di dalam sintaks for
+ - inisialisai (menentukan variabel awal untuk pengulangannya)
+ - kondisi terminasi(digunakan untuk memberhentikan pengulangan)
+ - inkremen atau drekemen(agar pengulangannya bisa maju atau mundur)
+ 
   for($i = 0; $i < 5; $i++) {
 echo "hello world <br>";
 }
