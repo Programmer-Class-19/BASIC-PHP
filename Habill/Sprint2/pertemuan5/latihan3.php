@@ -27,7 +27,7 @@ $mahasiswa = [
 
 <!-- <ul>
     <li>jie qibiell</li>
-    <li>0610202417</li>
+    <li>0610202417</li>  NRP
     <li>teknik informatika</li>
     <li>qibiell@gmail.com</li>    // CARA LAMA
 </ul> -->
@@ -50,7 +50,9 @@ $mahasiswa = [
 
 
 <!-- ARRAY RUMERIK = ARRAY YANG INDEX NYA ANGKA  -->
-<!-- ARRAY ASOSIATIF = INDEX NYA BUKAN LAGI ANGKA TAPI  INDEX NYA STRING -->
+<!-- ARRAY ASOSIATIF = INDEX NYA BUKAN LAGI ANGKA TAPI
+INDEX NYA STRING, YANG INDEXNYA KITA BUAT SENDIRI UNTUK 
+MENG ASOSIASIKAN KE NILAI YANG ADA DIDALAM ARRAYNYA -->
 
 
 
