@@ -47,6 +47,24 @@ yaitu :
 -setter & getter
 -static method
 
+=>class
+- blue prin/table untuk membuat instance dari object
+- class mendefinisikan object
+-Menyimpan data dan perilaku yang disebut dengan property & method
+
+  membuat class 
+-Diawali dengan menuliskan keyword class. di ikuti nama dan di batasi dengan {}
+ untuk menyimpan property & method
+- Aturan penamaan class sama seperti variable
+
+=>Object
+- instance yang di sediakan oleh class 
+- banyak object dapat dibuat mengguanakan satu class
+-
+
+
+
+
 *advance
 -abstract & interface
 -interceptor
@@ -65,7 +83,39 @@ property & method
 -sama seperti variable di dalam php, di tambah dengan visibility di depanya.
 
 =>method
--mempresentasikan perilaku dari sebuah object
--function yang ada di dalam object
+-merepresentasikan perilaku dari sebuah object
+-function yang ada di dalam object dibacanya bukan funcyion lagi tapi method
 -sama seperti function di dalam php, di tambah dengan visibility di depanya
 
+property sebagai datanya sengkan method sebagai perilaku nya
+
+
+
+____vidio 4_____
+
+constructor
+
+-merupakan sebuah method special / kuhusus yg adadi sebuah class
+-method yang otomatis di jalankan ketika sebuah kelas kita instansi / kita buat object nya
+
+constructor adalah metode khusus yang secara otomatis dipanggil ketika sebuah objek dari kelas dibuat. 
+Metode ini digunakan untuk menginisialisasi properti objek atau melakukan tugas penting lainnya saat 
+objek pertama kali dibuat.
+
+____vidio 5____
+
+object type
+
+Dalam PHP, object type mengacu pada tipe data yang mewakili objek dari sebuah kelas. 
+PHP adalah bahasa yang berorientasi objek, sehingga objek merupakan bagian penting dari OOP 
+(Object-Oriented Programming).
+
+____vidio 6_____
+
+inheritance / pewarisan
+
+-Menciptakan hierarki antar kelas (Prent & child)
+-child class, mewarisi semua properti dan method dari parent-nya (yang visible)
+-child class, memperluas (extends) fungsionalitas dari parent-nya.
+
+kenapa kita butuh inheritance ?

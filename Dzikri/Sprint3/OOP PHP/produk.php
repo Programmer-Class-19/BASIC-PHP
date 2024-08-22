@@ -3,35 +3,31 @@
 // jualan produk
 // komik
 // game
-class produk {
-    public $judul = "judul",
+
+class produk{
+    public $judul = "judul", 
            $penulis = "penulis",
            $penerbit = "penerbit",
            $harga = "harga";
 
-    public function getlabel(){
+
+    public function getLabel(){
         return "$this->penulis, $this->penerbit";
     }
 }
 
 $produk1 = new produk();
-$produk1 ->penulis = "adzri";
-var_dump($produk1);
+$produk1 -> judul = "naruto";
+$produk1 -> penulis = "masashi kishimoto";
+$produk1 -> penerbit = "shonen jump";
+$produk1 -> harga = "Rp.150.000";
+
 $produk2 = new produk();
-$produk2 ->harga = "1.000.000.000";
-$produk2 ->judul = "boku no hero";
-$produk2 ->penulis ="ryuzaki arata";
-$produk2 ->penerbit = "kazuha team";
+$produk2 -> judul = "mobile legend bang bang";
+$produk2 -> penulis = "moonton";
+$produk2 -> penerbit = "Moonton";
+$produk2 -> harga = "Free";
 
-$produk3 = new produk();
-$produk3 ->harga = "295.000";
-$produk3 ->judul = "call of duty";
-$produk3 ->penulis ="cod";
-$produk3 ->penerbit = "cooporation";
-// var_dump($produk2);
-// echo "komik : $produk2->penulis, $produk2->penerbit";
-// echo "<br>";
-echo "komik :" . $produk2->getlabel();
+echo "Komik : " . $produk1->getLabel();
 echo "<br>";
-echo "game :". $produk3->getlabel();
-
+echo "Game : " . $produk2->getLabel();
