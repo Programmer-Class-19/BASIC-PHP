@@ -1,0 +1,100 @@
+1. intruksi dilakukan langkah demi langkah
+2. memecah program menjadi bagian-bagian kecil
+3. disebut prosedur, subrotine atau function
+4. linear / top-to-bottom
+5. fortran/ ALGOL, COBOL, pascal C, PHP, javascript
+
+
+* kelebihan prosedural programming
+1. to the point
+2. sipilicity & kemudahan implementasi (untuk compiler & interpeter)
+3. mudah di telunsuri
+4. membutuhkan lebih sedikit memeory (dibandigkan dengan OOP)
+
+
+* object oriented programming
+1. menyusun semua kode program dan struktur data sebagai objek
+2. objek adalah unit dasar dari program
+3. objek menyimpan data dan prilaku
+4. objek bisa saling berinteraksi
+5. java, ruby, python, c++, javascript, PHP5
+
+
+* kelebihan object oriented programming
+1. memudahkan reperentasi dunia nyata
+2. enkapsulasi $ abstraksi data
+3. reusability
+4. skalabilitas & ekstensibilitas
+5. kemudahan pengelolaan
+6. koloaborasi
+7. digunakan oleh framework
+
+*konsep OOP pada PHP basic
+1. class % object
+2. property & method
+3. construktor
+4. object type
+5. inherytance
+6. visibility / accsess modifier
+7. setter & getter
+8. static method
+
+* advance
+1. abstract & interface
+2. interceptor
+3. object cloning
+4. calbaks & closures
+5. namespace & autoloading
+6. ...
+
+
+* class
+1. blueprint / template untuk membuat intance dari object
+2. class mendefinisikan object
+3. menyimpan data dan prilaku yang disebut dengan property dan method
+
+
+* membuat class 
+1. diawali dengan menuliskan keywor class, diikuti nama dan dibatasi dengan {} untuk menyimpan property dan method
+2. aturan penamaan class sama seperti variable
+
+
+* object
+1. instance yang didefinisikan oleh class
+2. banyak objectdapat dibuat dengan munggunakan satu class
+3. object dibuat dengan menggunakan keyword new
+
+*property
+1.mempresentasikan data / keadaan dari sebuah object
+2. variabel yang ada di dalam object (member variabel)
+3. sama seperti variabel di dalam PHP, ditambah dengan visibility di depannya
+
+
+*method
+1. mempresentasikan perilaku dari sebuah object
+2.  function yang ada di dalam object
+3. sama seperti function di dalam PHP, di tambah dengan visibility di depannya
+
+CONTOH
+
+*property = data
+1. nama
+2. merek 
+3. warna 
+4. kecepatan maksimal
+5. jumlah penumpang
+
+*method = perilaku
+1. tambah kecepatan 
+2. kurangi kecepatan
+3. ganti transmisi
+4. belok kiri
+5. belok kanan
+
+
+*construktor method
+adalah method yang otomatis di panggil ketikaa sebuah kelas itu di bikin object
+nya atau instansnyaa
+
+
+

@@ -7,7 +7,7 @@ $angka = [4,5,15,20,17,11,10];
 <head>
     <title>latihan1-2</title>
     <style>
-         .ktak {
+         .kotak {
             width: 50px;
             height: 50px;
             background-color: salmon;
@@ -20,16 +20,21 @@ $angka = [4,5,15,20,17,11,10];
     </style>
 </head>
 <body>
- <?php for( $i = 0; $i < 7; $i++ ) { ?>   
+ <?php for( $i = 0; $i < count($angka); $i++ ) { ?>  
       <div class="kotak"><?php echo $angka[$i]; ?></div>
  <?php } ?>
 
  <div class="clear"></div>
 
 <?php foreach( $angka as $a ) { ?>
-    <di class="kotak"<?php echo $a; ?></div>
+    <div class="kotak"><?php echo $a; ?></div>
 <?php } ?>    
 
+<div class="clear"></div>
+
+<?php foreach( $angka as $a ) : ?>
+    <div class="kotak"><?php echo $a; ?></div>
+    <?php endforeach; ?>
 
 
 
