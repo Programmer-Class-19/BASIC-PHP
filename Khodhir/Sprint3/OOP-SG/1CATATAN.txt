@@ -1,0 +1,62 @@
+Dalam membuat sebuah program, ada yang namanya Paradigma Pemograman: pendekatan atau cara yang digunakan untuk mendesain dan menulis program. Paradigma ini menekankan cara tertentu dalam memecahkan masalah dan menyusun kode.
+
+Paradigma Pemograman ini ada dua macam, yaitu 
+1. Procedural Programing
+2. Object Oriented Programming.
+
+>> Procedural Programing
+        Procedural Programming adalah cara menulis program dengan mengikuti serangkaian langkah atau prosedur yang jelas. Dalam metode ini, kamu membuat fungsi-fungsi yang melakukan tugas-tugas tertentu dan memanggil fungsi tersebut sesuai kebutuhan.
+
+        Contoh Sederhana: Seperti mengikuti resep masakan: kamu melakukan langkah demi langkah hingga mendapatkan hasil akhir. Misalnya, fungsi untuk menjumlahkan dua angka.
+
+>> OOP Object Oriented Programming
+        Object-Oriented Programming (OOP) adalah pendekatan pemrograman di mana kamu bekerja dengan "objek", yang merupakan kombinasi data (informasi) dan metode (fungsi atau perilaku). Dalam OOP, kamu mengorganisir program dengan membuat kelas yang dapat digunakan untuk membuat berbagai objek.
+
+        Contoh Sederhana: Seperti memiliki model mobil: setiap mobil memiliki fitur (warna, merk) dan kemampuan (jalan, berhenti). Dengan OOP, kamu bisa membuat berbagai mobil (objek) dari satu desain dasar (kelas).
+>> Ringaksan :
+        Pemrograman Prosedural: Mengutamakan langkah-langkah dan prosedur. Cocok untuk program yang sederhana.
+        
+        Pemrograman Berorientasi Objek (OOP): Mengutamakan objek dengan sifat dan perilaku. Cocok untuk program yang lebih besar dan kompleks.
+
+### Istilah dalam OOP
+
+1. **Objek**
+   - **Pengertian**: Objek adalah instansi dari sebuah kelas. Bisa diibaratkan sebagai sebuah benda di dunia nyata yang memiliki sifat dan perilaku.
+   - **Contoh**: Jika kita punya kelas `Mobil`, maka objek bisa berupa "Mobil Merah" yang memiliki warna merah dan merek Toyota.
+
+2. **Kelas**
+   - **Pengertian**: Kelas adalah blueprint atau cetak biru untuk membuat objek. Kelas mendefinisikan sifat (data) dan fungsi (metode) yang dimiliki oleh objek.
+   - **Contoh**: Kelas `Mobil` mendefinisikan apa itu mobil, seperti warna dan merek, serta bagaimana mobil berfungsi.
+
+3. **Sifat (Attribute)**
+   - **Pengertian**: Sifat adalah data yang dimiliki oleh objek. Ini menggambarkan karakteristik objek tersebut.
+   - **Contoh**: Sifat pada kelas `Mobil` bisa berupa `warna`, `merk`, dan `model`.
+
+4. **Metode (Function)**
+   - **Pengertian**: Metode adalah fungsi yang didefinisikan di dalam kelas. Metode mendeskripsikan perilaku objek; apa yang bisa dilakukan oleh objek tersebut.
+   - **Contoh**: Metode `berjalan()` yang ada di kelas `Mobil` menggambarkan bagaimana mobil bergerak.
+
+5. **Public**
+   - **Pengertian**: Kelas, sifat, dan metode bisa memiliki tingkat akses yang berbeda, dan salah satunya adalah `public`. Jika sesuatu dideklarasikan sebagai `public`, artinya bisa diakses dari luar kelas.
+   - **Contoh**: Sifat `warna` dan metode `berjalan()` di kelas `Mobil` dideklarasikan sebagai `public`, sehingga bisa diakses dari objek `Mobil`.
+
+6. **Inheritance (Pewarisan)**
+   - **Pengertian**: Pewarisan adalah cara di mana satu kelas bisa mewarisi sifat dan metode dari kelas lain. Ini membantu menghindari pengulangan kode.
+   - **Contoh**: Kelas `MobilBalap` bisa mewarisi sifat dan metode dari kelas `Mobil`, tetapi juga bisa memiliki sifat atau metode tambahan yang khusus untuk mobil balap.
+
+7. **Encapsulation (Pengkapsulan)**
+   - **Pengertian**: Pengkapsulan adalah konsep menyembunyikan detail internal dari objek dan hanya memperlihatkan antarmuka yang diperlukan. Ini membantu melindungi data dari modifikasi yang tidak sah.
+   - **Contoh**: Jika warna sebuah mobil hanya bisa disetel melalui metode tertentu, maka orang tidak bisa sembarangan mengubah warna.
+
+8. **Polymorphism (Polimorfisme)**
+   - **Pengertian**: Polimorfisme memungkinkan metode yang sama memiliki perilaku yang berbeda berdasarkan objek yang memanggilnya. Hal ini meningkatkan fleksibilitas dan kemampuan kode untuk dikembangkan.
+   - **Contoh**: Jika kita memiliki metode `berjalan()` di kelas `Mobil` dan juga di kelas `Sepeda`, kedua metode bisa memiliki cara masing-masing untuk menunjukkan proses berjalan, tetapi dapat dipanggil dengan cara yang sama.
+
+### Istilah Lain dalam OOP
+
+- **Abstraksi**: Proses menyederhanakan kompleksitas dengan menyembunyikan detail yang tidak perlu, hanya menunjukkan fitur penting. Itu dilakukan dengan menggunakan kelas abstrak atau antarmuka (interface).
+- **Interface**: Kumpulan metode yang harus diimplementasikan oleh kelas yang menggunakannya. Ini memungkinkan berbagai kelas untuk memiliki metode yang sama meskipun mengimplementasikannya dengan cara yang berbeda.
+
+### Ringkasan
+OOP adalah cara pemrograman yang berfokus pada pengelompokan data dan fungsi yang berkaitan dalam bentuk objek. Dengan memahami istilah-istilah ini, kamu bisa lebih memahami cara berpikir dalam OOP dan bagaimana menstrukturkan program dengan lebih baik.
+

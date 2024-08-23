@@ -1,0 +1,5 @@
+1. Camel casing
+    adalah teknik penamaan di mana beberapa kata digabungkan tanpa spasi, dan setiap kata dimulai dengan huruf kapital, kecuali kata pertama yang dimulai dengan huruf kecil. 
+    Contoh : $jumlahItem, $namaPengguna, $totalHarga dll. / hitungLuasPersegi(), ambilDataPengguna() dst.
+2. 
+

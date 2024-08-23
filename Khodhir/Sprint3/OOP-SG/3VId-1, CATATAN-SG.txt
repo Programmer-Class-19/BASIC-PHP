@@ -1,0 +1,48 @@
+Ada 2 paradigma pemograman, yaitu procedural Programing dan OOP (Object Oriented Programming)
+>> Karakteristik Procedural Programing
+    - Instruksi dilakukan langkah demi langkah.
+    - Memecah program menjadian bagian bagian kecil.
+    - Linear / Top-to-Bottom => program dibaca dari atas ke bawah
+    - Bahasa Pemograman yang menggunakan Procedural Programming ada Fortan, PHP, Javascript, C dll.
+>> Kelebihan Prcedural Programing
+    - To the point 
+    - Kemudahan untuk dibaca compiler & interpreter
+    - Karena Linear, jadinya mudah untuk dicari errornya.
+    - Membutuhkan sedikit memory dibanding OOP.
+
+
+>> Karakteristik OOP
+    - Menyusun semua kode program dan struktur data sebagai object.
+    - Object adalah unit dasar dari program.
+    - Object menyimpan data dan perilakudari program kita / disebut property dan method
+    - Object bisa saling berinteraksi
+    - Java, Python, PHP5.
+>> Kelebihan OOP
+    - Kita akan mudah representasi dunia nyata.
+    - Enkapsulasi dan Abstraksi data. 
+    - konsep Reusability
+    - Skalabilitas dan Ekstensibilitas.
+    - Kemudahan pengelolaan data Kolaborasi
+    - Digunakan Framework.
+
+>> Konsep OOP pada PHP
+
+-->> Basic <<--
+1. Kelas & Object (tidak bisa dipisahkan dalam OOP)
+2. Property & method
+3. Constructor
+4. Object Type
+5. Inheriten
+6. Visibility / Access Modifire
+7. Setter & Getter
+8. Statick metode
+    
+>> Konsep OOP pada PHP--
+    - Absract & Interface
+    - Interceptor
+    - Object Cloning
+    - Callbacks & Closures
+    - Namespaces & Autoloading
+    - ... (masih ada yang lain.)
+
+    

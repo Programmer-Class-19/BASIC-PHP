@@ -1,0 +1,17 @@
+Jum'at, 23/08/24
+
+>> Class
+    - Class adalah blueprint/Template untuk membuat instance dari object
+    - Class mendefinisikan Object
+    - Menyimpan data dan Perilaku yang disebut dengan property(sifat) dan method(Function) 
+    >> Cara buat Class
+        - Diawali dengan menuliskan keyword class, diikuti nama dan dibatasi dengan {} , untuk menyimpan Property dan method.
+        - Aturan penamaan class sama seperti variable dan function, tidak boleh diawali dengan angka, atau mengandung spasi.
+>> Object
+    - Instance (contoh/ sama aritnya dengan object) yang didefinisikan oleh class. => Bentuk nyatanya adalah object bukan kelas.
+    - Banyak object dapat dibuat menggunakan satu class.
+    - Object dibuat menggunakan keyword " new " .
+>> Property
+    - Mempresentasikan data / keadaan dari sebuah object
+    - Variable yang ada di dalam object (member variable)
+    - 

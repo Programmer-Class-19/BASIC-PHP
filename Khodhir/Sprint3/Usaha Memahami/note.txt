@@ -1,0 +1,50 @@
+<!-- Object Oriented Programming -->
+<!--  
+    Devinisi :
+    - adalah gaya pemograman/programing style/paradigma pemograman : cara kita menuliskan kode program kita.
+Selain OOP ada juga gaya penulisan pemograman yang lain yaitu :
+>> Procedural Programming/pemograman secara prosedural <<
+    Karakteristik Procedural Programming :
+        - Intruksinya dilakukan langkah demi langkah
+        - berushama melakukan modularisasi : memecah program menjadi bagian bagian yang kecil.
+        - disebut prosedur, subroutine atau function
+        - Linear / top-to-bottom
+        - Bahasa yang menggunakan gaya programming prosedural; Fortan, ALGOL, COBOL, Pascal, C, PHP, Javascript.
+        Klelebihan :                                                                             
+            - To the point 
+            - Simplicity & Kemudahan implementasi(untuk compiler & interpreter)
+            - Mudah ditelusuri
+            - Membutuhkan lebih sedikit memory (dibandingkan dengan OOP).
+>> bject Oriented Programming <<
+    Karakteristik OOP :
+        - Meyusun semua code program dan struktur data sebagai objek.
+        - Objek adalah unit dasar dari program
+        - Objek menyimpan data dan perilaku.
+        - Objek bisa saling berinteraksi.
+        - Java, Ruby, Python, C++, javascript, PHP5.
+        Kelebihan :
+            - Representasi dunia nyata
+            - Enkapsulasi & Abstraksi Data
+            - Reusability
+            - Skalabilitas & Ekstensibilitas
+            - Kemudahan Pengelolaan    
+
+->
+<!- Channel Baledemy
+>> Konsep OOP
+    - Semua kode programnya dibuat dan disusun dalam object.
+    - Object menjadi peranan penting.
+    - Object bisa menyimpan data serta perilaku da orogramnya
+    Object bisa saling berinteraksi
+    - Java, Ruby, Python, C++, javascript, PHP5.
+
+ > Kelebihan OOP
+    - Enkapsulasi : kita bisa membuat data kita diproteksi, tidak bisa diakses oleh bagian lain dari program kita.
+    - Abstraksi data : kita bisa menyembunyikan kerumitan2 dari programnya
+    - Reausability : kita bisa lebih mudah menggunakan ulang bagian bagian dari program yang telah kita buat, kemudahan dalam penulang bagian
+    - Sangat cocok untuk kerja tim.
+    - Banyak digunakan di banyak fermwork  
+
+>> Kalau programnya sederhana dan dikerjakan sendiri maka Prosedural sangat tepat
+>> Bila programnya besar dan dikerjakan oleh banyak orang, maka Objrck Oriented lah yang tepat.
+->
