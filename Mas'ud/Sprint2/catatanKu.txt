@@ -1,0 +1,150 @@
+Vidio 1
+
+Control Flow / Struktur Kendali 
+    Control flow adalah konsep dalam 
+    pemrograman yang mengatur urutan eksekusi dari instruksi atau pernyataan 
+    dalam sebuah program. Dengan kata lain, control flow 
+    menentukan bagaimana alur program berjalan dari satu
+    bagian kode ke bagian lainnya, berdasarkan kondisi atau keputusan tertentu.
+atau control flow itu  bagaimana alur dari programan kita dibaca inter prienter PHP.
+
+Ada 2 bagain dalam mempelajari Control Kendali :
+1. Pengulangan 
+2. Pengkondisian
+
+Bagian Pertama 
+
+1. Control Flow Pengulangan
+Gunanya menjalankan blok program / code tanpa perlu menulis ulang scriptnya . 
+sintaks pengulangan :
+1. for
+2. while 
+3. do.. while
+4.foreach
+
+
+Bagian Kedua 
+
+2. Control Flow Pengkondisian 
+Untuk menentukan apa yang akan terjadi ketika kita membuat sebuah pernyataan. 
+Jika pernyataan hasilnya true kemudian apa yang akan terjadi dan juga sebaliknya 
+jika pernyataan hasilnya false kemudian apa yang akan terjadi. 
+sintaks pengkondisian :
+1. if.. else
+2. if.. else  if.. else
+3.ternary
+4. switch 
+
+
+
+
+Tambahan : 
+Looping 
+Looping, dalam pemrograman, adalah proses menjalankan 
+sekelompok perintah berulang kali hingga kondisi tertentu 
+terpenuhi atau selama kondisi tersebut masih benar.
+
+looping biasanya dibatasi dengan tanda {kurung kurawal}
+
+
+
+
+
+
+
+
+
+Vidio 2 
+
+Function 
+fungction adalah baris code yang kita buat untuk mempermudah kita saat program
+code program tersebut bisa kita kasih nama dan bisa kita panggil berulang - ulang . 
+pada php ada 2 jenis function :
+1. Built-in Function ( fungsi yang telah di sediakan php )               http://php.net/manual/en/funcref.php
+2. User-Defined Function ( fungsi yang kita bikin sendiri )
+
+
+
+macam macam Built-in Funcion
+Fungsi Pembahasan :
+1. Date / Time : > time ()
+                 > date ()
+                 > mktime ()
+                 > strtotime ()
+
+
+
+
+2. Function yang berhubung dengan string :
+    1. strlen () digunkan menghitung panjang string 
+    2. strcmp (string compare) digunakan membandingkan sebuah string 
+    3. explode () digunakan untuk memecah string menjadi array 
+    4. htmlspecialchars () function khusus untuk keamanan 
+    5. 
+
+
+
+
+3. Funcion bantuan atau Utility : 
+    1. var_dump () digunakan mencetak isi dari sebuah variabel , array , object 
+    2. isset () digunakan untuk memeriksa apakah sebuah variabel telah diatur dan tidak NULL.
+    3. empty () digunakan untuk apakah variabel tersebut kosong atau tidak 
+    4. die () digunakan untuk memberhentikan program kita 
+    5. sleep () digunkan untuk memberhentikan sementara 
+
+
+
+
+
+User-defined Funcion 
+Function yang buatan sendiri
+
+
+
+
+
+
+
+
+Vidio 3
+
+Array 
+Array adalah sebuah variabel yang dapat menampung  lebih dari satu nilai 
+ada 2 cara membuat array :
+1. cara lama (menggunakan tanda kurung);
+2. cara baru [menggunakan kurung sikun];
+
+dalam array nilai atau elemennya boleh berbeda tipenya dalam sebuah variabelm 
+contoh :  $minggu = ["7, "seminggu tujuh hari", true/false]  
+
+
+cara menampilkan array :
+menggunakan var_dump = dapat mengetahui index dan tipedatanya 
+menggunakan print_r = dapata mengetahui index 
+
+
+
+
+cara menampilkan array untuk user 
+
+
+
+
+
+
+
+
+Vidio 4
+Associative Array 
+
+
+
+
+
+
+
+
+
+
+
+

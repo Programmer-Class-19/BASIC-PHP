@@ -202,3 +202,282 @@ aplikasi web secara lokal di komputer sebelum memindahkannya ke server produksi.
 
 
 
+
+
+
+
+Vidio 4
+
+Sintaks Dasar PHP 
+1. Tag PHP 
+    diawali Dengan <?php   dan diakhiri  ?>     alhasil  <?php ?>
+
+2. Tag Komentar PHP 
+    untuk satu baris //
+    untuk banyak baris /* */
+
+3. Standar Output 
+    adalah sebuah sintak PHP digunakan untuk menampilkan sesuatu di layar atau mencetak sesuatu di layar 
+    sintaksnya ada :
+    1. echo = untuk menampilkan sesuatu atau mencetak sesuatu dilayar ( tulisan angka atau isi dari variabel dll )
+    2. print =  untuk menampilkan sesuatu atau mencetak sesuatu dilayar ( tulisan angka atau isi dari variabel dll )
+    3. print_r = untuk mencetak isi array 
+    4. var_dump = untuk melihat isi dari variabel 
+
+4. Cara Menggabungkan Sintaks PHP Dengan HTML 
+    ada 2 cara :
+    1. PHP didalam HTML 
+    2. HTML didalam PHP 
+
+5. Variabel Dan Tipe Data 
+    1. variabel
+    menggunakan icon $
+    variabel gunanya untuk menampung sebuah nilai 
+    alam variabel ada aturan dalam membuat nya : namanya tidak boleh di awali  dengan angka tapi boleh menggandung angka 
+
+6. Operator 
+    Operator dalam PHP ada :
+    1. Operator Aritmatika 
+       Berikut adalah daftar operator aritmatika yang tersedia di PHP :
+        penjumlahan +
+        pengurangan - 
+        perkalian *  
+        pembagian /
+        modulus % ( Digunakan untuk mendapatkan sisa dari pembagian dua angka )
+        eksponen ** ( perpangkatan )
+
+
+    2. Operator Concatenation / Concat ( operator penggabungan iconnya = . )
+    Dalam PHP, operator konkatenasi (concatenation) 
+    digunakan untuk menggabungkan dua atau lebih string. 
+    Operator ini ditulis sebagai . (titik).
+
+
+    3. operator assigment
+    Operator assignment (penugasan) dalam PHP digunakan 
+    untuk menetapkan nilai ke sebuah variabel. Operator 
+    assignment yang paling umum adalah = (sama dengan), 
+    namun terdapat juga beberapa operator assignment 
+    gabungan yang melakukan operasi aritmatika atau 
+    konkatenasi sekaligus menetapkan hasilnya ke variabel.
+       Berikut adalah daftar operator assigment yang tersedia di PHP :
+        ( samadengan ) =
+        ( tambah samadengan) +=
+        ( kurang samadengan) -=
+        ( kali  samadengan)  *=
+        ( bagi  samadengan) /=
+        ( modulus  samadengan) %=
+        (titik samadengan) .=
+
+
+    4. operator perbandingan 
+    Operator perbandingan pada PHP digunakan untuk
+    membandingkan dua nilai, dan hasilnya akan berupa nilai 
+    boolean (true atau false). 
+       Berikut adalah daftar operator perbandingan yang tersedia di PHP :
+        Sama Dengan ( == )
+        Tidak Sama Dengan ( != ) 
+        Lebih Besar ( > )
+        Lebih Kecil ( < )
+        Lebih Besar atau Sama Dengan ( >= )
+        Lebih Kecil atau Sama Dengan ( <= )
+        Spaceship ( <=> )
+
+
+    5. operator identitas 
+    Operator identitas adalah operator yang digunakan untuk me
+    mbandingkan dua nilai dalam hal kesamaan nilai dan tipe data. 
+    Operator ini memastikan bahwa kedua nilai yang 
+    dibandingkan tidak hanya sama secara nilai tetapi juga 
+    memiliki tipe data yang sama.
+       Berikut adalah daftar operator identitas yang tersedia di PHP :
+       Operator Identik ( === ) 
+       Tidak Identik (!==) 
+
+
+    6. operator logika 
+    Operator logika, atau operator logis, adalah simbol atau 
+    kata kunci yang digunakan dalam pemrograman untuk 
+    melakukan operasi logika pada satu atau lebih nilai boolean.
+    Nilai boolean hanya memiliki dua kemungkinan, 
+    yaitu true (benar) atau false (salah). 
+    Operator logika biasanya digunakan untuk menggabungkan beberapa 
+    kondisi atau membandingkan nilai-nilai boolean dalam suatu pernyataan.
+        Berikut adalah daftar operator perbandingan yang tersedia di PHP :
+        AND ( && )
+        OR ( || )
+        NOT ( ! )
+        XOR ( Exclusive OR )
+
+
+
+
+
+
+
+    
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Type data PHP
+
+
+Mengapa Tipe Data Penting?
+1. Validasi Data: Memastikan bahwa data yang diolah sesuai dengan harapan. Misalnya, jika variabel seharusnya menyimpan angka, tapi Anda memasukkan teks, program bisa menghasilkan kesalahan.
+
+2. Efisiensi Memori: Berbeda tipe data memiliki kebutuhan memori yang berbeda. Misalnya, menyimpan angka dalam tipe data integer lebih efisien daripada dalam tipe data string.
+
+3. Operasi yang Tepat: Tipe data memastikan bahwa operasi yang dilakukan pada data adalah operasi yang benar dan sesuai, seperti penjumlahan untuk angka atau penggabungan untuk teks.
+
+1. INTEGER
+Tipe data untuk angka bulat, baik positif maupun negatif.
+
+<?php
+$integer = 42; // Bilangan bulat positif
+$negativeInteger = -15; // Bilangan bulat negatif
+?>
+
+2. Float (Double)
+Tipe data untuk angka desimal.
+
+<?php
+$float = 3.14; // Angka desimal
+$negativeFloat = -2.718; // Angka desimal negatif
+?>
+
+3. String
+Tipe data untuk menyimpan teks. String dapat menggunakan tanda kutip ganda atau tunggal.
+
+<?php
+$string1 = "Hello, World!"; // Teks dengan tanda kutip ganda
+$string2 = 'Hello, PHP!'; // Teks dengan tanda kutip tunggal
+?>
+
+4. Boolean
+Tipe data untuk nilai benar (true) atau salah (false).
+
+<?php
+$isTrue = true; // Nilai benar
+$isFalse = false; // Nilai salah
+?>
+
+5. Array
+Tipe data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Array bisa berupa indexed (berbasis angka) atau associative (berbasis kunci-nilai).
+
+<?php
+// Indexed Array
+$colors = array("red", "green", "blue");
+
+// Associative Array
+$person = array("first_name" => "John", "last_name" => "Doe");
+?>
+
+6. Object
+Tipe data yang digunakan untuk menyimpan instansi dari kelas. PHP mendukung pemrograman berorientasi objek.
+
+<?php
+class Person {
+    public $name;
+    public $age;
+
+    function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+
+    function greet() {
+        return "Hello, my name is " . $this->name;
+    }
+}
+
+$person = new Person("Alice", 30);
+echo $person->greet(); // Output: Hello, my name is Alice
+?>
+
+7. NULL
+Tipe data yang digunakan untuk menyimpan nilai yang tidak ada. NULL adalah sebuah nilai spesial yang menggambarkan variabel tanpa nilai.
+
+<?php
+$var = NULL; // Nilai NULL
+?>
+
+8. Resource
+Tipe data khusus yang digunakan untuk menyimpan referensi ke sumber daya eksternal, seperti file atau koneksi database.
+
+<?php
+$file = fopen("example.txt", "r"); // Membuka file dan menyimpan resource
+if ($file) {
+    // Operasi pada file
+    fclose($file); // Menutup file
+}
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<?php
+$integer = 10; // Tipe data integer
+$float = 3.14; // Tipe data float
+$string = "Hello"; // Tipe data string
+$boolean = true; // Tipe data boolean
+$array = array(1, 2, 3); // Tipe data array
+$object = new stdClass; // Tipe data object
+$nullValue = NULL;  // Tipe data NULL
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Operator Logika
+Operator logika adalah operator yang digunakan untuk melakukan operasi pada nilai-nilai logika (boolean).
+
+1. AND ( && atau and )
+🔘 Menghasilkan true jika kedua operan bernilai true.
+🔘 Jika salah satu atau kedua operan bernilai false, hasilnya false.
+
+2. OR ( || atau or )
+🔘 Menghasilkan true jika salah satu dari operan bernilai true.
+🔘 Hanya akan menghasilkan false,  jika  kedua operan bernilai false.
+
+3. NOT (!)
+🔘 Operator ini digunakan untuk membalik nilai logika.
+🔘 Jika operan bernilai true,  hasilnya akan false , dan sebaliknya. 
+
+4. XOR ( xor )
+🔘 Menghasilkan true jika hanya salah satu dari operan bernilai true.
+🔘 Akan menghasilkan false jika kedua operan bernilai true atau kedua operan bernilai false.
+
+Prioritas Operator Logika
+Di PHP, operator logika memiliki prioritas atau urutan eksekusi yang berbeda:
+
+1. NOT ( ! ) memiliki prioritas tertinggi.
+
+2. AND ( && atau and ) lebih diutamakan daripada OR ( || atau or ).
+
+3. XOR ( xor ) memiliki prioritas yang lebih rendah dibandingkan dengan and dan ! .
+
+Namun, untuk memastikan kejelasan dalam kode, sering kali operator logika dikelompokkan menggunakan tanda kurung ()
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Contoh Penggunaan Operator Assignment
+
+// Penugasan dasar
+$x = 10; // $x = 10
+
+// Penambahan dan Penugasan
+$x += 5; // $x = 15 (10 + 5)
+
+// Pengurangan dan Penugasan
+$x -= 3; // $x = 12 (15 - 3)
+
+// Perkalian dan Penugasan
+$x *= 2; // $x = 24 (12 * 2)
+
+// Pembagian dan Penugasan
+$x /= 4; // $x = 6 (24 / 4)
+
+// Modulus dan Penugasan
+$x %= 5; // $x = 1 (6 % 5)
+
+// Konkatenasi dan Penugasan
+$str = "Hello";
+$str .= " World!"; // $str = "Hello World!"
