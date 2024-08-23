@@ -1,11 +1,12 @@
 function = potongan program yg kita buat untuk mempermudah kita
-  built-in Function =
+  built-in Function = fungsi bawaan
     link nya = https://www.php.net/manual/en/funcref
     date / time =
         time :
         date : untuk menampilkan tanggal dengan format tertentu
             (l) -> hari
             (d) -> tanggal
+            (D) -> hari (Mon, Sun, Wed)
             (M) -> bulan
             (m) -> bulan angka
             (Y) -> year 2024
@@ -26,3 +27,4 @@ function = potongan program yg kita buat untuk mempermudah kita
             sleep     -> memberhentikan sementara
 
   user-defined Function
+    fungsi buatan sendiri
