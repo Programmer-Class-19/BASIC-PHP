@@ -8,28 +8,38 @@
         .asin {
             width: 30px;
             height: 30px;
-            background-color: #BADA55;
+            background-color: red;
             text-align: center;
-            line-heigt: 30px;
+            line-height: 30px;
             margin: 3px;
             float: left;
             transition: 1s;
         }
-        /* degri untuk satu putaran penuh */
         .asin:hover {
-            transfrorm: rotate(360deg); 
+            transform: rotate(360deg); 
             border-radius: 50%;
+        }
+        .clear {
+            clear: both;
         }
     </style>
 </head>
 <body>
 
 <?php
-$angka = [1,2,3,4,5,6,7,8,9];
+$angka = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+];
+
 ?>
 
 <?php foreach( $angka as $a ) : ?>
-    <div class="asin"><?= $a; ?></div>
+    <?php foreach( $a as $b) : ?>
+        <div class="asin"><?= $b; ?></div>
+    <?php endforeach; ?>
+    <div class="clear"></div>
 <?php endforeach; ?>
 
 </body>
