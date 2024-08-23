@@ -119,3 +119,22 @@ inheritance / pewarisan
 -child class, memperluas (extends) fungsionalitas dari parent-nya.
 
 kenapa kita butuh inheritance ?
+
+
+____vidio 9____
+
+visibility
+
+- konsep yang di guanakan untuk mengatur akses dari property dan method pada sebuah object
+-ada 3 keyword visibility : public, protected, private
+
+~public, dapat digunakan dimana saja, bahkan di luar kelas
+~protected, hanya dapat digunkan didalam sebuah kelas beserta turunanya
+~private, hanya di gunakan di dalam sebuah kelas tertentu saja
+
+Ada beberapa alasan 
+
+- hanya memperlihatkan aspek dari class yang di butuhkan oleh client
+- mentukan kebutuhan yang jelas untuk object
+-memberikan kendali pada kode untuk menghindari 'bug'
+
