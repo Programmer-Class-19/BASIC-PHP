@@ -137,3 +137,4 @@ echo $mobilSaya->tampilkanWarna(); // Output: Biru
 
 Ini adalah dasar-dasar penulisan sintaks dalam OOP di PHP. Jika ada yang ingin ditanyakan lebih lanjut atau kurang jelas, jangan ragu untuk bertanya! 
 -->
+ 

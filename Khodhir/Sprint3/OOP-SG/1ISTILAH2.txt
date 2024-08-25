@@ -1,5 +1,26 @@
 1. Camel casing
     adalah teknik penamaan di mana beberapa kata digabungkan tanpa spasi, dan setiap kata dimulai dengan huruf kapital, kecuali kata pertama yang dimulai dengan huruf kecil. 
     Contoh : $jumlahItem, $namaPengguna, $totalHarga dll. / hitungLuasPersegi(), ambilDataPengguna() dst.
-2. 
 
+2. "Mengembalikan nilai" dalam function di php
+    mengembalikan nilai dalam function berarti memberikan hasil dari fungsi tersebut kembali ke tempat di mana fungsi itu dipanggil. Ini dilakukan dengan menggunakan perintah return. Ketika sebuah fungsi mengembalikan nilai, pemanggil fungsi dapat menggunakan nilai tersebut untuk keperluan lebih lanjut, seperti menyimpannya dalam variabel atau menampilkannya.
+
+    Berikut adalah contoh sederhana:
+
+        <?php  
+        function tambah($a, $b) {  
+            return $a + $b; // Mengembalikan hasil penjumlahan  
+        }  
+
+        $hasil = tambah(3, 4); // Memanggil fungsi dan menyimpan hasilnya  
+        echo $hasil; // Menampilkan hasil, yaitu 7  
+        ?>
+
+    Pada contoh di atas, fungsi tambah menerima dua parameter $a dan $b, dan mengembalikan hasil penjumlahan dari kedua parameter tersebut. Nilai yang dikembalikan tersebut kemudian disimpan dalam variabel $hasil dan ditampilkan dengan echo.
+
+    Dengan menggunakan return, Anda dapat membuat fungsi yang lebih fleksibel dan dapat digunakan dalam berbagai konteks.
+
+3. Hirarki
+   Hirarki berasal dari kata "hierarchia" dalam bahasa Yunani yang berarti "tata urut" atau "susunan". Dalam bahasa sehari-hari, hirarki merujuk pada cara menyusun atau mengatur sesuatu dari yang paling tinggi sampai yang paling rendah.
+   
+   Hirarki dalam PHP biasanya mengacu pada cara pengorganisasian kelas dan objek dalam pemrograman berorientasi objek (OOP). Konsep hirarki ini seringkali dihubungkan dengan pewarisan (inheritance), di mana sebuah kelas (kelas anak) dapat mewarisi sifat atau metode dari kelas lain (kelas induk).
