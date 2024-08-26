@@ -34,26 +34,26 @@ echo "<hr>";
 
 // soal no 2
 
-// class Hewan {
-//     public $jenis,
-//            $nama;
+class Hewan {
+    public $jenis,
+           $nama;
 
-//     public function suara() {
-//         if ($this->jenis == "Kucing") {
-//             echo $this->nama . "Suara : Meow";
-//         } elseif ($this->jenis == "Anjing") {
-//             echo $this->nama . "Suara : Guuk";
-//         } else {
-//             echo $this->nama . "selain yang diatas";
-//         }
-//         }
-// }
+    public function suara() {
+        if ($this->jenis == "Kucing") {
+            echo $this->nama . "Suara : Meow";
+        } elseif ($this->jenis == "Anjing") {
+            echo $this->nama . "Suara : Guuk";
+        } else {
+            echo $this->nama . "selain yang diatas";
+        }
+        }
+}
 
-// $kucing = new Hewan("Kucing", "Cat");
-// $Anjing = new Hewan("Anjing", "Dog");
+$kucing = new Hewan("Kucing", "Cat");
+$Anjing = new Hewan("Anjing", "Dog");
 
-// echo "Kucing : " . $Kucing->suara();
-// echo "Anjing : " . $Anjing->suara();
+echo "Kucing : " . $Kucing->suara();
+echo "Anjing : " . $Anjing->suara();
 
 
 
