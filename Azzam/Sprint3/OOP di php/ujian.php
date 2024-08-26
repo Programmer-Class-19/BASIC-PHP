@@ -61,20 +61,25 @@ echo "<hr>";
 // soal no 3
 
 class Pesantren {
-    public $Ustadz = "Ustadz A";
-           $Santri = "Santri A";
+    public $Ustadz,
+           $Santri;
 
     public function __construct( $Ustadz = "Ustadz A", $Santri = "Santri A" ) {
         $this->Ustadz = $Ustadz;
         $this->Santri = $Santri;
 
 }
-}
 
     public function setoran() {
         return "$this->Santri $this->Ustadz";
     }
+}
 
 $Santri1 = new Santri ("Santri A sedang setoran dengan Ustadz A");
 $Santri2 = new Santri ("Santri A sedang setoran dengan Ustadz A");
+
+echo $Santri1->setoran();
+echo "<br>";
+echo $Santri2->setoran();
+
 ?>
