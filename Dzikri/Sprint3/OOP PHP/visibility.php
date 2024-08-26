@@ -3,12 +3,14 @@
 class produk {
     public $judul,
            $penulis,
-           $penerbit,
+           $penerbit;
           
-     $harga;
+     protected $harga;
            
            
-        
+      protected function harga(){
+        return $this->harga ;
+      }  
 
     public function __construct($judul, $penulis, $penerbit, $harga = 0) {
         $this->judul = $judul;
@@ -16,6 +18,7 @@ class produk {
         $this->penerbit = $penerbit;
         $this->harga = $harga;
     }
+
 
     public function getLabel() {
         return "$this->penulis, $this->penerbit";
@@ -29,6 +32,11 @@ class produk {
 
 class Komik extends Produk {
     public $jmlhalaman;
+
+   public function accessProtected() {
+     echo $this->harga;
+     $this->harga();
+   }
 
     public function __constract( $judul, $penulis, $penerbit, $harga, $jmlhalaman = 0 ) {
         parent::__constract($judul, $penulis, $penerbit, $harga = 0);
@@ -44,6 +52,11 @@ class Komik extends Produk {
 
 class Game extends Produk {
     public $waktumain;
+
+    public function accessProtected() {
+        echo $this->harga;
+        $this->harga();
+    }
 
     public function __constract($judul, $penulis, $penerbit, $harga = 0 ) {
         parent::__constract($judul, $penulis, $penerbit, $harga, $waktumain = 0) ;
@@ -72,4 +85,6 @@ echo $produk1->getinfoProduk();
 echo "<br>";
 echo $produk2->getinfoProduk();
 echo "<hr>";
-echo $produk1->harga;
+echo $produk1->accessProtected();
+echo "<hr>";
+echo $produk2->accessProtected();
