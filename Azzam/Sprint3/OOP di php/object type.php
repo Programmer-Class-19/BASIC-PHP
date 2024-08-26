@@ -12,7 +12,7 @@
     }
 
     public function label() {
-        return "$this->nama, $this->penerbit, $this->harga";
+        return "$this->nama | $this->penerbit Rp. $this->harga";
     }
 
  }
@@ -22,7 +22,7 @@
         $str = "{$barang->label()}";
         return $str;
     }
- }
+    }
  
  $Barang1 = new Barang("Spiderman", "Sony Interactive", "550.000");
  $Barang2 = new Barang("Batman", "Warner Bros", "700.000");
@@ -37,6 +37,7 @@
  echo "<br>";
  echo "Game : " . $Barang4->label();
  echo "<br>";
+
  echo "<br>";
  $infoBarang1 = new cetakprodukbaru();
  echo $infoBarang1->cetak($Barang1);
@@ -49,4 +50,5 @@
  echo "<br>";
  $infoBarang4 = new cetakprodukbaru();
  echo $infoBarang4->cetak($Barang4);
+
 ?>

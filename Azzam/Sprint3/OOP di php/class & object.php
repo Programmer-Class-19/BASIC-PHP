@@ -1,16 +1,19 @@
 <?php
 class Barang {
+    // property
     public $nama,
            $merk,
            $warna,
            $topspeed,
            $harga;
 
+    // method
     public function label() {
         return "$this->nama, $this->merk, $this->harga, $this->warna";
     }
 }
 
+// object
 $Motor1 = new Barang();
 
 $Motor1->nama = "Supra";
