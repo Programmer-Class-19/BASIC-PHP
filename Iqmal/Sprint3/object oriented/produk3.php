@@ -26,12 +26,12 @@ class produk {
 
 
 
-}
+} 
 
 
 class cetakinfoproduk {
-    public function cetak( $produk->judul) | promosikan {
-        $str = "naruto | masashimoto, shonen jump (Ro. 30000)";
+    public function cetak( produk $produk ){
+        $str = "naruto | masashimoto, shonen jump (Rp. 30000)";
         
     }
 }
