@@ -33,8 +33,27 @@ echo "<hr>";
 
 //soal no 2
 
+class hewan {
+    public $jenis;
+    public $nama;
 
+    public function __construct($jenis, $nama) {
+        $this->jenis = $jenis;
+        $this->nama = $nama;
+    }
 
+    public function suara() {
+        echo "$this->nama adalah seekor $this->jenis yang bersuara.\n";
+    }
+}
+
+$kucing = new hewan('kucing', 'momo');
+$anjing = new hewan('anjing', 'buddy');
+
+$kucing->suara();
+$anjing->suara();
+
+echo "<hr>";
 
 // soal no 3
 
@@ -59,9 +78,9 @@ class santri {
 $santri1 = new santri ("agus sedang setoran dengan ustadz rifki");
 $santri2 = new santri ("nopri sedang setoran dengan ustadz ibrahim"); 
 
-echo "  " . $santri1->getlabel();
+echo $santri1->getlabel();
 echo "<br>";
-echo "  " . $santri2->getlabel();
+echo $santri2->getlabel();
 
 
 ?>
