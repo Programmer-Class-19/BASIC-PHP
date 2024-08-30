@@ -29,7 +29,7 @@ class produk {
 
 }
 
-$produk1 = new produk("me and ex", "jieqibill", "fuckfuck", "100000");
+$produk1 = new produk("me and ex", "jieqibill", "fuckfuck", 100000);
 $produk2 = new produk("you and he", "unknown", "fuckfuck", 2500);
 $produk3 = new produk("lonte");
 
@@ -37,6 +37,8 @@ echo "LC : " . $produk1->getLabel();
 echo "<br>";
 echo "NT : " . $produk2->getLabel();
 echo "<br>";
+var_dump($produk1);
+var_dump($produk2);
 var_dump($produk3);
 
 
