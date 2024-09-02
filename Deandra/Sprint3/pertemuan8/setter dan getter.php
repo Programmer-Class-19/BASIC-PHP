@@ -1,9 +1,10 @@
 <?php
 class produk {  
-    public $judul,
+    private $judul,
            $penulis,
-           $tipe,
-           $diskon = 0;
+           $tipe;
+
+    protected $diskon = 0;
 
 
     private $penerbit;
@@ -21,11 +22,22 @@ class produk {
        $this->diskon = $diskon;
     } 
 
+    public function setjudul( $judul ) {
+        if( !is_string($judul) ) {
+            throw new exception("judul harus string", 1);
+        }
+        $this->judul = $judul;
+    }
+
+    public function getjudul() {
+        return $this->judul;
+    }
+
     public function setdiskon( $diskon) {
         $this->diskon = $diskon;
     }
     
-    public function getpenerbit() {
+    public function getpenerbit() { 
         return $this->penerbit;
     }
            
@@ -112,5 +124,9 @@ $produk3->setdiskon(50);
 echo $produk3->getharga();
 echo "<br>";
 echo $produk3->getpenerbit();
+echo "<hr>";
+
+$produk3->setjudul("boboboy");
+echo $produk3->getjudul();
 
 
