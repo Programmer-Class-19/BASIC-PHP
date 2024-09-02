@@ -1,27 +1,7 @@
 <?php
-/*
-visibilty (modifier)
-
-definisi visibilty
-- sebuah konsep yang digunakan unutk menagtur akses dari propeerty
-dan method pada sebuah class (objek)
-- ada  3 keyword visibility : public, protected, dan private
-
-public : dapat digunakan di mana saja, bahkan diluar kelas
-
-protected : hanya dapat digunakan didalam sebuah kelas beserta turunannya
-
-private : hanya dapat digunakan didalam sebuah kelas tertentu saja
-
-kenapa visibility??
-- hanya memperlihatkan aspek dari class yang dibutuhkan oleh client saja
-- menentukan kebutuhan yang jelas untuk object
-- memberikan kendali pada kode untuk menghindari 'bug'
-*/
-
 
 class produk {
-    public 
+    private 
     $judul,
     $penulis,
     $penerbit;
@@ -35,6 +15,10 @@ class produk {
         $this->penulis = $penulis;
         $this->penerbit = $penerbit;
         $this->harga = $harga;
+    }
+
+    public function getJudul() {
+        return $this->Judul;
     }
 
     public function getHarga(){
@@ -109,10 +93,12 @@ echo "<hr>";
 // $produk2->diskon = 90; // contoh salah
 $produk2->setDIskon(50);
 echo $produk2->getHarga();
+echo "<hr>";
 
+echo $produk1->getJudul();
 
-
-
+// $produk3 = new produk("barang baru");
+// echo $produk1->judul; // bakalan error
 
 
 ?>
