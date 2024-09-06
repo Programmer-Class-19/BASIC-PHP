@@ -1,0 +1,19 @@
+*abstract class
+- sebuah kelas yang tidak dapat di-instansiasi
+- kelas 'abstarct'
+- mendefinisikan interface untuk kelas lain yang menjadi turunannya
+- berperan sebagai 'kerangka dasar' untuk kelas turunannya
+- memiliki minimal 1 method abstrak
+- digunakan dalam 'pewarisan' / inheritance untuk 'memaksakan' implementasi method abstak yang sama untuk semua kelas turunannya
+
+*abstract class 2
+- semua kelas turunannya, harus mengimplementasikan method abstrak yang ada di kelas abstraknya
+- kelas abstrak boleh memiliki property / method reguler
+- kelas abstrak noleh memiliki property / static method
+
+*kenapa menggunakan kelas abstrack?
+- mereprementasikan ide atau konsep dasar
+- "composition over inheritance"
+- salah satu cara menerapkan polimorphism
+- sentralisasi logic
+- mempermudah pengerjaan tim

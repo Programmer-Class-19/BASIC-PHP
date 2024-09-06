@@ -1,5 +1,5 @@
 <?php
-class produk {  
+ abstract class produk {  
     private $judul,
            $penulis,
            $tipe,
@@ -51,8 +51,12 @@ class produk {
     
   
 
-    public function getinfoproduk() {
-        // komik : upin & ipin | kak ros, lescopaque, (Rp. 10000000) - 100 halaman
+     abstract public function getinfoproduk();
+    
+    
+    
+    public function getinfo() {
+       
         $str = "{$this->tipe} | {$this->getlabel()} (Rp. {$this->harga})";
         return $str;
 
@@ -74,7 +78,7 @@ class komik extends produk {
     
 
      public function getinfoproduk() {
-         $str = "komik : " . parent::getinfoproduk() . " - {$this->jmlhalaman} halaman.";
+         $str = "komik : " . $this->getinfo() . " - {$this->jmlhalaman} halaman.";
          return $str;
      }
 }
@@ -93,15 +97,26 @@ class game extends produk {
 
 
     public function getinfoproduk() {
-        $str = "game :" . parent::getinfoproduk() . " ~ {$this->waktumain} jam.";
+        $str = "game :" . $this->getinfo() . " ~ {$this->waktumain} jam.";
         return $str;
     }
 }
 
 
 class cetakinfoproduk {
-    public function cetak( produk $produk ) {
-        $str = "{$produk->judul} | {$produk->getlabel()} (Rp . {$produk->harga})";
+    public $daftarproduk = array();
+
+    public function tambahproduk( produk $produk ) {
+        $this->daftarproduk[] = $produk;
+    }
+
+    public function cetak() {
+        $str = "daftar produk : <br>";
+
+        foreach( $this->daftarproduk as $p ) {
+            $str .= "- {$p->getinfoproduk()} <br> ";
+        }  
+
         return $str;
     }
 }
@@ -114,18 +129,8 @@ $produk3 = new komik("upin & ipin", "kak ros", "lescopaque", 10000000, 100);
 $produk4 = new game("mobile legend", "mas'ud", "moonton", 2000000, 30);
 
 
-echo $produk3->getinfoproduk();
-echo "<br>";
-echo $produk4->getinfoproduk();
-echo "<hr>";
-
-$produk3->setdiskon(50);
-echo $produk3->getharga();
-echo "<br>";
-echo $produk3->getpenerbit();
-echo "<hr>";
-
-$produk3->setjudul("boboboy");
-echo $produk3->getjudul();
-
+$cetakproduk = new cetakinfoproduk();
+$cetakproduk->tambahproduk( $produk3 );
+$cetakproduk->tambahproduk( $produk4 );
+echo $cetakproduk->cetak();
 

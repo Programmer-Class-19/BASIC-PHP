@@ -1,0 +1,6 @@
+static keyword
+- member yang terikat dengan class, bukan dengan object
+- nilai static akan selalu tetap meskipun object di-instansiasi berulang kali
+- membuat kode menjadi 'procedural'
+- biasanya digunakan untuk membuat fungsi bantuan / helper
+- atau digunakan di class-class utility pada framework

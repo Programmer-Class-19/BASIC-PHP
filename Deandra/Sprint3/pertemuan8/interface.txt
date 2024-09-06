@@ -1,0 +1,5 @@
+interface
+- kelas abstrak yang sama sekali tidak memiliki implementasi
+- murni merupakan template untuk kelas turunannya
+- tidak boleh memiliki property, hanya deklarasi method saja
+

@@ -34,7 +34,7 @@ class komik extends produk {
 
     public function __construct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $jmlhalaman = 0 ) {
 
-        parent::__construct( $judul, $penulis, $penerbit, $harga );
+        parent::__conjhnbstruct( $judul, $penulis, $penerbit, $harga );
 
         $this->jmlhalaman = $jmlhalaman;
 
