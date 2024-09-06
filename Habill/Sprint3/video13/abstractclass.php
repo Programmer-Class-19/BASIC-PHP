@@ -38,7 +38,8 @@ komposisi dibandingkan kita melakukan inheritance
 yang lebih komplek lagi)
 - sentralisasi logic
 - mempermudah pengerjaan tim
-
 */
+
+
 
 ?>
