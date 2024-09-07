@@ -44,5 +44,7 @@ Ada 2 paradigma pemograman, yaitu procedural Programing dan OOP (Object Oriented
     - Callbacks & Closures
     - Namespaces & Autoloading
     - ... (masih ada yang lain.)
-
-    
+Selasa, 04/sep/2024
+>> Overriding
+    - sebuah istilah dimana kita bisa membuat method di class child yang memiliki nama yang sama dengan classs parent. -> intinya method yang kita buat menimpa method yang ada di parent class.
+    - kita hendak melakukan funtionalitas yang sama tap dengan beberapa keadaan yang berbeda.
