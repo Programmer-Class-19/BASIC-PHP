@@ -1,7 +1,7 @@
 <?php
 
 //  INCLUDE VS REQUIRE :
-// Pernyataan ini requirejuga digunakan untuk memasukkan berkas ke dalam kode PHP.
+// Pernyataan ini require juga digunakan untuk memasukkan berkas ke dalam kode PHP.
 // Namun, ada satu perbedaan besar antara include dan require; ketika sebuah file 
 // disertakan dengan pernyataan includedan PHP tidak dapat menemukannya, skrip akan
 // terus dieksekusi.
@@ -11,7 +11,49 @@
 // tersebut menghasilkan kesalahan fatal.
 
 // Gunakan require saat berkas dibutuhkan oleh aplikasi.
-// Gunakan include saat berkas tidak diperlukan dan aplikasi akan dilanjutkan saat berkas tidak ditemukan
+// Gunakan include saat berkas tidak diperlukan dan aplikasi akan dilanjutkan saat berkas 
+// tidak ditemukan
+
+// definisi if : pernyataan - mengeksekusi beberapa kode jika salah satu kondisinya benar.
+
+// $_SERVER : adalah variabel super global PHP yang menyimpan informasi tentang header, paths, 
+// dan skripct locatioin.
+
+// $_REQUEST : adalah variabel super global PHP yang berisi data formulir yang dikirimkan, 
+// dan semua data cookie.
+
+// POST digunakan untuk mengirim data ke server untuk membuat/memperbarui sumber daya.
+// Data yang dikirim ke server dengan POST disimpan di badan permintaan HTTP.
+
+
+// ISSET : Fungsi isset() memeriksa apakah suatu variabel telah disetel, yang berarti 
+// variabel tersebut harus dideklarasikan dan tidak bernilai NULL.
+// Fungsi ini mengembalikan nilai true jika variabel ada dan bukan NULL, jika tidak maka 
+// akan mengembalikan nilai false.
+// Catatan: Jika beberapa variabel diberikan, maka fungsi ini akan mengembalikan nilai true hanya jika semua variabel ditetapkan.
+// Tip: Suatu variabel dapat dibatalkan pengaturannya dengan fungsi unset()
+
+// $_POST berisi serangkaian variabel yang diterima melalui metode HTTP POST.
+
+// Untuk menambahkan item ke array yang ada, Anda dapat menggunakan [] sintaksis tanda kurung.
+
+// file_put_contents() menulis data ke dalam sebuah file.
+
+// Fungsi serialize() mengonversi representasi nilai yang dapat disimpan.
+// Membuat data menjadi serial berarti mengubah suatu nilai menjadi serangkaian bit, sehingga 
+// dapat disimpan dalam berkas, buffer memori, atau dikirimkan melalui jaringan.
+
+// if pernyataan - mengeksekusi beberapa kode jika salah satu kondisinya benar
+// if...elsepernyataan - mengeksekusi beberapa kode jika suatu kondisi benar dan kode lain jika kondisi itu salah
+// if...elseif...elsepernyataan - mengeksekusi kode yang berbeda untuk lebih dari dua kondisi
+// switch pernyataan - memilih salah satu dari banyak blok kode yang akan dieksekusi
+
+
+
+
+
+
+
 
 
 
@@ -56,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD Buku</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Menyertakan file CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Menyertakan file CSS -->
 </head>
 <body>
     <header>
