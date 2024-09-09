@@ -43,15 +43,6 @@
 // Membuat data menjadi serial berarti mengubah suatu nilai menjadi serangkaian bit, sehingga 
 // dapat disimpan dalam berkas, buffer memori, atau dikirimkan melalui jaringan.
 
-// if pernyataan - mengeksekusi beberapa kode jika salah satu kondisinya benar
-// if...elsepernyataan - mengeksekusi beberapa kode jika suatu kondisi benar dan kode lain jika kondisi itu salah
-// if...elseif...elsepernyataan - mengeksekusi kode yang berbeda untuk lebih dari dua kondisi
-// switch pernyataan - memilih salah satu dari banyak blok kode yang akan dieksekusi
-
-
-
-
-
 
 
 
@@ -66,6 +57,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
         $year = $_POST['year'];
         $books[] = ["title" => $title, "author" => $author, "year" => $year]; // Menambahkan buku baru ke array
         file_put_contents('books.txt', serialize($books)); // Menyimpan data buku ke file
+
+
     } elseif (isset($_POST['update'])) { // Jika tombol "Perbarui Buku" ditekan
         $old_title = $_POST['old_title']; // Mengambil data dari input form
         $new_title = $_POST['new_title'];
@@ -79,6 +72,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
             }
         }
         file_put_contents('books.txt', serialize($books)); // Menyimpan data buku yang diperbarui ke file
+
+
     } elseif (isset($_POST['delete'])) { // Jika tombol "Hapus Buku" ditekan
         $title = $_POST['title']; // Mengambil data dari input form
         $books = array_filter($books, function($book) use ($title) {
@@ -87,6 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
         file_put_contents('books.txt', serialize($books)); // Menyimpan data buku yang diperbarui ke file
     }
     header('Location: index.php'); // Redirect ke halaman utama setelah operasi selesai
+
     exit;
 }
 ?>
@@ -98,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD Buku</title>
-    <link rel="stylesheet" href="style.css"> <!-- Menyertakan file CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Menyertakan file CSS -->
 </head>
 <body>
     <header>
@@ -112,11 +108,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
         <section class="form-section">
             <h2>Tambah Buku</h2>
             <form method="post" action="">
-                <label for="title">Judul:</label>
+                <label for="title">Judul :</label>
                 <input type="text" name="title" required><br>
-                <label for="author">Penulis:</label>
+                <label for="author">Penulis :</label>
                 <input type="text" name="author" required><br>
-                <label for="year">Tahun Terbit:</label>
+                <label for="year">Tahun Terbit :</label>
                 <input type="text" name="year" required><br>
                 <input type="submit" name="add" value="Tambah Buku"> <!-- Tombol untuk menambah buku -->
             </form>
@@ -126,9 +122,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
         <section class="form-section">
             <h2>Perbarui Buku</h2>
             <form method="post" action="">
-                <label for="old_title">Judul Lama:</label>
+                <label for="old_title">Judul Lama :</label>
                 <input type="text" name="old_title" required><br>
-                <label for="new_title">Judul Baru:</label>
+                <label for="new_title">Judul Baru :</label>
                 <input type="text" name="new_title" required><br>
                 <label for="new_author">Penulis Baru:</label>
                 <input type="text" name="new_author" required><br>
@@ -142,11 +138,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
         <section class="form-section">
             <h2>Hapus Buku</h2>
             <form method="post" action="">
-                <label for="title">Judul Buku:</label>
+                <label for="title">Judul Buku :</label>
                 <input type="text" name="title" required><br>
                 <input type="submit" name="delete" value="Hapus Buku"> <!-- Tombol untuk menghapus buku -->
             </form>
         </section>
+
 
         <!-- Menampilkan semua buku -->
         <section class="book-list">
@@ -157,9 +154,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
                 <ul>
                     <?php foreach ($books as $book): ?>
                         <li>
-                            <strong>Title:</strong> <?php echo htmlspecialchars($book['title']); ?><br>
-                            <strong>Author:</strong> <?php echo htmlspecialchars($book['author']); ?><br>
-                            <strong>Year:</strong> <?php echo htmlspecialchars($book['year']); ?>
+                            <strong>Judul :</strong> <?php echo htmlspecialchars($book['title']); ?><br>
+                            <strong>Penulis :</strong> <?php echo htmlspecialchars($book['author']); ?><br>
+                            <strong>Tahun Terbit :</strong> <?php echo htmlspecialchars($book['year']); ?>
                         </li>
                     <?php endforeach; ?>
                 </ul>
@@ -168,3 +165,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Mengecek apakah permintaan adala
     </div>
 </body>
 </html>
+
+
