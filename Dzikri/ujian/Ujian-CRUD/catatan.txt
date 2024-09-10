@@ -1,0 +1,88 @@
+1.Bootstrap
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+Menggunakan Bootstrap untuk mendesain tampilan agar 
+responsif dan menarik.
+
+2.navbar
+
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1"></span>
+</nav>
+
+untuk membuat navbar dengan latar belakang yang gelap
+
+3.PHP untuk Hapus data 
+
+ cek apakah kiriman form dari method post
+
+if (isset($_GET['id_peserta'])) {
+    $id_peserta=htmlspecialchars($_GET["id_peserta"]);
+    $sql="delete from peserta where id_peserta='$id_peserta'";
+    $hasil=mysqli_query($kon,$sql);
+
+ kondisi apakah berhasil atau tidak
+
+    if ($hasil) {
+        header("Location:simple-website.php");
+    } else {
+        echo "<div class='alert-danger'> Data Gagal Dihapus.</div>";
+    }
+}
+
+- mengecek apakah ada data id_peserta yang dikirim melalui metode
+  Get.
+- Jika ada, maka data peserta denga id tersebut akan di hapus dari
+  data base
+- jika berhasil, halamn akan di arahkan kembali; jika gagal 
+  akan menampil kan peasan eror
+
+4. Tabel daftar mahasiswa:
+
+<table class="my-3 table table-bordered">
+    <tr class="table-primary">
+        <th>No</th>
+        <th>Nama</th>
+        <th>Sekolah</th>
+        <th>Jurusan</th>
+        <th>Nomer HP</th>
+        <th>Alamat</th>
+        <th colspan="2">Aksi</th>
+    </tr>
+
+membuat tabel dengan kolom: No, Nama, Sekolah, jurusan, 
+Nomer hp, alamat, dan aksi(update & delete).
+
+5. Menampilkan Data Mahasiswa dari Databasea:
+
+$sql="select * from peserta order by id_peserta desc";
+$hasil=mysqli_query($kon,$sql);
+$no=0;
+while ($data = mysqli_fetch_array($hasil)) {
+    $no++;
+    // Menampilkan data
+}
+
+- Mengambil data mahasiswa dari tabel Peserta di data base .
+- Menampilkan data tersebut dalama tabel htmlspecialchars
+
+6. Tombol aksi (Update dan Delete)
+
+<a href="updatetan.php?id_peserta=<?php echo htmlspecialchars($data['id_peserta']); ?>" class="btn btn-warning" role="button">Update</a>
+<a href="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>?id_peserta=<?php echo $data['id_peserta'];?>" class="btn btn-danger" role="button">Delete</a>
+
+- Tombol update akan mengarahkan ke halaman update dengan 
+  parameter id_peserta.
+- TOmbol Delete akan menghapus data berdasarkan id_peserta
+
+7. Tombol Tambah Data:
+
+<a href="halaman.php" class="btn btn-primary" role="button">Tambah Data</a>
+
+- Tombol untuk menambah data baru, mengarahkan pengguna ke 
+  halaman lain (halaman.php) yang 
+  kemungkinan di gunakan untuk memasukan data baru.
+
+kesimpulnya, kode ini adalah tampilan daftar mahasiswa dengan 
+fungsi CRUD (CRUD, CREATE, READ, UPDATE, DELETE)

@@ -178,5 +178,12 @@ echo $namaSantri->nyatakan();
 echo "<br>";
 echo $namaSantri->belajar();
 
+echo "<hr>";
+
+// Gunakan kreatifitas kamu di setiap method untk bisa 
+// menggunakan 
+// control pengkondisian dan looping dan  array dan hal 
+// lainnya yang telah kita pelajari sebelumnya semua .
+
 
 
