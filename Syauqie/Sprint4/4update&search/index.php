@@ -35,10 +35,10 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     <tr>
         <td><?php echo $i; ?></td>
         <td>
-            <a href="" class="edit">ubah</a> |
+            <a href="ubah.php?id=<?php echo $row ["id"]?>" class="edit">ubah</a> |
             <a href="hapus.php?id=<?php echo $row ["id"]?>" onclick="return confirm('yakin?');" class="delete">hapus</a>
         </td>
-        <td><img src="../insert&delete//foto2/<?php echo $row ["gambar"]?>" width=50px></td>
+        <td><img src="../4update&search/foto2/<?php echo $row ["gambar"]?>" width=50px></td>
         <td><?= $row ["nrp"] ?></td>
         <td><?= $row ["nama"] ?></td>
         <td><?= $row ["email"] ?></td>
@@ -48,6 +48,5 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     <?php endforeach; ?>
     </table>
 
-    <script src="script.js"></script>
 </body>
 </html>

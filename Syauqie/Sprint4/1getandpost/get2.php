@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <li><img src="../foto/<?php echo $_GET["gambar"]?>"></li>
+    <li><img src="../3php&mysql/foto/ echo $_GET["gambar"]?>"></li>
     <li><?php echo $_GET["nama"];?></li>
     <li><?php echo $_GET["email"]; ?></li>
     <li><?php echo $_GET["jurusan"]; ?></li>

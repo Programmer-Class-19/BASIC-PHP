@@ -47,7 +47,7 @@ $result = mysqli_query($conn, "SELECT * FROM mahasiswa"); //kalau pakai query ma
             <a href="">ubah</a> |
             <a href="">hapus</a>
         </td>
-        <td><img src="../foto/<?php echo $row ["gambar"]?>" width=50px></td>
+        <td><img src="foto/<?php echo $row ["gambar"]?>" width=50px></td>
         <td><?php echo $row ["nrp"] ?></td>
         <td><?php echo $row ["nama"] ?></td>
         <td><?php echo $row ["email"] ?></td>
