@@ -1,0 +1,35 @@
+OBJECT ORIENTED DASAR
+Class & Object
+(SPRINT 3 : 2)
+
+Class 
+1.	Class adalah template atau blueprint untuk nantinya membuat instance dari object
+2.	Class mendefinisikan Object
+3.	Menyimpan data dan perilaku yang disebut dengan property dan method
+4.	Cara membuat class (php)
+a.	Diawali dengan menuliskan keyyword class, diikuti nama dan dibatasi dengan {}, untuk menyimpan property dan method 
+b.	Aturan penamaan class sama seperti variable
+Object
+1.	Instance yang didefinisikan oleh class
+2.	Banyak object dapat dibuat menggunakan satu class
+3.	Object dapat dibuatt dengan menggunakan keyword new
+
+Cara membuat class dan instans :
+<?php  
+//misalkan buat file php yang didalamnya tidak ada script html nya tidak prlu menggunakan tag penutup php
+    class Coba {
+
+    } 
+
+    $a = new  Coba(); //class
+    $b = new  Coba(); //class
+    $c = new  Coba(); //class
+
+    var_dump($a); //instans
+    var_dump($b); //instans
+    var_dump($c); //instans
+    
+?>
+
+
+ 

@@ -1,0 +1,72 @@
+    FUNCTION
+        Function adalah potongan proram atau garis garis kode yang membuat agar kita mudah saat program lalu bisa diberi nama dan dapat dipanggil berulang ulang
+    JENIS JENIS FUNCTION DALAM PHP :
+        1.	BUILT-IN FUNCTION fungsi yang sudah disediakan php. http;//PHP.net/manual/en/funcref.php (web untuk jenis jenis function )
+
+            a.	Date / time. 
+                i.	Date ( ) isi dalam kurungnya, {menampilkan tanggal dengan format tertentu}
+                    1.	“l” untuk menampilkan hari
+                    2.	“d” tanggal
+                    3.	“M” bulan dalam bentuk huruf
+                    4.	“m” bulan dalam bentuk nomor
+                    5.	“Y” tahun
+                    6.	Echo date “l, d-M-Y”; (untuk menampilkan hari,tanggal,bula,tahun) 
+
+                ii.	Time ( ) memunculkan waktu
+                    1.	Echo time ( ) #akan tampil UNIX Timestamp / EPOCH time atau detik yang sudah berlalu sejak 1 januari 1970.
+                    2.	echo date ( "d M Y", time ( )+60*60*24*100 );  menemukan hari di 100 hari kemudian, kalo -,  100 hari sebelumnya.
+
+                iii.	Mktime ( ) membuat waktu sendiri
+                    1.	Sintax-nya mktime (0,0,0,0,0,0) 
+                    2.	jam,menit,detik,bulan,tanggal,tahun ( jangan sampai tertukar )
+                    3.	echo date ( "l", mktime (0,0,0,6,13,2006)); menemukan hari kita lahir/ yang lalu dengan mktime dan formatnya.
+
+                iv.	Strtotime ( ) masukin format tanggal akan menjadi detik
+                    1.	echo strtotime ("13 june 2006");
+                    2.	echo date ( "l", strtotime ("13 june 2006") );
+
+            b.	String 
+                i.	Strlen ( ) untuk menghitung Panjang sebuah string dari sebuah string.
+
+                ii.	Strcmp ( ) membandingkan kedua buah string.
+
+                iii.	Explode ( ) memecah string menjadi array. (dipakai ketika kita mau mengambil nama sebuah file misalnya <file = nama dan extensinya>)
+
+                iv.	Htmlspecialchars ( ) khusus untuk menjaga kita orang yang iseng masuk web kita (hacker).
+
+            c.	Utility ( fungsi bantuan )
+                i.	var_dump ( ) untuk mencetak isi variable
+
+                ii.	isset ( ) cek variable udah pernah dibuat atau blum (true / false)
+
+                iii.empty ( ) cek variable ada isinya atau tidak.
+
+                iv.	Die ( ) memberhentikan program kita
+
+                v.	Sleep ( ) memberhentikan program sementara
+
+
+        2.	USER-DEFINED FUNCTION fungsi yang akan dibuat sendiri oleh kita.
+            <?php 
+    // harus mendefinisikan functionnya dan dipanggil
+    //harus ada returnnya untuk
+    // ketika ada parameter yang tidak di panggil akan di tapilkan variable default dengan cara $nama = "datang"
+
+    function salam ( $waktu, $nama ) {
+        return "selamat $waktu, $nama!";
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan function</title>
+</head>
+<body>
+    <h1><?php echo salam ("pagi", "syauqie!!"); ?></h1>
+</body>
+</html>
+
+	

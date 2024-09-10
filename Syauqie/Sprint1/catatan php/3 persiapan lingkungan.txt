@@ -1,0 +1,33 @@
+            Yang Akan Dipelajari :
+Client Side
+    Dalam Konteks Php, "Client-Side" Merujuk Pada Operasi Atau Eksekusi Kode Yang Terjadi Di Sisi Klien (Browser Pengguna), Bukan Di Sisi Server. Php Sendiri Adalah Bahasa Pemrograman Server-Side, Yang Berarti Bahwa Kode Php Dieksekusi Di Server Dan Hasilnya Dikirim Ke Browser Klien Dalam Bentuk Html, Css, Dan Javascript.
+Server Side Scripting
+    Php Ngga Bisa Di Inspect Berbeda Dengan Html Dan Css
+
+    PROSEDUR PENYIMPANAN FILE :
+    1.	Tempatpenyimpanan File Php Tidak Boleh Sembarangan Hanya Boleh Disimpan Pada Folder Htdocs
+    2.	Yang Di Tampilkan Di Localhost Itu Folder Htdocs Yang Berisi Index.Php Kalau Tidak Ada, Index.Html Kalau Tidak Ada Juga Tampilkan Semua File Pada Htdocs Tersebut
+    3.	Cara Membuka Servernya Dengan Cara Localhost/Nama Folder Dalam Hdocs
+        MANFAAT XAMPP :
+    xampp adalah software all in one yang di dalamnya terdapat web server, php, database server
+        XAMPP adalah paket perangkat lunak yang menyediakan semua komponen yang dibutuhkan untuk menjalankan server web lokal (localhost) di komputer pribadi. 
+        XAMPP adalah singkatan dari:
+            •	X: Cross-Platform (dapat berjalan di berbagai sistem operasi seperti Windows, Linux, dan macOS)
+            •	A: Apache HTTP Server (server web)
+            •	M: MySQL/MariaDB (sistem manajemen basis data)
+            •	P: PHP (bahasa pemrograman server-side)
+            •	P: Perl (bahasa pemrograman)
+    Berikut adalah beberapa fitur dan komponen utama XAMPP:
+        1.	Apache: Server web yang digunakan untuk meng-host situs web dan aplikasi web.
+        2.	MySQL/MariaDB: Sistem manajemen basis data yang digunakan untuk menyimpan dan mengelola data aplikasi web.
+        3.	PHP: Bahasa skrip server-side yang digunakan untuk membuat halaman web dinamis.
+        4.	Perl: Bahasa pemrograman yang juga didukung, meskipun lebih jarang digunakan dibandingkan PHP.
+        5.	phpMyAdmin: Alat berbasis web yang digunakan untuk mengelola database MySQL/MariaDB melalui antarmuka grafis.
+        6.	FileZilla FTP Server: Server FTP yang dapat digunakan untuk mentransfer file ke dan dari server.
+        7.	Mercury Mail Server: Server email yang memungkinkan pengujian email lokal.
+
+    Kegunaan XAMPP :
+    1.	Pengembangan Lokal: XAMPP memungkinkan pengembang untuk mengembangkan, menguji, dan debug aplikasi web di komputer pribadi mereka sebelum mengunggahnya ke server produksi.
+    2.	Pengajaran dan Pembelajaran: XAMPP sering digunakan dalam lingkungan pendidikan untuk mengajarkan pengembangan web dan pemrograman database.
+    3.	Demo dan Presentasi: XAMPP memudahkan untuk membuat demo aplikasi web yang dapat dijalankan tanpa perlu akses internet.
+

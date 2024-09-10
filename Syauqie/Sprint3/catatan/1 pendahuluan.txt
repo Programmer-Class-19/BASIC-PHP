@@ -1,0 +1,55 @@
+PENDAHULUAN
+(SPRINT 3 : 1)
+PROCEDURAL PROGRAMMING
+1.	Instruksi dilakukan step by step
+2.	Memecah program menjadi bagian bagiaan kecil
+3.	Disebut prosedur, subroutine atau function
+4.	Linear / top-to-bottom
+5.	Fortran,ALGOL, COBL, Pascal, C, PHP, Javascript
+Alasannya :
+1.	To-the-point
+2.	Simplicity & kemudahan implementasi (untuk compiler & interpreter)
+3.	Mudah ditelusuri
+4.	Membutuhkan lebih sedikit memory (dibandingkan dengan OOP)
+
+OBJECT ORIENTED PROGRAMMING
+1.	Menyusun Semua Kode Program Dan Struktur Data Sebagai Objek
+2.	Objek adalah unit dasar dari program
+3.	Objek menyimpan data dan perilaku (property dan method)
+4.	Objek bisa saling berinteraksi
+5.	JAVA, Ruby, Python, C++, Javascript, PHP%
+Kelebihan OBJECT ORIENTED PROGRAMMING (OOP) :
+1.	Representasi Dunia Nyata (Mudah Untuk Mendefinisikan)
+2.	Enkapsulasi & Abstraksi Data 
+3.	Reusability
+4.	Skalabilitas & Ekstensibilitas 
+5.	Kemudahan Pengelolaan
+6.	Kolaborasi 
+7.	Digunakan Oleh Framework 
+
+PROCEDURAL VS OBJECT ORIENTED
+Procedural lebih cocok untuk kita yang mengerjakan project sendiri, kalo yang ramean lebih bagus object oriented
+
+KONSEP OOP PADA PHP
+BASIC
+1.	Class & Object
+2.	Property & method
+3.	Constructor
+4.	Object type 
+5.	Inheritance 
+6.	Isibility / access modifier (yang membuat oop punya karakteristik)
+7.	Setter & getter (terkait dengan enkapulasi)
+8.	Static method (banyak digunakan di framework)
+ADVANCED
+1.	Abstract & interface
+2.	Interceptor
+3.	Object cloning (duplikasi object sehinga prilaku nya berbeda)
+4.	Callbacks & Closures
+5.	Namespaces & autoloading
+6.	Dll
+YANG HARUS DISIAPKAN :
+1.	Code editor
+2.	Web server
+3.	Web browser
+4.	Database server
+ 
