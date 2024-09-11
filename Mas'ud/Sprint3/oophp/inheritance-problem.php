@@ -11,22 +11,22 @@ class produk {
     public $judul, 
            $penulis,
            $penerbit,
-           $harga,
-           $jmlhalaman,
-           $waktumain; 
+           $harga
+           $jmlHalaman,
+           $waktuMain; 
            $tipe;
 
     
     // Metod Constructor :
     public function __construct( $judul= "judul", $penulis = "penulis", $penerbit = "penerbit",
-                                 $harga = 0, $jmlhalaman = 0, $waktumain = 0, $tipe ) {
+        $harga = 0, $jmlHalaman = 0, $waktuMain = 0, $tipe) {
         $this->judul = $judul;
         $this->penulis = $penulis;
         $this->penerbit = $penerbit; 
         $this->harga = $harga;
-        $this->jmlhalaman= $jlmhalaman;
-        $this->waktumain = $waktumain;
-        $this->tipe =$tipe;
+        $this->jmlHalaman= $jmlHalaman;
+        $this->waktuMain = $waktuMain;
+        $this->tipe = $ $tipe;
 
     }
 
@@ -37,10 +37,13 @@ class produk {
        return "$this->penulis , $this->penerbit, ";    //  $this fungsinya ntuk mengambil isi dari proprty dalam class.
 
 
-    }    
-
-    public function $getInfoLengkap() {
-      $strr = "{$This->$tipe} : {$this->judul} | {$this->getLebel}";  
+    }   
+    
+    public functiont getinfolengkap() {
+        // Komik : Naruto | Masashi Kishimoto, Shonen Jump ( Rp. 30000 ) - 100 Halaman
+        $str = " {$this->tipe} : {$this->judul} |
+        
+        } "
     }
            
 
@@ -61,15 +64,12 @@ class CetakInfoProduk {
 
 
 
-$produk1 = new produk("Naruto", "Kitino", "JepanTV", 30000, 100, 0, "Komik" );
-$produk2 = new produk("Uncharted", "Neil Druckmann",  "Sony Computer", 1500000, 0, 50, "Game" );
+$produk1 = new produk("Naruto", "Kitino", "JepanTV", 30000, 100, 0, "Komik");
+$produk2 = new produk("Uncharted", "Neil Druckmann",  "Sony Computer", 1500000, 0 , 50, "Game" );
 
 
-
-// Komik : Naruto | Kitino, JapanTV, (Rp. 30000) - 100 Halaman 
-// Geme : Uncharted | Neil Druckmann , Sony Computer, (Rp. 1500000) - 50 Jam 
-
-
+// Komik : Naruto | Masashi Kishimoto, Shonen Jump ( Rp. 30000 ) - 100 Halaman 
+// Game :  Uncharted | Neil Druckmann, Sony Computer, ( 1500000 ) - 50 Jam 
 
 
 

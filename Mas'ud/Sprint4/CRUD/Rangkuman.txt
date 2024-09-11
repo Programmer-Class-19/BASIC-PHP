@@ -1,0 +1,44 @@
+CRUD = Creat , Read , Update , Delete 
+       Creat = Menciptakan / Membuat 
+       Read  = Membaca 
+       Update = Perbaharui / Pembaruan
+       Delete = Menghapus / Menghilangkan 
+
+
+
+Apa itu CRUD?
+
+CRUD merupakan kumpulan fungsi dasar yang digunakan untuk mengelola data 
+dalam sebuah database. Fungsi-fungsi ini sangat penting dalam hampir semua 
+aplikasi yang melibatkan penyimpanan dan pengambilan data.
+
+
+
+Masing-masing fungsi CRUD memiliki peranan sebagai berikut:
+
+~ Create: Berfungsi untuk menambahkan data baru ke dalam database. 
+Misalnya, ketika kamu mendaftar di sebuah situs web, data dirimu akan 
+"dicreate" atau ditambahkan ke dalam database pengguna.
+
+~ Read: Berfungsi untuk membaca atau menampilkan data yang sudah ada di dalam database. 
+Misalnya, ketika kamu melihat daftar produk di sebuah toko online, data produk tersebut 
+sedang "di-read" dari database dan ditampilkan di layarmu
+
+~ Update: Berfungsi untuk mengubah atau memperbarui data yang sudah ada.
+Misalnya, ketika kamu mengubah kata sandi akunmu, data kata sandi lama 
+akan "di-update" dengan kata sandi baru.
+
+~ Delete: Berfungsi untuk menghapus data yang sudah tidak diperlukan lagi.
+Misalnya, ketika kamu menghapus sebuah file dari komputermu, file tersebut 
+sebenarnya "di-delete" dari hard disk
+
+
+
+
+
+
+
+
+
+
+
