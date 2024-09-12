@@ -1,1 +1,0 @@
-a:1:{i:4;a:3:{s:5:"title";s:4:"anya";s:6:"author";s:5:"adith";s:4:"year";s:4:"1980";}}
