@@ -1,6 +1,5 @@
 <?php
 require 'functions.php';
-$conn = mysqli_connect("localhost", "root", "", "phpdasar");
 
 if (isset($_POST["submit"])) {
     //ambil data dari setiap elemen dalam form

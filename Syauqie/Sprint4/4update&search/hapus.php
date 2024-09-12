@@ -8,13 +8,13 @@
         echo "
         <script> 
             alert('data berhasil dihapus!');
-            document. location.href = 'index.php';
+            window.location.replace('index.php');
         </script>";
     } else {
         echo "
         <script> 
             alert('data gagal dihapus!');
-            document. location.href = 'index.php';
+            window.location.replace('index.php');
         </script>";
     }
 

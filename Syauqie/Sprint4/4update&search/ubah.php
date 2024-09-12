@@ -1,10 +1,8 @@
 <?php
-require 'functions.php';
-$conn = mysqli_connect("localhost", "root", "", "phpdasar");
-//ambil data di url
-$id = $_GET['id'];
-//query data mahasiswa berdasarakan id
-$mhs = query("SELECT * FROM mahasiswa WHERE id = $id"); //yang akan ditampilkan adalah array numeric
+require 'functions.php';$id = $_GET['id'];
+$result = mysqli_query($conn, "SELECT * FROM mahasiswa WHERE id = $id");
+$mhs = mysqli_fetch_assoc($result);
+
 
 if (isset($_POST["submit"])) {
     if (ubah($_POST) > 0) {
@@ -35,7 +33,7 @@ if (isset($_POST["submit"])) {
 
     <h1>Ubah Data</h1>
     <form action="" method="post"> <!-- action dan method adalah atribut -->
-        <input type="hidden" name="id" value="<?= $mhs["id"] ?>">
+        <input type="hidden" name="id" value="<?= $mhs ["id"] ?>">
         <ul>
             <li>
                 <label for="nama">Nama</label> <br>
@@ -63,7 +61,7 @@ if (isset($_POST["submit"])) {
             </li>
 
             <li>
-                <button type="submit" name="submit">Tambah Data!!</button>
+                <button type="submit" name="submit">Ubah Data!!</button>
             </li>
             <hr>
             <a href="index.php">home</a>
