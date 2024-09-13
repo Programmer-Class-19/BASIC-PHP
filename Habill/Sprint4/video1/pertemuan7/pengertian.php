@@ -31,7 +31,10 @@ merupakan array associative
 // $_GET["nama"] = "kobil bryant";
 // $_GET["nrp"] = "129836476578";
 // cara menambahkan pakek get dengan mengisi manual di url nya 
-var_dump($_GET);
+// var_dump($_GET);
+
+
+// metode request GET adalah metode pengiriman data melalui url dan data tersebut bisa di ambil dan tangkap oleh variable superglobal $_GET
 
 
 ?>
