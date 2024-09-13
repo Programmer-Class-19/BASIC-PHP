@@ -1,21 +1,20 @@
 <?php //jangan simpan password dan database di file ini
 class Mahasiswa_model {
-    private $dbh;
-    private $stmt;
+    private $table = 'mahasiswa';
+    private $db;
 
     public function __construct() {
-        $dsn = 'mysql:host=localhost;dbname=phpmvc';
-
-        try { //blok trycatch memeriksa apakah koneksinya berhasil atau tidak
-            $this->dbh = new PDO($dsn, 'root', '');
-        } catch(PDOException $e) {
-            die($e->getMessage());
-        }
+        $this->db = new Database;
     }
 
     public function getAllMahasiswa() {
-        $this->stmt = $this->dbh->prepare('SELECT * FROM mahasiswa');
-        $this->stmt->execute();
-        return $this->stmt->fetchALL(PDO::FETCH_ASSOC);
+        $this->db->query('SELECT * FROM ' . $this->table);
+        return $this->db->resultSet();
+    }
+
+    public function getMahasiswaById($id) {
+        $this->db->query('SELECT * FROM ' . $this->table . ' WHERE id=:id'); // id=:id' untuk mengamankan sql injection
+        $this->db->bind('id', $id);
+        return $this->db->single();
     }
 }
