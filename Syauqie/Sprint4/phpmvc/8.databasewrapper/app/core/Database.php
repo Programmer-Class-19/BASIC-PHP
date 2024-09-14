@@ -12,7 +12,7 @@ class Database
 
     public function __construct() {
         //data sourc name
-        $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->db_name;
+        $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->db_name; //penulisan menggunakan metode PDO
 
         $option = [
             PDO::ATTR_PERSISTENT => true,

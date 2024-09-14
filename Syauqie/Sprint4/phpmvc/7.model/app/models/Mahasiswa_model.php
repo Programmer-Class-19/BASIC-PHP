@@ -4,7 +4,7 @@ class Mahasiswa_model {
     private $stmt;
 
     public function __construct() {
-        $dsn = 'mysql:host=localhost;dbname=phpmvc';
+        $dsn = 'mysql:host=localhost;dbname=phpmvc'; //tidak di sarankan untuk menyimpan database dan user
 
         try { //blok trycatch memeriksa apakah koneksinya berhasil atau tidak
             $this->dbh = new PDO($dsn, 'root', '');
