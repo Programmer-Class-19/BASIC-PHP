@@ -4,8 +4,13 @@ class Manusia {
     public $nama,
            $usia;
 
+    public function __construct($nama, $usia) {
+            $this->nama = $nama;
+            $this->usia = $usia;
+    }
+    
     public function perkenalan() {
-        return "$this->nama, $this->usia";
+        echo "Halo, nama saya $this->nama dan saya berusia $this->usia tahun.";
     }
 }
 
@@ -81,5 +86,9 @@ $Santri2 = new Santri ("Santri A sedang setoran dengan Ustadz A");
 echo $Santri1->setoran();
 echo "<br>";
 echo $Santri2->setoran();
+
+
+// soal no 4
+
 
 ?>

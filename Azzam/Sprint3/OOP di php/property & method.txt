@@ -5,7 +5,7 @@ property =
 method = 
     merepresentasikan perilaku dr sebuah object
     function yg ada di dlm object
-    sm seperti functiondi dlm PHP, ditambah dgn visibility di dpnnya
+    sm seperti function di dlm PHP, ditambah dgn visibility di dpnnya
 
 
 constructor =
