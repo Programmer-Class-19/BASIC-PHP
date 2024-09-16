@@ -21,7 +21,7 @@ class Database {
         
         try {
             // Koneksi ke database
-            $this->dbh = new PDO($dsn, '$this->user', '$this->pas');  
+            $this->dbh = new PDO($dsn, $this->user, $this->pass, $option);  
         } catch (PDOException $e) {
             // Tangkap dan tampilkan pesan kesalahan jika koneksi gagal
             die($e->getMessage());
@@ -55,15 +55,21 @@ class Database {
 
     public function execute()
     {
-        return $this->stmt->execute();
+       $this->stmt->execute();
     }
 
     public function resultSet(){
+        $this->execute();
         return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function single(){
-        $this->stmt->fetch(PDO::FETCH_ASSOC);
+        $this->execute();
         return $this->stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function rowcount()
+    {
+        return $this->stmt->rowCount();
     }
 }
