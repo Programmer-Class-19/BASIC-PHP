@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /PEMBELAJARANIT/BASIC-PHP/Syauqie/Sprint4/project/
+
+# Mengarahkan semua permintaan ke public/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ public/index.php [L]
