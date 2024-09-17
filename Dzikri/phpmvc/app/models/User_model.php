@@ -1,9 +1,9 @@
-<?php
+<?php 
+    class User_model {
+        private $nama = 'Syauqie billah Putra Noval';
 
-class User_model {
-    private $nama = 'Adzri';
-
-    public function getUser(){
-        return $this->nama;
+        public function getUser() {
+            return $this->nama;
+        }
     }
-}
+?>

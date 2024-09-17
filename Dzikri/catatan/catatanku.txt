@@ -1,0 +1,66 @@
+1. Struktur Folder
+app/: Folder ini berisi seluruh logika program, seperti model, controller, dan view. Ini adalah inti dari aplikasi berbasis MVC.
+
+controllers/: Folder ini berisi controller yang mengatur aliran aplikasi berdasarkan permintaan pengguna.
+models/: Folder ini berisi model yang berfungsi sebagai representasi data, menghubungkan aplikasi dengan database.
+views/: Folder ini berisi tampilan yang akan dilihat oleh pengguna.
+config/: Folder ini berisi konfigurasi penting seperti konstanta BASE_URL yang digunakan untuk membuat aplikasi dinamis.
+public/: Folder ini adalah pintu masuk ke aplikasi, tempat file utama index.php dan .htaccess berada. Semua request URL diarahkan ke sini.
+
+system/: Folder ini berisi fungsi inti yang mendukung aplikasi, seperti pengelolaan koneksi database.
+
+2. Konfigurasi .htaccess
+.htaccess:
+Menggunakan RewriteEngine On dan aturan RewriteRule untuk menulis ulang URL sehingga tidak ada index.php di dalam URL. Misalnya, dari http://localhost/index.php/note/create menjadi http://localhost/note/create.
+RewriteCond %{REQUEST_FILENAME} !-f dan !-d memastikan bahwa permintaan yang masuk bukan untuk file atau direktori fisik, tetapi untuk route dinamis.
+3. File Konstanta (BASE_URL)
+app/config/Constants.php:
+File ini mendefinisikan konstanta penting seperti BASE_URL untuk memberikan rute dinamis, serta informasi koneksi database (DB_HOST, DB_USER, DB_PASS, DB_NAME).
+BASE_URL memastikan kita bisa mengakses file dan halaman secara dinamis berdasarkan lingkungan pengembangan.
+4. Controller
+app/controllers/NoteController.php:
+NoteController: Ini adalah controller yang mengatur aliran aplikasi untuk entitas Note (catatan). Setiap metode di dalamnya menangani aksi pengguna seperti melihat, membuat, mengedit, dan menghapus catatan.
+index(): Mengambil semua catatan dari model dan mengarahkan pengguna ke tampilan daftar catatan.
+create(): Mengarahkan pengguna ke tampilan form untuk membuat catatan baru.
+store(): Menyimpan data catatan yang dikirimkan oleh pengguna dari form ke database.
+edit($id): Mengambil data catatan spesifik berdasarkan ID dan menampilkan form untuk pengeditan.
+update($id): Memperbarui data catatan yang diambil dari form dan menyimpannya kembali ke database.
+delete($id): Menghapus catatan dari database berdasarkan ID yang diberikan.
+5. Model
+app/models/Note.php:
+Model Note: Bertanggung jawab untuk mengelola data terkait catatan pribadi. Model ini berfungsi sebagai antarmuka antara aplikasi dan database.
+getAllNotes(): Mengambil semua catatan dari tabel notes dalam database.
+getNoteById($id): Mengambil catatan tunggal berdasarkan ID.
+save(): Menyimpan catatan baru ke database menggunakan SQL INSERT.
+update(): Memperbarui catatan yang sudah ada dengan SQL UPDATE.
+delete(): Menghapus catatan dari database dengan SQL DELETE.
+6. View
+app/views/notes/: Folder ini berisi tampilan antarmuka pengguna (UI) untuk berbagai operasi.
+
+index.php:
+Menampilkan daftar catatan yang ada, dengan setiap catatan memiliki opsi untuk diedit atau dihapus.
+Link Tambah Catatan membawa pengguna ke halaman untuk menambahkan catatan baru.
+create.php:
+Form HTML untuk membuat catatan baru, di mana pengguna memasukkan judul dan isi catatan. Setelah form dikirimkan, data akan dikirim ke metode store dalam controller.
+edit.php:
+Menyediakan form untuk mengedit catatan yang sudah ada, di mana data judul dan isi catatan sudah diisi sebelumnya berdasarkan catatan yang dipilih pengguna untuk diedit.
+7. Routing
+public/index.php:
+File ini merupakan pintu masuk utama aplikasi. Di sini, URL yang diterima akan diproses dan diarahkan ke controller dan metode yang sesuai.
+$url = explode('/', $url);: Memecah URL menjadi array untuk menentukan controller dan metode yang akan dipanggil.
+Pengaturan Routing: Jika URL kosong, maka akan memanggil metode index pada NoteController. Jika URL berisi note/create, maka memanggil metode create, dan seterusnya untuk store, edit, update, dan delete.
+8. Database
+SQL untuk Tabel notes:
+Membuat database catatan_pribadi dan tabel notes untuk menyimpan catatan. Tabel ini memiliki kolom id, title, content, dan created_at.
+id adalah kunci utama, sedangkan title dan content adalah tempat penyimpanan judul dan isi catatan.
+9. Koneksi Database
+system/database/Database.php:
+Kelas ini mengelola koneksi ke database menggunakan PDO (PHP Data Objects).
+getInstance(): Mengimplementasikan pola desain singleton yang memastikan hanya ada satu koneksi database yang aktif sepanjang aplikasi berjalan. Jika belum ada koneksi, maka akan dibuat koneksi baru berdasarkan konfigurasi yang ada di Constants.php.
+Kesimpulan
+Aplikasi ini menggunakan Model-View-Controller (MVC):
+
+Model: Mengelola data dan interaksi dengan database.
+View: Mengelola tampilan dan antarmuka pengguna.
+Controller: Mengontrol alur aplikasi berdasarkan input dari pengguna dan memfasilitasi interaksi antara model dan view.
+Dengan konsep ini, aplikasi menjadi lebih terstruktur, modular, dan mudah dikembangkan. Setiap komponen memiliki tanggung jawab yang jelas, sehingga mempermudah perawatan dan penambahan fitur di masa mendatang.

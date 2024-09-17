@@ -1,11 +1,10 @@
-<?php
+<?php 
+    define('BASEURL', 'http://localhost/PEMBELAJARANIT/BASIC-PHP/Syauqie/Sprint4/phpmvc/13.searching/public');
 
-define('BASEURL', 'http://localhost:8081/BASIC-PHP/Dzikri/phpmvc/public');
+    //DB
 
-
-// DB
-
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'phpmvc');
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');
+    define('DB_NAME', 'phpmvc');
+?>
