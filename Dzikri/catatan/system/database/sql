@@ -1,6 +1,5 @@
-CREATE DATABASE note_app;
-
-USE note_app;
+CREATE DATABASE catatan_pribadi;
+USE catatan_pribadi;
 
 CREATE TABLE notes (
     id INT(11) AUTO_INCREMENT PRIMARY KEY,
