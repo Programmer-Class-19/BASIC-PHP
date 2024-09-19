@@ -3,7 +3,7 @@ class Database {
     private $host = 'localhost';
     private $user = 'root';
     private $pass = '';
-    private $db_name = 'note_app';
+    private $db_name = 'catatan_pribadi';
 
     private $dbh;
     private $stmt;

@@ -1,5 +1,4 @@
 <?php
-
 define('BASE_URL', 'http://localhost:8082/BASIC-PHP/Dzikri/catatan/public/');
 
 // Database configuration
