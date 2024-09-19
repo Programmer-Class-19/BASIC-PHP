@@ -108,3 +108,6 @@
     </div>
 </body>
 </html>
+<?php 
+echo "asslamu'alaikum"
+?>
