@@ -13,10 +13,12 @@ system/: Folder ini berisi fungsi inti yang mendukung aplikasi, seperti pengelol
 .htaccess:
 Menggunakan RewriteEngine On dan aturan RewriteRule untuk menulis ulang URL sehingga tidak ada index.php di dalam URL. Misalnya, dari http://localhost/index.php/note/create menjadi http://localhost/note/create.
 RewriteCond %{REQUEST_FILENAME} !-f dan !-d memastikan bahwa permintaan yang masuk bukan untuk file atau direktori fisik, tetapi untuk route dinamis.
+
 3. File Konstanta (BASE_URL)
 app/config/Constants.php:
 File ini mendefinisikan konstanta penting seperti BASE_URL untuk memberikan rute dinamis, serta informasi koneksi database (DB_HOST, DB_USER, DB_PASS, DB_NAME).
 BASE_URL memastikan kita bisa mengakses file dan halaman secara dinamis berdasarkan lingkungan pengembangan.
+
 4. Controller
 app/controllers/NoteController.php:
 NoteController: Ini adalah controller yang mengatur aliran aplikasi untuk entitas Note (catatan). Setiap metode di dalamnya menangani aksi pengguna seperti melihat, membuat, mengedit, dan menghapus catatan.
@@ -26,6 +28,7 @@ store(): Menyimpan data catatan yang dikirimkan oleh pengguna dari form ke datab
 edit($id): Mengambil data catatan spesifik berdasarkan ID dan menampilkan form untuk pengeditan.
 update($id): Memperbarui data catatan yang diambil dari form dan menyimpannya kembali ke database.
 delete($id): Menghapus catatan dari database berdasarkan ID yang diberikan.
+
 5. Model
 app/models/Note.php:
 Model Note: Bertanggung jawab untuk mengelola data terkait catatan pribadi. Model ini berfungsi sebagai antarmuka antara aplikasi dan database.
@@ -34,6 +37,7 @@ getNoteById($id): Mengambil catatan tunggal berdasarkan ID.
 save(): Menyimpan catatan baru ke database menggunakan SQL INSERT.
 update(): Memperbarui catatan yang sudah ada dengan SQL UPDATE.
 delete(): Menghapus catatan dari database dengan SQL DELETE.
+
 6. View
 app/views/notes/: Folder ini berisi tampilan antarmuka pengguna (UI) untuk berbagai operasi.
 
@@ -44,6 +48,7 @@ create.php:
 Form HTML untuk membuat catatan baru, di mana pengguna memasukkan judul dan isi catatan. Setelah form dikirimkan, data akan dikirim ke metode store dalam controller.
 edit.php:
 Menyediakan form untuk mengedit catatan yang sudah ada, di mana data judul dan isi catatan sudah diisi sebelumnya berdasarkan catatan yang dipilih pengguna untuk diedit.
+
 7. Routing
 public/index.php:
 File ini merupakan pintu masuk utama aplikasi. Di sini, URL yang diterima akan diproses dan diarahkan ke controller dan metode yang sesuai.

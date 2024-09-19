@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Catatan</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Tambah Catatan Baru</h1>
-    <form action="<?= BASE_URL ?>note/store" method="POST">
-        <label for="title">Judul:</label><br>
-        <input type="text" id="title" name="title"><br><br>
-        <label for="content">Isi:</label><br>
-        <textarea id="content" name="content"></textarea><br><br>
-        <input type="submit" value="Simpan">
-    </form>
+    <div class="container mt-5">
+        <h1 class="text-center">Tambah Catatan Baru</h1>
+        <form action="<?= BASE_URL ?>note/store" method="POST">
+            <div class="form-group">
+                <label for="title">Judul:</label>
+                <input type="text" id="title" name="title" class="form-control" placeholder="Masukkan judul catatan">
+            </div>
+            <div class="form-group">
+                <label for="content">Isi:</label>
+                <textarea id="content" name="content" class="form-control" placeholder="Masukkan isi catatan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Simpan</button>
+            <a href="<?= BASE_URL ?>" class="btn btn-secondary">Kembali</a>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
