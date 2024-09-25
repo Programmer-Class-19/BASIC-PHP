@@ -1,0 +1,11 @@
+array = 
+    variabel yg bisa menampung bnyk nilai.
+    elemen array boleh memiliki tipe data yg berbeda.
+    pasangan antara key dan value.
+    key nya adalah index, yg di mulai dari 0
+cara membuat array
+    cara lama
+       $hari = array("senin", "selasa," "rabu,");
+    cara baru
+       $bulan = ["januari", "februari", "maret",];
+       $arr1 = [123, "tulisan", false];

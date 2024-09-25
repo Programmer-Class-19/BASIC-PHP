@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: left;
+}
+
+#add-student {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+#student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#student-table th, #student-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#student-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+#student-table img {
+    width: 50px;
+    height: 50px;
+}
+
+.edit, .delete {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.edit:hover, .delete:hover {
+    text-decoration: underline;
+}
+
+.delete {
+    color: #FF6347;
+}

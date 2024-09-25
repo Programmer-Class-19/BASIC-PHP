@@ -1,0 +1,13 @@
+>> Option -Multiviews : untuk menghindari kesalahan atau ambigu ketika kita memanggil file atau folder di dalam public ini.
+
+>> Routing
+
+Routing di PHP adalah proses mengatur jalur (route) yang menghubungkan permintaan pengguna (request) dengan tindakan yang tepat di aplikasi web. Dalam pengembangan web, routing memungkinkan kamu menentukan halaman atau fungsi mana yang harus dijalankan ketika seseorang mengunjungi URL tertentu.
+
+Bayangkan sebuah routing seperti peta petunjuk arah. Setiap URL adalah alamat, dan routing menentukan tujuan (halaman web atau fungsi PHP) yang harus dijalankan untuk setiap alamat tersebut.
+
+Contoh Sederhana: Misalkan kamu memiliki dua halaman: satu halaman beranda (index.php) dan satu halaman tentang (about.php).
+
+Saat pengguna mengunjungi https://website.com/, mereka akan diarahkan ke halaman index.php.
+Saat pengguna mengunjungi https://website.com/about, mereka diarahkan ke about.php.
+Dengan routing, kamu dapat mengelola logika ini dalam satu file (misalnya, index.php), dan berdasarkan URL yang dikunjungi pengguna, sistem akan menentukan halaman atau fungsi apa yang akan dijalankan.

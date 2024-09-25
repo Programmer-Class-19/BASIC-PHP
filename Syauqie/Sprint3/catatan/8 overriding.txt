@@ -1,0 +1,3 @@
+OVERRIDING
+(SPRINT 3 : 8)
+Sebuah istilah dimana kita bisa membuat method di class child yang memiliki nama yang sama seperti class parentnya (mengambil alih parrent class)

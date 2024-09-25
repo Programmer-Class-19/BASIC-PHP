@@ -1,0 +1,20 @@
+php2
+
+pengulangan
+1. for    -> ada tiga = inisialisasi, kondisi terminasi, dekermen/inkermen
+     --> inisialisasi= menentukan variable awal untuk pengulangan
+     --> kondisi terminasi= memberhentikan pengulangan
+     --> dekermen= agar pengulangan maju atau mundur
+2. while
+3. do.. while
+4. foreach : pengulangan khusus array
+
+*do while di kerjakan min 1x jika false*
+*while tdk di kerjakan jika false*
+
+pengkondisian
+1. if.. else
+2. if.. else if.. else
+3. ternary
+4. switch
+

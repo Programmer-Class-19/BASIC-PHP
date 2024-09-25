@@ -1,0 +1,1 @@
+{"result":{"text":"4 over b subscript 0 x 100"},"status":"ok"}

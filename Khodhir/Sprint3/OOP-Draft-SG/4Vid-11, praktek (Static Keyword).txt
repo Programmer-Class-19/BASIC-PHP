@@ -1,0 +1,9 @@
+>> Visibility (Acces Modifier)
+- Sebuah konsep untuk mengatur akses terhadap property dan method pada sebuah class atau object
+
+3 Keyword Visibility
+    - public : dapat digunakan di mana saja, bahkan di luar kelas.
+    - protected : hanya dapat digunakan di dalam sebuah kelas beserta turunannya.
+    Private : property dan methodenya hanya dapat digunakan di dalam sebuah kelas tertentu saja.
+KENAPA menerapkan akses modifire ini:
+1. hanya memperlihatkan aspek dari class ang ditunjukan oleh 'Client'

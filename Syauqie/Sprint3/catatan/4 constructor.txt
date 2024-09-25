@@ -1,0 +1,4 @@
+CONSTRUCTOR METHOD
+(SPRINT 3 : 4)
+
+Constructor method merupakan method yang spesial / khusus yang ada dalam kelas karna constructor ini adalah method yang otomatis dijalankan  ketika sebuah class kita buat objek (instansi).

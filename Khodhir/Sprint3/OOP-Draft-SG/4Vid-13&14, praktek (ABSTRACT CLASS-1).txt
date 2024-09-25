@@ -1,0 +1,20 @@
+//KONSEP ABSTRACT CLASS:
+/*
+-Sebuah kelas yang tidak dapat di-instansiasi. (yang di instansiasi class turunannya)
+-mendefinisikan interface untuk kelas lainy ang menjadi turunannya.
+berperan sebagai kerangka dasar untuk kelas turunannya
+memiliki min 1 method abstract.
+-sangat berkaitan dengan inheriten
+- untuk memaksakan implementasi method abstrak yg sama untuk semua kelas turunannya
+// Keywordnya abstract sebelum kata class.
+*/
+//PRAKTEK ABSTRA2 EP. 14
+
+
+>> Interface
+    - Kelas abstrak yang sama sekali tidak ada implementasi
+    - Kelas interface harus definisinya saja / murni merupakan template untuk kelas turunannya
+    - Tidak boleh memiliki property. hanya deklarasi method saja.
+    - semua methodnya harus dideklarasikan dengan visibility public 
+    - boleh mendeklarasikan construct
+    - satu kelas boleh mengimplementasikan banyak interface

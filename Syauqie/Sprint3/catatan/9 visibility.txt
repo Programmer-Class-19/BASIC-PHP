@@ -1,0 +1,12 @@
+VISISBILITY (ACCES MODIFIER)
+(SPRINT 3 : 9)
+
+1.	Konsep yang digunakan untuk mengatur akses dari property, dan method pada sebuah objek
+2.	Ada 3 keyword visibility : public, protected, dan private
+a.	Public dapat digunakan di mana saja, bahkann di luar kelas
+b.	Protected hanya digunakan di dalam sebuah kelas beserta turunannya
+c.	Private hanya dapat digunakan di dalam sebuah kelas tertentu saja
+ALASAN :
+1.	Hanya memperlihatkan aspek dari class yang dibutuhkan oleh ‘client’
+2.	Menentukan kebutuhan yan jelas untuk sebuah object
+3.	Memberikan kendali pada kode untuk menghindari ‘bug’

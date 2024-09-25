@@ -1,0 +1,39 @@
+            PENGERTIAN PHP
+PHP adalah singkatan dari "PHP: Hypertext Preprocessor." Atau PHP: “PERSONAL HOME PAGE.” Ini adalah bahasa skrip yang terutama digunakan untuk pengembangan web dan dapat disematkan ke dalam HTML. PHP sering digunakan untuk membuat halaman web dinamis yang dapat berinteraksi dengan database.
+            FUNGSI – FUNGSI PHP :
+•	10 Alasan Belajar PHP Dasar :
+
+1.	Relatif Mudah Untuk Pemula : Karena Simple Dan To The Point
+2.	Pre-Requisite (Yang Dibutuhkan Hanyalah Paham HTML)
+3.	Gratis & Open Source (Cukup Mengunjungi Websitenya Untuk Instalasi Sistemnya)
+4.	Dukungan Komunitas Besar Bgtt!! (Stack Overflow) (Php Indonesia)
+5.	Dokumentasinya Yang Lengkap
+6.	PHP Dibuat Khusus Untuk Membuat Web
+7.	Kebanyakan Web Sekarang Banyak Dibuat Dengan PHP
+8.	Banyak Web Besar Dibuat Dengan PHP Contohnya : Fb, Yahoo
+9.	Content Management System Yang Menggunakaan PHP Contohnya : Wordpress, Joomla, Drupal (Mempermudah Membuat Php)
+10.	Framework PHP Banyakk Dan Bagus Contohnya : Code Igniter, Cake Php, Laravel
+
+            ISTILAH ISTILAH YANG AKAN DIPELAJARI :
+1.	Client-side vs. Server-side scripting 
+2.	Static vs. Dynamic website 
+3.	Persiapan lingkungan pengembangan
+4.	Sintaks php
+5.	Array (Array adalah struktur data yang digunakan untuk menyimpan kumpulan nilai atau elemen-elemen dengan tipe data yang sama.)
+6.	Request method : metode pengiriman data
+7.	Studi kasus website sederhana
+8.	Database
+9.	Crud (create, read, update, delete)
+10.	Login & registrasi
+11.	Session & cookie
+12.	Ajax (untuk menambah interaktif web kita)
+13.	Upload file
+14.	Reporting (pelaporan)
+15.	Web hosting
+
+            YANG HARUS DIPERSIAPKAN :
+1.	Code editor
+2.	Web server (apache)
+3.	Web browser (chrome)
+4.	Database server (my sqa)
+

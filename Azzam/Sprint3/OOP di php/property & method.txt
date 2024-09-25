@@ -1,0 +1,13 @@
+property = 
+    merepresentasikan data / keadaan/ dr sebuah object
+    variabel yg da di dlm object
+    sm sperti variabel di dlm PHP, ditambah dgn visibility di dpnnya
+method = 
+    merepresentasikan perilaku dr sebuah object
+    function yg ada di dlm object
+    sm seperti function di dlm PHP, ditambah dgn visibility di dpnnya
+
+
+constructor =
+    sebuah method spesial di dalam class karena otomatis di jalankan ketika sebuah class kita intansiasi / buat objectnya
+    

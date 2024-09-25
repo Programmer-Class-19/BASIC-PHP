@@ -1,0 +1,9 @@
+SETTER & GETTER
+(Accessor Method)
+(SPRINT 3 : 10)
+
+Erat kaitannya dengan visibility karena digunakannya setter & getter ini untuk menghindari ketika kita buat property dengan visibility public dan gunanya jugauntuk melakukan validasi. Setter (set) getter (get).
+ALASAN MENGGUNAKAN GETTER :
+1.	Supaya nanti kita bisa melakukan sesuatu didalam functionnya
+ALASAN MENGGUNAKAN SETTER:
+1.	Untuk meng set nilai baru dan membutuhkan parameter

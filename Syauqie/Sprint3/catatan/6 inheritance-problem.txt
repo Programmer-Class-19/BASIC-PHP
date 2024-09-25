@@ -1,0 +1,13 @@
+INHERITANCE I
+(SPRINT 3 : 6)
+Inheritance atau pewarisan dalam PHP adalah konsep dalam pemrograman berorientasi objek (OOP) di mana sebuah class dapat menurunkan properti dan metode yang dimilikinya kepada class lain.
+1.	Menciptakan 1 hierarki antar kelas (parent-child).
+2.	Child class , mewarisi semua properti dan method dari parent-nya (yang visible)
+3.	Child class, memperluas (extends) fungsional dari parent-nya.
+Alasan belajar inheritance :
+1.	Reuse Kode: Inheritance memungkinkan Anda untuk menggunakan kembali kode yang sudah ada tanpa harus menulis ulang. Dengan mewarisi properti dan metode dari kelas induk, kelas anak dapat mengurangi duplikasi kode.
+2.	Pemeliharaan Kode yang Lebih Mudah: Dengan menggunakan inheritance, perubahan pada kelas induk akan secara otomatis diterapkan pada semua kelas anak. Ini membuat pemeliharaan kode menjadi lebih mudah dan efisien
+3.	Struktur Kode yang Lebih Terorganisir: Inheritance membantu dalam menciptakan struktur hierarki yang jelas dalam kode Anda. Ini membuat kode lebih mudah dipahami dan diikuti oleh pengembang lain.
+4.	Ekstensi Fungsionalitas: Kelas anak dapat menambahkan atau mengubah fungsionalitas dari kelas induk tanpa mengubah kode asli dari kelas induk. Ini memungkinkan pengembangan yang lebih fleksibel dan modular.
+5.	Polimorfisme: Inheritance memungkinkan penggunaan polimorfisme, di mana objek dari kelas yang berbeda dapat diperlakukan sebagai objek dari kelas induk yang sama. Ini sangat berguna dalam desain sistem yang kompleks.
+

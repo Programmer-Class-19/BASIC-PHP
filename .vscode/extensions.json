@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "recommendations": [
         "vincaslt.highlight-matching-tag"
     ]
+=======
+    "recommendations": []
+>>>>>>> d5e6ee0c607728d20173c1335f6253ba7db77bbf
 }
