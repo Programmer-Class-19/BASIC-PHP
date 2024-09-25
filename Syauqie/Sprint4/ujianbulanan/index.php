@@ -37,5 +37,4 @@ $result = mysqli_query($koneksi, $query);
         <?php $i++; ?>
         <?php endwhile; ?>
     </table>
-</body>
-</html>
+
