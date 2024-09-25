@@ -1,5 +1,3 @@
-<!-- model mengelola data aplikasi -->
-<!-- data base, membaca, dan proses data -->
 <?php
 require_once '../system/database/Database.php';
 
