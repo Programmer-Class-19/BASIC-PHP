@@ -1,0 +1,31 @@
+Jum'at, 23/08/24
+
+>> Class
+    - Class adalah blueprint/Template untuk membuat instance dari object
+    - Class mendefinisikan Object
+    - Menyimpan data dan Perilaku yang disebut dengan property(sifat) dan method(Function) 
+    >> Cara buat Class
+        - Diawali dengan menuliskan keyword class, diikuti nama dan dibatasi dengan {} , untuk menyimpan Property dan method.
+        - Aturan penamaan class sama seperti variable dan function, tidak boleh diawali dengan angka, atau mengandung spasi.
+>> Object
+    - Instance (contoh/ sama aritnya dengan object) yang didefinisikan oleh class. => Bentuk nyatanya adalah object bukan kelas.
+    - Banyak object dapat dibuat menggunakan satu class.
+    - Object dibuat menggunakan keyword " new " .
+>> Property (variable kalau dalam php dasar)
+    - Mempresentasikan data / keadaan dari sebuah object
+    - Variable yang ada di dalam object (member variable) / variable yang kita buat dalam class istilahnya menjadi ptoperty
+    - Aturan penulisannya sama dengan variable dalam php, ditambah visibility (ada 3; public, privat, protected ) di depannya.
+>> method (function kalau dalam php dasar)
+    - Mempresentasikan perilaku/behavior dari sebuah object. istilah lainnya adalah function dalam object
+    - Sama seperti function dalam php, ditambah visibility di depannya. (sebenarnya boleh tanpa vicibility, kalau gak maka akan diasumsikan public)
+>> Gambaran
+    coba bayangkan mobil merah
+    - properti adalah yang nempel pada mobil
+    - method : apasih yang dapat dilakukan oleh mobil ini.
+>> Cara mendevinisikan nilai Property dalam OOP
+    1. secara default
+       -> dengan langsung menuliskan setelah property << = "masukkan nama",
+    2. Dengan menimpa nilai property setelah kita menuliskan object di luar class
+>> inheritance
+    - Menciptakan hirarki antar kelas (Parent & Child)
+   

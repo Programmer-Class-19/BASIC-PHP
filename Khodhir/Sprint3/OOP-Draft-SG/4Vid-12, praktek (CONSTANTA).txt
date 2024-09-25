@@ -1,0 +1,5 @@
+Costant : Sebuah identifier untuk menyimpan nilai
+bedanya dengan variable nilai yang disimpan tidak akan bisa berubah ketika kita sudh set di dalam program kita. kalau konstanta satu maka sampai akhir tetap 1.
+Keyword : 
+    define()
+    const
