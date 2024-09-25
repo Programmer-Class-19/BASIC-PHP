@@ -1,0 +1,162 @@
+Vidio 1
+
+Pembahasan Object Oriented Programming 
+Object Oriented merupakan gaya pemogramman atau programming style, bisa juga disebut paradigma pemograman 
+yaitu cara kita menulis gaya pemograman kita.
+Karakteristik Object Oriented Programming :
+    ` Menyusun semua kode program dan struktur data sebagai objek
+    ` Objek adalah unit dasar program 
+    ` Objek menyimpan data dan perilaku 
+    ` Objek  bisa saling berinteraksi 
+Bahasa Pemograman Yang menggunakan Object : Java, Ruby, Python, C++, Javascript, PHP5
+
+Kelebihan Object Programming :
+    ` Repsebtasi dunia nyata 
+    ` Enkapsulasi (membuat data yang kita buat aman) & Abstraksi Data 
+    ` Reusability (memudahkan kita untuk menggunakan ulang program yang telah kita buat )
+    ` Skabilitas & Ekstensibilitas
+    ` Kemudahan penglolaan 
+    ` Kalaborasi 
+    ` Digunakan oleh framework 
+
+
+
+
+> Procedural Programming ?
+Procedural programming adalah cara membuat program dengan mengurutkan langkah-langkah atau instruksi untuk menyelesaikan sebuah tugas.
+Karakteristik Prosedural Programming:
+   ` Instruksinya dilakukan langkah demi langkah 
+   ` Memecahkan program menjadi bagian kecil 
+   ` Disebut prosedur, subrotine atau funcion 
+   ` Linear / top Bottom
+Bahasa Pemogramman Yang menggunakan Procedural : Fortran, ALGON, COBOL, Pascal, C, PHP, Javascript
+
+Kelebihan Procedural Programming :
+    ` TO-the-point
+    ` Simplicity dan kemudahan implentasi (untuk compiler & interpreter) 
+    ` Mudah ditelurusuri
+    ` Membutuhkan lebih sedikit memory (dibangdingkan dengan OOP)
+    
+    
+    
+    
+Konsep OOP pada PHP ?
+ BAsic :
+    ` Clas dan Object
+    ` Property & Method
+    ` Contructor
+    ` Object Type
+    ` Inheritance
+    ` Visibility / Access Modifier 
+    ` Setter & Getter
+    ` Static Method 
+
+
+Advanced :
+    ` Abstract & Interface
+    ` Interceptor
+    ` Object Cloning
+    ` Callbacks & Closures
+    ` Namespaces & Autoloading 
+    
+
+
+
+
+
+
+
+Vidio 2 
+
+Pembahasan : Class & Object  
+Class Fungsinya sebagai : 
+    ` tamplate atau blueprint untuk membbuat instance dari sebuah Object.
+    ` Class mendifinisikan Object 
+    ` Class menyimpan data dan perilaku yang disebut dengan property dan method.
+
+Membuat Class :
+   ` Diawali dengan memulis keyword class, diikuti nama dan dibatasi dengan {kurung kurawal} 
+     untuk menyimpan property dan method.
+    ` Aturan penamaan class sama seperti  variabel 
+
+
+Object adalah Implamentasi atau Instance dari rancangan class tadi.
+Definisi Object :
+    ` Instance yan didefinisikan oleh Class 
+    ` Object dapat dibuat banyak dengan satu Class 
+    ` Object dibuat dengan menggunakan keyword  new 
+    ` 
+
+
+
+
+Vidio 3 
+
+Pembahasn : Property & Method 
+
+property devinisi :
+    ` Mempersentasikan data / keadaan dari sebuah object 
+    ` variabel yang ada di dalam object (member variabel)
+    ` sama seperti variabel di php, tapi ditambah dengan visibility di depannya, 3 jenis visibility : ` public 
+                                                                                                      ` protected
+                                                                                                      ` private 
+                                                                                                    
+
+methode devinisi :   
+    ` mempersentasikanperilaku dari sebuah object 
+    ` funtion yang ada di dalam php 
+    ` sama seperti fungcion di dalam php, ditambah dengan visibility di depannya  
+    
+    
+
+
+
+
+Vidio 4 
+
+Pembahasan : Constructor Method
+
+Constructor Method adalah method yang otomatis dipanggil ketika sebuah class dibikin object atau Instencenya.
+
+Constructor : Merupakan sebuah method spacial atau method yang khusus yang ada dalam class. dan juga method yang 
+            otomatis dijalankan ketika sebuah kelas kita instancesiasi atau ketika kita buat objectnya 
+
+
+
+
+Vidio 5 
+
+Pembahasan : Object Type 
+
+Object Type adalah 
+Object type dalam pemrograman adalah tipe data yang digunakan untuk merepresentasikan objek, yaitu instance dari suatu kelas.
+
+
+
+
+
+
+Vidio 6 
+
+Pembahasan : Inheritance ( Pewarisan )
+
+Definisi Inheritance :
+    ` Menciptakan hierarki antara class (Parent & Child)
+    ` Child class, mewarisi semua property dan methos dari parent-nya (yang visible)
+    ` Child class, memperluas (extend) fungsionalitas dari parent-nya 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

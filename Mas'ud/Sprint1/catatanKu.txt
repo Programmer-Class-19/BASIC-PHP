@@ -1,0 +1,483 @@
+PHP adalah bahasa pemograman bukan ( pemberi harapan palsu ) ^_^
+
+PHP adalah bahasa pemograman yang digunakan untuk membuat website dinamis dan interaktif.
+Dinamis artinya, website tersebut bisa berubah-ubah tampilan dan kontennya sesuai dengan kondisi tertentu.
+Interaktif aratinya,PHP dapat memberi feedback bagi user.
+
+Vidio 1
+
+Intro 
+
+Alasan programmer belajar PHP :
+1. Relatif mudah untuk pemula 
+2. Pre-requisite  HTML dan CSS 
+3. Gratis & Open source 
+4. Dukungan komunitas
+5. Dokumentasi yang lengkap 
+6. PHP di buat khusus untuk membuat web 
+7. Kebanyakan wibsite yang ada saat ini dibuat dengan PHP 
+8.Banyak wibsite besar dibuat dengan PHP 
+9. Contetnt management system yang menggunakan PHP
+10. Frameang 
+
+
+
+Yang perlu di pelajari :
+1. client-side   vs.   server-side scripting
+2. static   vs.   dynamic wibsite 
+3. persiapan lingkungan pengembangan 
+4. sintaks PHP
+5. array
+6. request method 
+6. studi kasus wibesite sederhana 
+7. database
+8. CRUD ( Create, Read, Update, Delete )
+9. login & registrasi
+10. session dan cookie 
+11. ajax
+12. upload file
+13. reporting 
+14. web hosting 
+
+
+Yang perlu disiapkan :
+1. code editor 
+2. web server
+3. web browser 
+4.database server 
+
+
+
+
+
+
+
+
+
+Vidio 2 
+
+Sejarh dan Karakteristik PHP
+
+Sejarah PHP
+PHP di buat oleh : ( Rasmus Lerdorf )pada tahun 1994  
+pada tahun 1994 PHP singkatan dari Personal Home Page 
+beliau awalnya membuat sebuah program dalam bahasa c untuk mengelola halaman web pribadinya atau Personal Home Page
+pada awal dibuat Rasmus Lerdorf menamakan aplikasi yang ia ciptakan ini adalah 
+> PHP/FI,1994 Personal Home Page / Form Interpreter
+
+dan dari sini program yang ia ciptakan ini banyak diminati oleh rekan rekannya dan orang lain sehingga,
+ia buat untuk orang lain dalam bentuk open source yang namanya 
+> PHP Tools v.1 1995
+> PHP Tools v.2 1997
+
+sampai pada tahun 1998 PHP versi 3 dikembangkan oleh 2 orang yang membantu mengembangkan PHP namanya Zeev Suraski & Andi Gutsmans dan membuat perusahaan bernama Zend Technologies 
+2 orang ini  yang berjasa membuat parser dalam PHP, 
+Parser adalah sebuah program untuk membaca sintaks dalam php agar php bisa mengetahui codingan yang kita tulis sehingga nama PHP tergati 
+yang awalnya PHP ( Personal Home Page ) menjadi PHP:Hypertext Preprocessor
+
+lalu pada tahun 2000 dikembangkan lagi menjadi PHP versi 4 yang didalam nya terdapat 
+Zend Engine 
+Zend Engine adalah mesin mengelola PHP nya jadi Interpreter adalah Zend Engiene yang diciptakan oleh perusahaan Zen Technologies
+
+lalu pada tahun 2004 di kembangkan PHP menjadi versi 5 
+versi 5 adalah update PHP yang paling besar  yang didalamnya disimpan banyak  fitur-fitur dan fungsionalitas  di dalam librarynya  dan dikembangkan juga Zend Engiene nya menjadi Zend Engiene versi 2
+dan dalam PHP versi 5 terdapat :
+> OOP = Object Oriented Programming 
+> PDO = PHP Data Object
+
+lalu pada tahun 2008 perkembangan PHP versi 4 di berhentikan dan pada saat itu terdapat 
+> Gerakan Go PHP 5
+pergerakan ini disanrankan bagi semuanya untuk berpindah atau imigrasi dari PHP versi 4 ke PHP versi 5 
+dan pada tahun 2008 PHP versi 6 tertunda dan akhirnya diabaikan karna dalam PHP versi 6 ingin memperbaiki masalah di Unicode 
+Unicode ini adalah bagaimana PHP dapat menangani penulisan berbagai macam bahasa yaitu diinginkan PHP tidak cuma dapat menggunakan bahasa Latin 
+tetapi di ingin juga dapat menggunakan huruf Jepang, arab dll sehingga fokus di di PHP versi 5 sampai pada 2010 PHP versi 5 menjadi PHP versi 5.4 
+
+pada tahun 2014 dikembangkan PHP versi 7 dan pada PHP versi 7 Zend Engiene juga dikembangkan menjadi Zend Engiene versi 3
+
+dan pada tahun 2020 PHP versi 8 dikembangkan pada versi 8 kali ini PHP  memperkenalkan JIT (Just-In-Time) compiler, yang secara signifikan meningkatkan kinerja eksekusi kode.
+dan PHP 8 juga menambahkan union types, named arguments, dan berbagai perbaikan lainnya untuk membuat pengembangan lebih efisien.
+
+dan PHP mempunyai icon dan iconnya dinamakan elePHPant ( bahasa inggris gajah yang di tengahnya terdapat kata PHP ) icon ini di ciptakan oleh Vincent Pontier
+
+
+
+
+
+
+Karakteristik PHP 
+1. ekstensi file .php
+    setelah nama filenya harus menggunakan .php
+
+2. ditulis didalam tag php 
+    setiap sintaks php nya harus di tulis dalam tag php atau dalam : 
+    a. delimiter 
+    delimiter adalah pembatas yang di awali dengan <?php dan diakhiri dengan ?> 
+    alhasil <?php  ?>
+
+3. bisa digunakan bersamaan dengan HTML 
+    kita dapat menulis PHP didalam HTML atau sebaliknya HTML di dalam PHP 
+
+4. mengikuti bahasa C 
+    Bahasa C adalah bahasa pemrograman yang dirancang untuk menulis sistem operasi, 
+    dan bahasa ini menjadi fondasi bagi banyak bahasa pemrograman modern lainnya seperti C++, C#, Java, dan JavaScript & PHP.
+
+
+
+
+
+
+
+
+Vidio 3 
+
+Pembahasaannya : lingkungan  pengembangan 
+
+bagi pemula dalam mempelajari PHP perlu persiapan dalam lingkungan pengembangannnya karna dalam membuat wibsite dengan PHP tidak semudah 
+ketika kita membuata wibsite  menggunakan HTML dan CSS karna dengan menggunakan PHP kita butuh sesuatu yang dinamakan dengan web Server.
+persiapan yaang perlu di dipahami adalah :
+
+1. Memahami Client-Side & Server-Side Scripting  
+Client Side Scripting adalah 
+Sesuai dengan namanya, yaitu sebuah program yang pengolahannya pada sisi Client, yang berjalan di web browser. 
+Maksud nya Pengolahan disini berarti “Menerjemahkan” yang bertugas menerjemahkan script ini untuk client yaitu web browser. 
+Nah didalam web browser, terdapat Library yang mampu menerjemahkan semua perintah dihalaman web yang menggunakan client side scripting. 
+Library ini juga disebut web engine yang dimiliki setiap web browser.  
+Bahasa Pemrograman yang dapat digunakan untuk membuat Client-side yaitu HTML, CSS, Java Script, dan JQuer
+
+Server Side Scripting adalah  
+Suatu program yang berjalan diserver dimana script di terjemahkan diserver yang memungkinkan untuk menghasilkan halaman web yang dinamis.
+Kode-kode server-side tidak bisa kita lihat karena sifatnya  yang rahasia untuk Client. 
+Server-side Scripting sangat berguna dalam pengembangan website. 
+Program ini dapat membantu maningkatkan pengalaman pengguna dengan cara mengirimkan konten yang sangat sesuai dengan apa yang diinginkan atau diminta oleh user. 
+Contoh Server-side Scripting adalah  ASP (Active Server Page) , PHP, JSP (Java Server Pages).
+
+
+2. Menginstal Web Server
+kita dapat menginstalnya dengan software :
+1. WAMP = Windos Apache MySQL PHP  khusus untuk Windows
+WAMP adalah singkatan dari:
+- **W**indows: Sistem operasi yang digunakan.
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (atau MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP (atau **P**erl/**P**ython): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+WAMP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal di komputer Windows. Seperti MAMP untuk Mac, 
+WAMP memungkinkan pengembang untuk mengembangkan, 
+menguji, dan menjalankan aplikasi web secara lokal sebelum 
+mengunggahnya ke server produksi.
+
+2. MAMP = MacOS Apache  MySQL PHP  khusus untuk komputer Mac
+MAMP adalah singkatan dari:
+MacOS (atau Mac): Sistem operasi yang digunakan.
+Apache: Server web yang digunakan untuk menyajikan situs web.
+MySQL: Sistem manajemen basis data yang digunakan untuk menyimpan data.
+PHP (atau Perl/Python): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+MAMP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal untuk komputer Mac. Ini memungkinkan 
+pengembang web untuk mengatur dan menguji situs web mereka 
+secara lokal sebelum mempublikasikannya ke server produksi.
+
+3. LAMP = Linux  Apache  MySQL PHP khusus untuk komputer Linux
+LAMP adalah singkatan dari:
+- **L**inux: Sistem operasi yang digunakan.
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (atau MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP (atau **P**erl/**P**ython): Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+LAMP adalah tumpukan perangkat lunak (software stack) yang 
+digunakan untuk mengembangkan dan menyajikan aplikasi web. 
+Ini adalah salah satu tumpukan teknologi yang paling umum digunakan 
+untuk hosting dan mengembangkan situs web dinamis di server berbasis Linux.
+
+4. XAMPP = X:Cross- Platfrom Apache MySQL PHP  Prel 
+XAMPP adalah singkatan dari:
+- **X**: Cross-platform (berarti dapat berjalan di berbagai sistem operasi seperti Windows, Linux, dan macOS).
+- **A**pache: Server web yang digunakan untuk menyajikan situs web.
+- **M**ySQL (sekarang sering menggunakan MariaDB): Sistem manajemen basis data yang digunakan untuk menyimpan data.
+- **P**HP: Bahasa pemrograman yang digunakan untuk membuat situs web dinamis.
+- **P**erl: Bahasa pemrograman yang juga didukung oleh paket ini.
+XAMPP adalah paket perangkat lunak yang menyediakan lingkungan 
+server web lokal yang lengkap dan mudah diatur. Ini digunakan oleh 
+pengembang web untuk membuat, menguji, dan menjalankan 
+aplikasi web secara lokal di komputer sebelum memindahkannya ke server produksi.
+
+
+
+
+
+
+
+Vidio 4
+
+Sintaks Dasar PHP 
+1. Tag PHP 
+    diawali Dengan <?php   dan diakhiri  ?>     alhasil  <?php ?>
+
+2. Tag Komentar PHP 
+    untuk satu baris //
+    untuk banyak baris /* */
+
+3. Standar Output 
+    adalah sebuah sintak PHP digunakan untuk menampilkan sesuatu di layar atau mencetak sesuatu di layar 
+    sintaksnya ada :
+    1. echo = untuk menampilkan sesuatu atau mencetak sesuatu dilayar ( tulisan angka atau isi dari variabel dll )
+    2. print =  untuk menampilkan sesuatu atau mencetak sesuatu dilayar ( tulisan angka atau isi dari variabel dll )
+    3. print_r = untuk mencetak isi array 
+    4. var_dump = untuk melihat isi dari variabel 
+
+4. Cara Menggabungkan Sintaks PHP Dengan HTML 
+    ada 2 cara :
+    1. PHP didalam HTML 
+    2. HTML didalam PHP 
+
+5. Variabel Dan Tipe Data 
+    1. variabel
+    menggunakan icon $
+    variabel gunanya untuk menampung sebuah nilai 
+    alam variabel ada aturan dalam membuat nya : namanya tidak boleh di awali  dengan angka tapi boleh menggandung angka 
+
+6. Operator 
+    Operator dalam PHP ada :
+    1. Operator Aritmatika 
+       Berikut adalah daftar operator aritmatika yang tersedia di PHP :
+        penjumlahan +
+        pengurangan - 
+        perkalian *  
+        pembagian /
+        modulus % ( Digunakan untuk mendapatkan sisa dari pembagian dua angka )
+        eksponen ** ( perpangkatan )
+
+
+    2. Operator Concatenation / Concat ( operator penggabungan iconnya = . )
+    Dalam PHP, operator konkatenasi (concatenation) 
+    digunakan untuk menggabungkan dua atau lebih string. 
+    Operator ini ditulis sebagai . (titik).
+
+
+    3. operator assigment
+    Operator assignment (penugasan) dalam PHP digunakan 
+    untuk menetapkan nilai ke sebuah variabel. Operator 
+    assignment yang paling umum adalah = (sama dengan), 
+    namun terdapat juga beberapa operator assignment 
+    gabungan yang melakukan operasi aritmatika atau 
+    konkatenasi sekaligus menetapkan hasilnya ke variabel.
+       Berikut adalah daftar operator assigment yang tersedia di PHP :
+        ( samadengan ) =
+        ( tambah samadengan) +=
+        ( kurang samadengan) -=
+        ( kali  samadengan)  *=
+        ( bagi  samadengan) /=
+        ( modulus  samadengan) %=
+        (titik samadengan) .=
+
+
+    4. operator perbandingan 
+    Operator perbandingan pada PHP digunakan untuk
+    membandingkan dua nilai, dan hasilnya akan berupa nilai 
+    boolean (true atau false). 
+       Berikut adalah daftar operator perbandingan yang tersedia di PHP :
+        Sama Dengan ( == )
+        Tidak Sama Dengan ( != ) 
+        Lebih Besar ( > )
+        Lebih Kecil ( < )
+        Lebih Besar atau Sama Dengan ( >= )
+        Lebih Kecil atau Sama Dengan ( <= )
+        Spaceship ( <=> )
+
+
+    5. operator identitas 
+    Operator identitas adalah operator yang digunakan untuk me
+    mbandingkan dua nilai dalam hal kesamaan nilai dan tipe data. 
+    Operator ini memastikan bahwa kedua nilai yang 
+    dibandingkan tidak hanya sama secara nilai tetapi juga 
+    memiliki tipe data yang sama.
+       Berikut adalah daftar operator identitas yang tersedia di PHP :
+       Operator Identik ( === ) 
+       Tidak Identik (!==) 
+
+
+    6. operator logika 
+    Operator logika, atau operator logis, adalah simbol atau 
+    kata kunci yang digunakan dalam pemrograman untuk 
+    melakukan operasi logika pada satu atau lebih nilai boolean.
+    Nilai boolean hanya memiliki dua kemungkinan, 
+    yaitu true (benar) atau false (salah). 
+    Operator logika biasanya digunakan untuk menggabungkan beberapa 
+    kondisi atau membandingkan nilai-nilai boolean dalam suatu pernyataan.
+        Berikut adalah daftar operator perbandingan yang tersedia di PHP :
+        AND ( && )
+        OR ( || )
+        NOT ( ! )
+        XOR ( Exclusive OR )
+
+
+
+
+
+
+
+    
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Type data PHP
+
+
+Mengapa Tipe Data Penting?
+1. Validasi Data: Memastikan bahwa data yang diolah sesuai dengan harapan. Misalnya, jika variabel seharusnya menyimpan angka, tapi Anda memasukkan teks, program bisa menghasilkan kesalahan.
+
+2. Efisiensi Memori: Berbeda tipe data memiliki kebutuhan memori yang berbeda. Misalnya, menyimpan angka dalam tipe data integer lebih efisien daripada dalam tipe data string.
+
+3. Operasi yang Tepat: Tipe data memastikan bahwa operasi yang dilakukan pada data adalah operasi yang benar dan sesuai, seperti penjumlahan untuk angka atau penggabungan untuk teks.
+
+1. INTEGER
+Tipe data untuk angka bulat, baik positif maupun negatif.
+
+<?php
+$integer = 42; // Bilangan bulat positif
+$negativeInteger = -15; // Bilangan bulat negatif
+?>
+
+2. Float (Double)
+Tipe data untuk angka desimal.
+
+<?php
+$float = 3.14; // Angka desimal
+$negativeFloat = -2.718; // Angka desimal negatif
+?>
+
+3. String
+Tipe data untuk menyimpan teks. String dapat menggunakan tanda kutip ganda atau tunggal.
+
+<?php
+$string1 = "Hello, World!"; // Teks dengan tanda kutip ganda
+$string2 = 'Hello, PHP!'; // Teks dengan tanda kutip tunggal
+?>
+
+4. Boolean
+Tipe data untuk nilai benar (true) atau salah (false).
+
+<?php
+$isTrue = true; // Nilai benar
+$isFalse = false; // Nilai salah
+?>
+
+5. Array
+Tipe data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel. Array bisa berupa indexed (berbasis angka) atau associative (berbasis kunci-nilai).
+
+<?php
+// Indexed Array
+$colors = array("red", "green", "blue");
+
+// Associative Array
+$person = array("first_name" => "John", "last_name" => "Doe");
+?>
+
+6. Object
+Tipe data yang digunakan untuk menyimpan instansi dari kelas. PHP mendukung pemrograman berorientasi objek.
+
+<?php
+class Person {
+    public $name;
+    public $age;
+
+    function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+
+    function greet() {
+        return "Hello, my name is " . $this->name;
+    }
+}
+
+$person = new Person("Alice", 30);
+echo $person->greet(); // Output: Hello, my name is Alice
+?>
+
+7. NULL
+Tipe data yang digunakan untuk menyimpan nilai yang tidak ada. NULL adalah sebuah nilai spesial yang menggambarkan variabel tanpa nilai.
+
+<?php
+$var = NULL; // Nilai NULL
+?>
+
+8. Resource
+Tipe data khusus yang digunakan untuk menyimpan referensi ke sumber daya eksternal, seperti file atau koneksi database.
+
+<?php
+$file = fopen("example.txt", "r"); // Membuka file dan menyimpan resource
+if ($file) {
+    // Operasi pada file
+    fclose($file); // Menutup file
+}
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<?php
+$integer = 10; // Tipe data integer
+$float = 3.14; // Tipe data float
+$string = "Hello"; // Tipe data string
+$boolean = true; // Tipe data boolean
+$array = array(1, 2, 3); // Tipe data array
+$object = new stdClass; // Tipe data object
+$nullValue = NULL;  // Tipe data NULL
+?>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Operator Logika
+Operator logika adalah operator yang digunakan untuk melakukan operasi pada nilai-nilai logika (boolean).
+
+1. AND ( && atau and )
+🔘 Menghasilkan true jika kedua operan bernilai true.
+🔘 Jika salah satu atau kedua operan bernilai false, hasilnya false.
+
+2. OR ( || atau or )
+🔘 Menghasilkan true jika salah satu dari operan bernilai true.
+🔘 Hanya akan menghasilkan false,  jika  kedua operan bernilai false.
+
+3. NOT (!)
+🔘 Operator ini digunakan untuk membalik nilai logika.
+🔘 Jika operan bernilai true,  hasilnya akan false , dan sebaliknya. 
+
+4. XOR ( xor )
+🔘 Menghasilkan true jika hanya salah satu dari operan bernilai true.
+🔘 Akan menghasilkan false jika kedua operan bernilai true atau kedua operan bernilai false.
+
+Prioritas Operator Logika
+Di PHP, operator logika memiliki prioritas atau urutan eksekusi yang berbeda:
+
+1. NOT ( ! ) memiliki prioritas tertinggi.
+
+2. AND ( && atau and ) lebih diutamakan daripada OR ( || atau or ).
+
+3. XOR ( xor ) memiliki prioritas yang lebih rendah dibandingkan dengan and dan ! .
+
+Namun, untuk memastikan kejelasan dalam kode, sering kali operator logika dikelompokkan menggunakan tanda kurung ()
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Contoh Penggunaan Operator Assignment
+
+// Penugasan dasar
+$x = 10; // $x = 10
+
+// Penambahan dan Penugasan
+$x += 5; // $x = 15 (10 + 5)
+
+// Pengurangan dan Penugasan
+$x -= 3; // $x = 12 (15 - 3)
+
+// Perkalian dan Penugasan
+$x *= 2; // $x = 24 (12 * 2)
+
+// Pembagian dan Penugasan
+$x /= 4; // $x = 6 (24 / 4)
+
+// Modulus dan Penugasan
+$x %= 5; // $x = 1 (6 % 5)
+
+// Konkatenasi dan Penugasan
+$str = "Hello";
+$str .= " World!"; // $str = "Hello World!"
