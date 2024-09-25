@@ -1,0 +1,1 @@
+{"result":{"text":"square root of 5 space x space square root of 5 space equals space ?"},"status":"ok"}

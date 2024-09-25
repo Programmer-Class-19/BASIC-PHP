@@ -1,0 +1,18 @@
+mvc = pola arsitektur pada perancangan perangkat lunak yg berorientasi objek.
+
+tujuan = untuk memisahkan antara tampilan, data dan proses.
+
+MVC = M = Model / Data/
+      V = View / Tampilan.
+      C = Controller / Proses.
+
+Kenapa MVC = 
+    Organisasi dan Struktur Kode
+    Pemisah Logic(Proses) dan Tampilan(View)
+    Lebih mudah untuk Perwatan Kode atau maintenance Kode
+    implementasi konsep OOP yg dah di pelajari
+    digunakan oleh bnyk web apk framework
+
+MVC= Model / Data -> Representasi Pengetahuan, Mengelola Data, Logika Bisnis.
+     View / Tampilan -> Output yg dilihat oleh user, Representasi visual dari model, Lapisan Presentasi.
+     Controller / Proses -> Perantara antara model & view, Menangani pemrosesan pd apk, Menangani aksi dr luar.

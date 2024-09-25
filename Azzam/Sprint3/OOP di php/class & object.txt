@@ -1,0 +1,14 @@
+class = 
+    blueprint / template untuk membuat instance dari object
+    class mendefinisikan object
+    menyimpan data dan perilaku yg disebut dg property dan method
+
+membuat class = 
+    di awali dgn nulis keyword class, diikuti nama dan dibatasi dgn {} untuk menyimpan property dan method
+    aturan penamaan class sama seperti variabel
+
+Object = 
+    instance yg didefinisikan oleh class
+    bnyk object dpt dibuat menggunakan 1 class
+    object dibuat dgn menggunakan keyword new
+    

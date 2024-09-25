@@ -1,0 +1,30 @@
+function = potongan program yg kita buat untuk mempermudah kita
+  built-in Function = fungsi bawaan
+    link nya = https://www.php.net/manual/en/funcref
+    date / time =
+        time :
+        date : untuk menampilkan tanggal dengan format tertentu
+            (l) -> hari
+            (d) -> tanggal
+            (D) -> hari (Mon, Sun, Wed)
+            (M) -> bulan
+            (m) -> bulan angka
+            (Y) -> year 2024
+            (y) -> year 24
+        mktime : membuat detik sendiri
+            (0,0,0,0,0,0) (jam,menit,detik,bulan,tanggal,tahun)
+        strtotime : masukan string
+    String = 
+            strlen  -> untuk menghitung panjang
+            strcmp  -> untuk membandingkan 2 buah string
+            explode -> untuk memecah sebuah string jadi array
+            htmlspecialchars -> untuk menjaga kita dari org iseng
+    utility = 
+            var_dump  -> mencetak isi dari sebuah variabel 
+            isset     -> mengecek sebuah variabel pernah di buat atau blm
+            empty     -> mengecek variabel kosong atau tidak        
+            die       -> memberhentikan program
+            sleep     -> memberhentikan sementara
+
+  user-defined Function
+    fungsi buatan sendiri
