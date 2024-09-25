@@ -1,0 +1,137 @@
+function
+
+function adalah kunci Utama pada javascript, yang membuat javascript sangat powerfull (menurut douglas crockford)
+istilah-istilah
+- sebuah sub-program / sub-routine yang dapat 'dipanggil' di bagian lain pada program
+
+- merupakan struktur dasar pembentuk dari javascript
+
+- disebut juga sebagai produser (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai)
+
+- untuk dapat menggunakannya, kita harus 'membuat' terlebih dahulu function tersebut, lalu 'memanggil'nya
+
+- termasuk kedalam first-class object
+
+kenapa function?
+- reusability (DRY : do not repeat yourself )
+- dekomposisi / abstrak
+- modularitas
+
+kategori function
+- BUILT-IN FUNCTION
+ - fungsi yang Sudah di sediakan / 'dibuat' oleh javascript
+ - kita tinggal 'memanggil'-nya saja
+   - alert()
+   - confirm()
+   - prompt()
+ - dan masih banyak yang lain
+
+
+- USER-DEFINED FUNCTION
+ - fungsi yang kita buat sendiri
+ - menggunakan keyword function
+ - nama function (optimal)
+ - parameter / argument
+  - disimpan di dalam
+  - boleh ada atau tidak, jika ada boleh lebih dari satu
+  - dipisahkan oleh koma (,)
+ - function body, 'dibungkus' dengan {}
+ - dapat mengembalikan nilai (return value) atau tidak
+
+- membuat user-defined function
+ - dengan deklarasi / function declaration
+ - dengan ekspresi / function expression
+
+adalah potongan program untuk mempermudah program kita untuk memanggil berulang-ulang kali (bisa di cari di link php.net)
+
+- built-in function
+- user-defined function
+
+
+adalah potongan program untuk mempermudah program kita untuk memanggil berulang-ulang kali (bisa di cari di link php.net
+
+- built-in function
+- user-defined function
+
+BUILT-IN FUNCTION
+
+fungsi yang akan digunakan
+
+* date / time
+- time()
+- date()
+- mktime()
+- strtotime()
+
+DATE()
+- l = hari
+- d = tanggal
+- m = bulan
+- y = tahun
+
+// date
+// untuk menampilkan tanggal dengan format tertentu
+    // echo date("l, d-m-y");
+    
+// time
+// UNIX timestamp / epoch time
+// detik yang sudah berlalu sejak 1 januari 1970
+// echo time();
+// echo date("d m y", time()+60*60*24*5);
+
+// mktime
+// membuat sendiri detik
+// mktime(0,0,0,0,0,0)
+// jam, menit, detik, bulan, tanggal, tahun
+// mengetahui hari tanggal lahir kita
+// echo date("l", mktime(0,0,0,8,4,2005))
+
+// strtotime
+// kebalikan dari mktime berguna mengetahui hari tanggal lahirkita
+// echo date("l", strtotime("04 aug 2005"));
+
+
+beberapa function
+
+* date / time
+- time()
+- date()
+- mktime()
+- strtotime()
+
+* tring
+- strlen()  menghitung Panjang sebuah string
+- strcmp()  menggambungkan sebuah string
+- explode() memecah sebuah string untuk sebuah aray
+- htmlspecialchars() untuk menjaga dari hacker yang ingin masuk k website
+
+* utility
+- var_dump() untuk mencetak sebuah isi varibel
+- isset() buat ngecek sebuah varibel
+- empety() untuk mengecek ada isi atau tidak ada
+- die() untuk memberentikan program kita
+- sleep()  untuk memberintikan sementara program selama 2 detik
+
+
+USER-DEFINED FUNCTION
+
+MEMBUAT FANCTION SENDIRI
+
+<?php
+function salam($waktu, $nama) {
+    return "selamat $waktu, $nama!";
+}
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan function</title>
+</head>
+<body>
+    <h1><?= salam("pagi", "deandra"); ?></h1>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+Client-side dan server-side adalah dua konsep fundamental dalam pengembangan web yang merujuk pada lokasi di mana kode dieksekusi dan bagaimana interaksi antara pengguna (client) dan server berlangsung.
+
+Client-Side
+Client-side merujuk pada semua operasi yang terjadi di sisi pengguna, yaitu di perangkat pengguna (seperti komputer, smartphone, atau tablet). Kode yang dijalankan di client-side dikirim dari server ke browser web pengguna dan dieksekusi di dalam browser tersebut.
+
+Karakteristik Client-Side:
+Eksekusi di Browser: Kode dieksekusi di browser web pengguna. Bahasa pemrograman yang umum digunakan untuk client-side adalah JavaScript, HTML, dan CSS.
+Interaksi Cepat: Karena kode dijalankan di perangkat pengguna, interaksi bisa lebih cepat tanpa perlu bolak-balik mengirim permintaan ke server.
+Keterbatasan Keamanan: Kode client-side bisa diakses dan dimanipulasi oleh pengguna, sehingga data sensitif tidak boleh diolah atau disimpan di sisi client.
+Contoh: Validasi form secara langsung di browser sebelum data dikirim ke server, manipulasi DOM untuk memperbarui elemen halaman web tanpa perlu reload, dan efek animasi menggunakan CSS dan JavaScript.
+Contoh Client-Side:
+html
+
+Di sini, JavaScript di eksekusi di browser pengguna saat tombol diklik, dan pesan "Hello, World!" muncul di halaman tanpa memerlukan komunikasi dengan server.
+
+Server-Side
+Server-side merujuk pada semua operasi yang terjadi di sisi server, yaitu di komputer atau server web yang menjalankan situs atau aplikasi web. Kode server-side dijalankan di server sebelum hasilnya dikirim ke client.
+
+Karakteristik Server-Side:
+Eksekusi di Server: Kode dieksekusi di server, dan hasilnya (biasanya dalam bentuk HTML) dikirim ke browser pengguna.
+Keamanan Lebih Baik: Data sensitif dan logika bisnis kritis dapat dikelola dengan aman di server karena pengguna tidak dapat melihat atau mengubah kode server-side.
+Interaksi dengan Basis Data: Server-side sering digunakan untuk berinteraksi dengan basis data, memproses formulir, otentikasi pengguna, dan menghasilkan konten dinamis.
+Bahasa Pemrograman: Bahasa yang umum digunakan untuk server-side meliputi PHP, Python (Django, Flask), Ruby (Ruby on Rails), Java (Spring), Node.js (JavaScript), dan ASP.NET (C#).
+Contoh Server-Side (PHP):
+php
+Salin kode
+<?php
+$nama = "John";
+echo "Hello, $nama!";
+?>
+Di sini, PHP dijalankan di server, dan server mengirim hasilnya, yaitu "Hello, John!" ke browser pengguna.
+
+Perbedaan Utama:
+Lokasi Eksekusi: Client-side dieksekusi di browser pengguna, sementara server-side dieksekusi di server.
+Keamanan: Server-side lebih aman untuk pengolahan data sensitif karena kode tidak terlihat oleh pengguna, sedangkan client-side dapat diakses dan dimodifikasi oleh pengguna.
+Responsivitas: Client-side memungkinkan interaksi cepat dan dinamis tanpa perlu menghubungi server setiap saat, sedangkan server-side diperlukan untuk tugas-tugas berat seperti pengolahan data dan otentikasi.
+Kedua konsep ini sering digunakan bersama dalam pengembangan web untuk membuat aplikasi yang interaktif, aman, dan efisien.
+
+

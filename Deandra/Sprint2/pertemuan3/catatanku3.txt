@@ -1,0 +1,89 @@
+control flow / struktur kendali
+
+normal flow
+apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi ari atas ke Bawah atau dari kiri ke kanan
+
+-pengulangan loop / iteration
+ - sintaks pada pengulangan
+  - for
+  - while
+  - do while
+
+-pengkondisian / percabangan
+ - sintaks pada pengkondisian
+  - if
+  - if.. else
+  - if.. else if.. else
+  - switch
+
+
+konsep-konsep
+*pengulangan (Ketika ingin mgerjakan blok program tanpa harus mengetik scriptnya)
+sintaks
+- for
+- ada tiga bagian di dalam sintaks for
+ - inisialisai (menentukan variabel awal untuk pengulangannya)
+ - kondisi terminasi(digunakan untuk memberhentikan pengulangan)
+ - inkremen atau drekemen(agar pengulangannya bisa maju atau mundur)
+ 
+  for($i = 0; $i < 5; $i++) {
+echo "hello world <br>";
+}
+
+- while (gak pernah di kerjakan)
+$i = 0;
+while( $i < 5 ) {
+    echo "hello world! <br>";
+    $i++;
+}
+
+- do.. while (di kerjakan minimal sekali)
+$i = 0;
+do {
+    echo "hello world!! <br>";
+    $i++;
+} while( $i < 5 );
+
+-foreach
+
+*pengkondisian
+- if.. else
+- if.. else if.. else
+  contohnya
+
+  $x = 20;
+if( $x < 20 ) {
+    echo "benar";
+} else if( $x == 20 ) {
+    echo "binggo";
+} else {
+    echo "salah";
+}
+
+contoh ke 2 kalau ingin membuat tabel
+
+ <style>
+        .warna-baris {
+        background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <?php for( $i =1; $i <= 5; $i++ ) : ?>
+            <?php if( $i % 2 == 1) : ?>
+                <tr class="warna-baris">
+            <?php else : ?>
+                <tr>
+            <?php endif; ?>     
+                <?php for ($j = 1; $j <= 5; $j++) : ?>
+                    <td><?php echo "$i, $j"; ?></td>
+                <?php endfor; ?>        
+            </tr>
+        <?php endfor; ?> 
+        
+    </table>
+
+- ternary
+- switch
+

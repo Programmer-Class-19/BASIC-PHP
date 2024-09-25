@@ -1,0 +1,40 @@
+PHP (Hypertext Preprocessor) adalah bahasa pemrograman yang banyak digunakan untuk pengembangan web. 
+Berikut adalah sejarah singkat perkembangan PHP:
+
+Rasmus Lerdorf (dilahirkan pada tanggal 22 November 1968 di Qeqertarsuaq, Greenland) merupakan seorang pemrogram dari Denmark/Greenland dan pencipta bahasa pemrograman PHP. Rasmus menulis dua versi pertama dari PHP. Rasmus juga berpartisipasi dalam pengembangan versi-versi PHP selanjutnya yang dikembangkan oleh sebuah kelompok pengembang, termasuk di dalamnya Andi Gutmans dan Zeev Suraski yang selanjutnya mendirikan Zend Technologies. Pada tahun 1993 Rasmus lulus dari Universitas Waterloo. Sejak bulan September 2002, dia bekerja di Yahoo! sebagai seorang Insinyur Arsitek Infrastruktur.
+
+Awal Mula PHP
+1994: PHP awalnya dikembangkan oleh Rasmus Lerdorf, seorang programmer asal Denmark-Kanada. 
+Pada awalnya, Rasmus membuat sekumpulan skrip Perl yang disebut "Personal Home Page Tools" untuk mengelola 
+halaman web pribadinya. Skrip ini digunakan untuk melacak kunjungan ke situs webnya dan menampilkan informasi 
+tentang riwayat hidupnya.
+
+1995: Rasmus Lerdorf merilis kode sumber awal PHP kepada publik, dengan nama PHP/FI 
+(Personal Home Page/Forms Interpreter). Versi ini memungkinkan pengguna untuk membangun aplikasi 
+web sederhana dengan kemampuan pengolahan formulir. Pada titik ini, PHP masih merupakan koleksi skrip 
+yang terbatas dan tidak benar-benar dianggap sebagai bahasa pemrograman yang penuh.
+
+Perkembangan dan PHP 3
+1997: Dua pengembang, Zeev Suraski dan Andi Gutmans, dari Israel, menemukan kekurangan pada PHP/FI saat 
+menggunakannya untuk proyek universitas mereka. Mereka kemudian memutuskan untuk menulis ulang seluruh dasar PHP, 
+yang menghasilkan versi baru, PHP 3. Ini adalah versi pertama yang benar-benar dikenal sebagai 
+"PHP: Hypertext Preprocessor". PHP 3 memperkenalkan banyak fitur baru dan menjadikan PHP sebagai bahasa 
+pemrograman yang lebih serbaguna dan kuat.
+
+1998: PHP 3 dirilis secara resmi, dan popularitasnya meningkat dengan cepat. PHP mulai diadopsi secara luas oleh pengembang web karena kemudahannya dalam menyematkan kode ke dalam HTML.
+
+PHP 4 dan Zend Engine
+1999: Suraski dan Gutmans mengembangkan Zend Engine, sebuah mesin skrip yang menjadi inti dari PHP. Zend Engine membantu PHP menjadi lebih cepat, lebih stabil, dan lebih efisien.
+
+2000: PHP 4 dirilis, didukung oleh Zend Engine 1.0. Versi ini menawarkan peningkatan performa dan kemampuan penanganan sesi, serta banyak fitur lainnya yang meningkatkan kemampuan pengembangan aplikasi web yang kompleks.
+
+PHP 5 dan OOP
+2004: PHP 5 dirilis dengan menggunakan Zend Engine II. Versi ini membawa perubahan besar, termasuk dukungan penuh untuk Object-Oriented Programming (OOP), perbaikan dalam penanganan kesalahan, dan integrasi dengan berbagai basis data seperti MySQL, PostgreSQL, dan SQLite. PHP 5 juga memperkenalkan banyak fitur baru seperti ekstensi SimpleXML, DOM, dan PDO.
+PHP 7 dan Performa yang Lebih Baik
+2015: Setelah beberapa waktu tanpa versi mayor baru, PHP 7 dirilis. Ini adalah salah satu rilis paling signifikan karena menawarkan peningkatan performa yang dramatis dibandingkan dengan PHP 5. PHP 7 menggunakan Zend Engine 3 dan memperkenalkan operator null coalescing, deklarasi tipe skalara, dan banyak lagi. PHP 7 memperbaiki cara penanganan kesalahan dengan menambahkan pengecualian (exception).
+PHP 8 dan JIT Compiler
+2020: PHP 8 dirilis, membawa fitur Just-In-Time (JIT) Compiler yang meningkatkan performa eksekusi kode. PHP 8 juga memperkenalkan beberapa fitur baru seperti match expression, operator nullsafe, named arguments, dan peningkatan pada sistem tipe data.
+Popularitas PHP
+PHP telah menjadi salah satu bahasa pemrograman paling populer di dunia, terutama untuk pengembangan web. Beberapa platform terkenal seperti WordPress, Facebook, dan Wikipedia dibangun dengan PHP. Meskipun muncul berbagai bahasa pemrograman baru, PHP tetap menjadi pilihan utama karena kemudahannya, dokumentasi yang kaya, dan komunitas yang besar.
+
+Sejarah PHP menunjukkan bagaimana sebuah proyek kecil dapat berkembang menjadi bahasa pemrograman yang digunakan secara global, terus berkembang untuk memenuhi kebutuhan teknologi web yang semakin kompleks.

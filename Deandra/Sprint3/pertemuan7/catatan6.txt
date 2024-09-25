@@ -1,0 +1,81 @@
+OPP (object oriented programming)
+
+object oriented programming
+- Menyusun semua kode program dan struktur data sebagai objek
+- objek adalah unit dasar dari program
+- objek menyimpan data dan pelaku
+- objek bisa saling berinteraksi
+- Java, Ruby, Python, C++, JavaScript, PHP5
+
+kelebihan OPP
+- representasikan dunia nyata
+- enkapsulasi & abstak data
+- reusability
+- skalabilitas & ekstensibilitas
+- kemudahan pengola
+- kolaborasi
+- digunakan oleh framework
+
+konsep OPP php
+*basic
+- class & object
+- property
+- constructor
+- object type
+- inheritace
+- visibility / access modifier
+- setter & getter
+- static method
+
+*advanced
+- abstract & interface
+- interceptor
+- object cloning
+- callbacks & closures
+- namespaces & autoloading
+
+
+
+
+procedural programming
+- intruksi dilakukan Langkah demi Langkah
+- memecah program menjadi bagian-bagian kecil
+- disebut prosedur, subroutine atau function
+- linear / Top-to-Bottom
+- Fotran, ALGOL, COBOL, PASCAL, C, PHP, JAVASCRIPT
+
+kelebihan procedural programming
+- to-the-point
+- simplicity
+- mudah ditelusuri
+- membutuhkan lebih sedikit memory (dibandingkan dengan OOP)
+
+= definisi dari object
+  - intrance yang didefinikan oleh class
+  - banyak object dapat dibuat menggunakan satu class
+  - object dibuat dengan menggukan keyword new 
+
+- class & object
+ = definisi dari class
+  - blueprint / template untuk membuat instance dari object
+  - class mendefinisikan object
+  - menyimpan data dan perilaku yang disebut dengan property dan method
+  membuat class
+  - diawali dengan menuliskan keyword class, diikuti nama dan dibatasi dengan {} untuk menyimpan property dan method
+  - aturan penamaan class sama seperti variable
+
+ = definisi dari object
+  - intrance yang didefinikan oleh class
+  - banyak object dapat dibuat menggunakan satu class
+  - object dibuat dengan menggukan keyword new 
+
+- property & method
+ = property
+  - mempersentasikan data / keadan dari sebuah object
+  - variable yang ada di dalam object (member variabel)
+  - sama seperti variable di dalam php , ditambah dengan visibility di depannya
+
+ = method
+  - mempresentasikan perilaku dari sebuah object
+  - function yang ada di dalam object
+  - sama seperti function di dalam php, di tambah dengan visibility di depannya

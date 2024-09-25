@@ -1,0 +1,70 @@
+PHP, atau Hypertext Preprocessor, adalah bahasa pemrograman skrip yang sangat populer yang digunakan terutama untuk pengembangan web. PHP awalnya diciptakan oleh Rasmus Lerdorf pada tahun 1994. Berikut adalah beberapa poin penting tentang PHP:
+
+Pengertian PHP
+PHP adalah bahasa pemrograman yang dijalankan di server (server-side) yang digunakan untuk membuat halaman web dinamis. Artinya, PHP digunakan untuk mengelola konten dinamis, database, sesi pengguna, dan banyak tugas lainnya yang memungkinkan halaman web untuk berinteraksi dengan pengguna dengan cara yang lebih canggih.
+
+Fitur Utama PHP
+1. Open Source: PHP adalah perangkat lunak sumber terbuka (open source), yang berarti dapat digunakan dan dimodifikasi oleh siapa saja secara gratis.
+2. Server-Side Scripting: PHP dieksekusi di server dan hasilnya dikirim ke browser pengguna sebagai HTML. Ini memungkinkan untuk pembuatan halaman web yang dinamis dan interaktif.
+3. Mudah Dipelajari: Sintaks PHP relatif mudah dipahami, terutama bagi mereka yang sudah familiar dengan bahasa pemrograman seperti C, C++, atau Java.
+4. Kompatibilitas Database: PHP mendukung berbagai macam database, termasuk MySQL, PostgreSQL, Oracle, dan SQLite.
+5. Integrasi dengan HTML: PHP dapat dengan mudah diintegrasikan ke dalam HTML, membuatnya sangat fleksibel untuk pengembangan web.
+6. Ekstensi dan Perpustakaan: PHP memiliki banyak ekstensi dan perpustakaan yang memudahkan pengembang untuk menambahkan fungsionalitas tambahan ke aplikasi mereka.
+Contoh Kode PHP Sederhana
+php
+Salin kode
+<?php
+echo "Hello, World!";
+?>
+Kode di atas adalah contoh sederhana dari skrip PHP yang mencetak "Hello, World!" ke halaman web.
+
+Penggunaan PHP
+1. Pengembangan Web: PHP banyak digunakan untuk membangun situs web dinamis dan aplikasi web. Banyak platform populer seperti WordPress, Drupal, dan Joomla dibangun menggunakan PHP.
+2. Manajemen Konten: CMS (Content Management Systems) seperti WordPress memungkinkan pengguna untuk mengelola konten situs web mereka tanpa memerlukan keterampilan pemrograman yang mendalam.
+3. E-commerce: Banyak situs e-commerce menggunakan PHP untuk menangani transaksi, manajemen produk, dan integrasi dengan gateway pembayaran.
+4. Aplikasi Web: PHP juga digunakan untuk membangun aplikasi web yang kompleks yang memerlukan integrasi dengan database dan API eksternal.
+
+Dengan kemampuannya yang fleksibel dan mudah dipelajari, PHP tetap menjadi pilihan populer bagi pengembang web di seluruh dunia.
+
+kenapa harus belajar php?
+- relative mudah untuk pemula
+- pre-requisite (html + css) 
+- gratis & open source
+- dukungan komunitas
+- dokumentasi yang lengkap
+- php dibuat khusus untuk web
+- kebanyakan website yang ada saat ini di buat dengan php
+- banyak website besar di buat dengan php
+- content menegement system yang mengguanakan php
+- framework php
+
+yang akan di pelajari dalam php
+- client-side vs. server-side scripting
+- static vs. dynamic website
+- persiapan lingkungan pengembangan
+- sintaks php
+- array (konsep paling penting)
+- request method
+- studi kasus website sederhana
+- database
+- CRUD (create, read, update, delete)
+- login & regitrasi
+- session & cookie
+- ajax
+- upload file
+- reporting
+- web hosting
+
+apa yang harus di siapkan
+- code editor
+- web server
+- web browser
+- database server
+
+
+
+
+
+
+
+
