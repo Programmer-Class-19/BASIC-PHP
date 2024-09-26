@@ -1,0 +1,46 @@
+MVC (Model-View-Controller) Adalah Pola Arsitektur Pada Perancangan Perangkat Lunak Berorientasi Objek
+
+Tujuan MVC Memisahkan Antara Tampilan Data dan Proses
+
+Tanpa MVC
+Codingan Dalam Website Atau Aplikasi yang kita jalankan kita menyimpanya dalam satu halaman
+Seperti Koneksi DB -> Presentasi -> SQL Query -> Presentasi Proses Menyimpan File Seperti
+Itu Kurang Baik bub Apalagi terlalu banyak kode loh pasti bakal lupa jugalah fungsi nya
+ditambah lagi Loh kerja dengan tim kan gak mungkin kan loh harus jelasin panjang kali lebar
+kali tinggi
+
+oleh karena itu makanya loh perlu MVC supayah bisa Memisahkan File yang harus dipisahkan
+menjadi 3 halaman Model-View-Controller
+Model = Database
+Controller = Prosas
+View = Tampilan
+
+Kenapa Harus Pakai MVC
+Organisasi dan Struktur kode
+Pemisahan Logic dan Tampilan
+Perawatan kode
+Implementasi Konsep OOP yang sudah dipelajari
+Digunakan oleh banyak Web Application Framework
+
+Bahasa Pemongraman yAng mennggunakan Framework MVC
+
+PHP = Codelgniter, Laravel, Yii, dll
+Java = Spring MVC, JSF, Struts, dll
+Python = Django, CheryPy, dll
+Ruby = Ruby On Rails, Sinatra, dll
+Javascript = Angular JS, Reacht, Backbone.js, dll
+
+Model
+Representasi Pengetahuan
+Mengelola Data
+Logika Bisnis
+
+Controller
+Perantara Antara Model dan View
+Menangani Pemrosesan Pada Aplikasi
+Menangani Aksi Dari User
+
+View
+Output Apa yang dilihat dari User
+Representasi Visual dari Model
+Lapisan Presentasi
